@@ -5,16 +5,10 @@
  */
 ?>
 
-<hr />
 <div id="footer" role="contentinfo">
 
-	<p class="nospnav">
-		
-	</p>
-</div>
-</div>
 
-
-		<?php wp_footer(); ?>
+	<?php wp_footer(); ?>
+</div>
 </body>
 </html>

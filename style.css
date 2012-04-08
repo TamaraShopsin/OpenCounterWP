@@ -50,8 +50,17 @@ a:hover, a:active { outline: 0; }
         border: none;
 	}
 
-#header {
-	background: #000 url('images/clock.png') no-repeat bottom left;
+#header4 {
+        margin-left: 30px;
+        height: 50px;
+	background: #FFF url('images/clock.png') no-repeat bottom left;
+	}
+        
+        
+#header3 {
+        margin-left: 30px;
+        height: 50px;
+	background: #FFF;
 	}
 
 #headerimg 	{
@@ -266,6 +275,7 @@ body {
 	}
 
 #header {
+   
 	background-color: #FFF;
 	margin: 0 0 0 1px;
 	padding: 0;
@@ -418,6 +428,16 @@ img.alignleft {
 .alignleft {
 	float: left;
 	}
+        
+        .alignrightn {
+	float: right;
+	}
+
+.alignleftn {
+	float: left;
+        background: #000 url('images/fwdarrow.png');
+	}
+        
 /* End Images */
 
 
@@ -688,6 +708,7 @@ a img {
 	text-align: center;
 	margin-top: 10px;
 	margin-bottom: 60px;
+        
 	}
         
         nav {
@@ -709,7 +730,7 @@ nospnav
 
 
 nav a {
-  background: #FFF url('../images/sprites.png') no-repeat left top;
+  background: #000 url('images/sprites.png') no-repeat left top;
   display: block;
   position: absolute;
   width: 31px;
@@ -717,23 +738,23 @@ nav a {
   text-indent: -999em;
 }
 
-nav #prev {
+nav prev {
   left: 0;
   background-position: 0 -60px;
 }
 
-nav #prev:hover,
-nav #prev:active {
+nav prev:hover,
+nav prev:active {
   background-position: 0 0;
 }
 
-nav #next {
+nav next {
   right: 0;
   background-position: -60px -60px;
 }
 
-nav #next:hover,
-nav #next:active {
+nav next:hover,
+nav next:active {
   background-position: -60px 0;
 }
 /* End Various Tags & Classes*/

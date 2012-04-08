@@ -5,12 +5,10 @@
  */
 
 get_header(); ?>
-
-	<div id="content" class="narrowcolumn" role="main">
-<div id="header2">
-     
-    
+<div id="header4">
 </div>
+	<div id="content" class="narrowcolumn" role="main">
+
 	<?php if (have_posts()) : ?>
 
 		<?php while (have_posts()) : the_post(); ?>
@@ -23,15 +21,17 @@ get_header(); ?>
 					<?php the_content(__('Read the rest of this entry &raquo;', 'kubrick')); ?>
 				</div>
 
-				<p class="postmetadata"><?php the_tags(__('Tags:', 'kubrick') . ' ', ', ', '<br />'); ?> <?php printf(__('Posted in %s', 'kubrick'), get_the_category_list(', ')); ?> | <?php edit_post_link(__('Edit', 'kubrick'), '', ' | '); ?>  <?php comments_popup_link(__('No Comments &#187;', 'kubrick'), __('1 Comment &#187;', 'kubrick'), __('% Comments &#187;', 'kubrick'), '', __('Comments Closed', 'kubrick') ); ?></p>
+				<p class="postmetadata"><?php the_tags(__('Tags:', 'kubrick') . ' ', ', ', '<br />'); ?> <?php printf(__('Posted in %s', 'kubrick'), get_the_category_list(', ')); ?> | <?php edit_post_link(__('Edit', 'kubrick'), '', ' | '); ?>  </p>
 			</div>
 
 		<?php endwhile; ?>
 
 		<div class="navigation">
-			<div class="alignleft"><?php next_posts_link(__('&laquo; Older Entries', 'kubrick')) ?></div>
-			<div class="alignright"><?php previous_posts_link(__('Newer Entries &raquo;', 'kubrick')) ?></div>
-		</div>
+
+   <div class="alignleft" <?php previous_post_link('<strong>%link</strong>'); ?></div>
+<div class="alignright"><?php next_post_link('<strong>%link</strong>'); ?> </div>
+
+</div>
 
 	<?php else : ?>
 
