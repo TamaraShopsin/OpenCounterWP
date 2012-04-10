@@ -9,7 +9,7 @@
 get_header(); ?>
 
 	<div id="content" class="narrowcolumn" role="main">
-            <div id="header3">
+            <div id="header4">
 </div>
 
 	<?php if (have_posts()) : ?>
@@ -28,11 +28,14 @@ get_header(); ?>
 			</div>
 
 		<?php endwhile; ?>
+<div class="navigation">
 
-		<div class="navigation">
-			<div class="alignleft"><?php next_posts_link(__('&laquo; Older Entries', 'kubrick')) ?></div>
-			<div class="alignright"><?php previous_posts_link(__('Newer Entries &raquo;', 'kubrick')) ?></div>
-		</div>
+
+<div class="alignright"><a href="http://opencounter.org/welcome/">start</a></div>
+
+
+
+</div>
 
 	<?php else : ?>
 

@@ -5,7 +5,13 @@
  */
 
 get_header(); ?>
-<div id="header4">
+<div id="header3">
+    <a href="http://opencounter.org">
+    <canvas id="clockcanvas" width="50" height="50"></canvas>
+</a>
+    
+        
+    
 </div>
 	<div id="content" class="narrowcolumn" role="main">
 
@@ -18,11 +24,13 @@ get_header(); ?>
 				<?php wp_link_pages(array('before' => '<p><strong>' . __('Pages:', 'kubrick') . '</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
 <div class="navigation">
 
-   <div class="alignleft" <?php previous_post_link('<strong>%link</strong>'); ?></div>
-<div class="alignright"><?php next_post_link('<strong>%link</strong>'); ?> </div>
+    <?php previous_link(); ?>
+<?php next_link(); ?>
+
+
 
 </div>
-			</div>
+			
 		</div>
 		<?php endwhile; endif; ?>
 	<?php edit_post_link(__('Edit this entry.', 'kubrick'), '<p>', '</p>'); ?>

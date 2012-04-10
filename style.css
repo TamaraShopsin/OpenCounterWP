@@ -1,5 +1,5 @@
 /*
-Theme Name: OpenCounter
+Theme Name: OpenCounterWP
 Theme URI: http://wordpress.org/
 Description: The default them for open counter in santa cruz
 Version: 0.1
@@ -17,10 +17,10 @@ Text Domain: OpenCounter
 
 
 body {
-	font-size: 62.5%; /* Resets 1em to 10px */
+	font-size: 100%; /* Resets 1em to 10px */
 	font-family: 'FuturaTEST', Verdana, Arial, Sans-Serif;
 	background: #FFF;
-	color: #333;
+	color: #000;
 	text-align: left;
 	}
         
@@ -52,25 +52,20 @@ a:hover, a:active { outline: 0; }
 
 #header4 {
         margin-left: 30px;
-        height: 50px;
-	background: #FFF url('images/clock.png') no-repeat bottom left;
+        height: 30px;
 	}
         
         
 #header3 {
         margin-left: 30px;
-        height: 50px;
+        height: 60px;
 	background: #FFF;
 	}
 
-#headerimg 	{
-	margin: 7px 9px 0;
-	height: 40px;
-	width: 39px;
-	}
+
 
 #content {
-	font-size: 1.2em;
+	
 	}
 
 .widecolumn .entry p {
@@ -279,21 +274,17 @@ body {
 	background-color: #FFF;
 	margin: 0 0 0 1px;
 	padding: 0;
-	height: 40px;
+	height: 10px;
 	
 	}
 
-#headerimg {
-	margin: 0;
-	height: 200px;
-	width: 100%;
-	}
+
 
 .narrowcolumn {
 	float: left;
 	padding: 0 0 20px 100px;
 	margin: 0px 0 0;
-	width: 441px;
+	width: 450px;
 	}
 
 .widecolumn {
@@ -390,7 +381,7 @@ h3.comments {
 	}
 /* End Headers */
 
-
+strong {background: yellow; font-weight: normal;}
 
 /* Begin Images */
 p img {
@@ -703,13 +694,6 @@ a img {
 	border: none;
 	}
 
-.navigation {
-	display: block;
-	text-align: center;
-	margin-top: 10px;
-	margin-bottom: 60px;
-        
-	}
         
         nav {
   background: #FFF;
@@ -724,24 +708,37 @@ a img {
   margin: 0 auto;
 }
 
-nospnav
-{background: #000 url('images/fwdarrow.png') no-repeat bottom }
 
 
+.navigation .alignleft a {
+    background: transparent url('images/sprites.png') no-repeat 0px -60px;
+    display: block;
+    width: 39px;
+    height: 51px;
+    text-indent: -999em;
+}
 
-nav a {
-  background: #000 url('images/sprites.png') no-repeat left top;
+.navigation .alignleft a:hover {
+    background: transparent url('images/sprites.png') no-repeat left top
+
+}
+
+
+.navigation .alignright a {
+  background: transparent url('images/sprites.png') no-repeat right -60px;
   display: block;
-  position: absolute;
   width: 31px;
   height: 51px;
   text-indent: -999em;
 }
 
-nav prev {
-  left: 0;
-  background-position: 0 -60px;
+.navigation .alignright a:hover {
+    background: transparent url('images/sprites.png') no-repeat right top
+
 }
+
+
+
 
 nav prev:hover,
 nav prev:active {
