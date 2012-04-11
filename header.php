@@ -15,6 +15,10 @@
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 <script type="text/javascript" src="http://opencounter.org/wp-content/themes/opencounter/scripts/clock2.js"></script>
+<script type="text/javascript" src="http://serverapi.arcgisonline.com/jsapi/arcgis/?v=2.8"></script>
+  <script src='http://mapbox.com/wax/externals/leaflet/leaflet.js' type='text/javascript'></script>
+  <script src='http://mapbox.com/wax/dist/wax.leaf.min.js' type='text/javascript'></script>
+  <link href='http://mapbox.com/wax/externals/leaflet/leaflet.css' rel='stylesheet' type='text/css' />
 
 
 <?php wp_head(); ?>
