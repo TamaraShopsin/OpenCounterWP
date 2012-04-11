@@ -125,6 +125,14 @@ section {
   ;
 }
 
+.mini {
+  font-size: 1em;
+  letter-spacing: 1px;
+  
+  ;
+}
+
+
 
 h1, h2, h3 {
 	font-family: 'Trebuchet MS', 'FuturaTEST', Verdana, Arial, Sans-Serif;
@@ -281,6 +289,13 @@ body {
 
 
 .narrowcolumn {
+	float: left;
+	padding: 0 0 20px 100px;
+	margin: 0px 0 0;
+	width: 450px;
+	}
+        
+        .progbar {
 	float: left;
 	padding: 0 0 20px 100px;
 	margin: 0px 0 0;

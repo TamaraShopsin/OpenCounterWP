@@ -27,10 +27,8 @@ get_header(); ?>
     <?php previous_link(); ?>
 <?php next_link(); ?>
 
-
-
 </div>
-			
+                   	         
 		</div>
 		<?php endwhile; endif; ?>
 	<?php edit_post_link(__('Edit this entry.', 'kubrick'), '<p>', '</p>'); ?>
