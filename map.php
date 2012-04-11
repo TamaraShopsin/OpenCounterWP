@@ -26,10 +26,28 @@ function executeQuery(address){
 	
 	var result;
 	
-	address = address.replace(/^\s+|\s+$/g,"");
+        while(address.indexOf("  ") > -1){
+            address = address.replace("  "," ");
+        }
+        if(address.toLowerCase().indexOf("santa cruz") != -1){
+            if(address.toLowerCase().lastIndexOf("santa cruz") > address.toLowerCase().lastIndexOf("st")){
+                address = address.substring(0, address.toLowerCase().lastIndexOf("santa cruz"));
+                while(address.indexOf(",") > -1){
+                    address = address.replace(",","");
+                }
+            }
+        }
+ 	address = address.replace(/^\s+|\s+$/g,"");
+
 	query.where = "ADD_ LIKE upper ('%" + address + "')";
 	queryTask.execute(query, function(results){
-		zone = results.features[0].attributes['Zoning1'];
+                if(results.features.length == 0){
+                    document.getElementById("address").style.backgroundColor = "#f44";
+                }
+                else{
+                
+                document.getElementById("address").style.backgroundColor = "#fff";
+                zone = results.features[0].attributes['Zoning1'];
 	
 	    var street = results.features[0].attributes['ADD_'];
 		var latlng = new L.LatLng(results.features[0].geometry.y, results.features[0].geometry.x);
@@ -42,19 +60,19 @@ function executeQuery(address){
 
 		marker.bindPopup(street).openPopup();
 	
-		console.log(results);
+		 //console.log(results);
+                }
 		
 	});
 }
 
 
-var codeAddress;
 var map;
 var _tilejson;
 wax.tilejson('http://a.tiles.mapbox.com/v3/tamaracfa.map-lhp1bb4f.jsonp',
   function(tilejson) {
   _tilejson = tilejson;
-  map = new L.Map('map-div')
+  map = new L.Map('map-div', { scrollWheelZoom: false })
     .addLayer(new wax.leaf.connector(tilejson))
     .setView(new L.LatLng(36.9749, -122.0263), 14);
 
@@ -67,7 +85,7 @@ wax.tilejson('http://a.tiles.mapbox.com/v3/tamaracfa.map-lhp1bb4f.jsonp',
 });
 
 
-	codeAddress = function() {
+  function codeAddress() {
 	var address = document.getElementById("address").value;
 	executeQuery(address);
   }
@@ -101,7 +119,10 @@ function checkForEnter(e){
 	<?php edit_post_link(__('Edit this entry.', 'kubrick'), '<p>', '</p>'); ?>
 	
 	</div>
+<div class="progbar">
+            <?php echo  get_post_meta($post->ID, 'percent', 1); ?> 
 
+            </div>
 
 
 <?php get_footer(); ?>

@@ -36,5 +36,8 @@ get_header(); ?>
 	</div>
 
 
+            <div class="progbar">
+            <?php echo  get_post_meta($post->ID, 'percent', 1); ?> 
 
+            </div>
 <?php get_footer(); ?>

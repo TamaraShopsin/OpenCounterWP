@@ -295,11 +295,9 @@ body {
 	width: 450px;
 	}
         
-        .progbar {
+ .progbar {
 	float: left;
-	padding: 0 0 20px 100px;
-	margin: 0px 0 0;
-	width: 450px;
+	
 	}
 
 .widecolumn {
@@ -806,6 +804,9 @@ div.aligncenter {
 	margin: 0;
 }
 /* End captions mappp */
+breakless br {display: none;}
+
+
 
 #map-div { width: 135%;}
 

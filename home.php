@@ -46,6 +46,12 @@ get_header(); ?>
 	<?php endif; ?>
 
 	</div>
+<div class="page-slug">
+                   <?php 
+                    $slug = basename(get_permalink()); 
+                    echo $slug;
+                   ?>
 
+            </div>
 
 <?php get_footer(); ?>
