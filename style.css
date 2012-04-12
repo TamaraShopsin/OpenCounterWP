@@ -856,6 +856,49 @@ breakless br {display: none;}
   }
 
 
+  .my-legend .title {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    width: 130%;
+    font-size: 90%;
+    }
+  .my-legend .scale ul {
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+    list-style-type: none;
+    }
+  .my-legend .scale ul li {
+    list-style-type:none;
+    font-size: 80%;
+    list-style: none;
+    margin-left: 0;
+    line-height: 18px;
+    margin-bottom: 2px;
+    }
+  .my-legend ul.labels li span {
+    float: left;
+    height: 16px;
+    width: 30px;
+    margin-right: 5px;
+    margin-left: 0;
+    border: none;
+    }
+  .my-legend ul li span {
+    display: block;
+    opacity:0.6;
+    margin-left: 0;
+    }
+  .wax-legend .source {
+    font-size: 70%;
+    color: #999;
+    clear: both;
+    }
+  .my-attribution a,
+  .my-legend a {
+    color: #777;
+    }
 
 
 /* "Daisy, Daisy, give me your answer do. I'm half crazy all for the love of you.
