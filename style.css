@@ -813,7 +813,8 @@ div.aligncenter {
 
 
 
-#map-div { width: 135%;}
+#map-div { width: 135%; 
+}
 
 .wax-tooltip {
   z-index:999999;
@@ -853,7 +854,8 @@ div.aligncenter {
   top:50px;
   }
 
-  #tlegend { width: 135%;margin-top: 10px;}
+  #tlegend { width: 135%;margin-top: 10px;
+  }
   
   .my-legend .title {
     text-align: left;
