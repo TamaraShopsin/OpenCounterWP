@@ -820,8 +820,8 @@ breakless br {display: none;}
 .wax-tooltip {
   z-index:999999;
   position:absolute;
-  background:#333;
-  color:#fff;
+  background:#FFF;
+  color:#000;
   padding:10px;
   left:10px;
   bottom:10px;
