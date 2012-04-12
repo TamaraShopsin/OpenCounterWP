@@ -466,9 +466,7 @@ html>body .entry li {
 	margin: 7px 0 8px 10px;
 	}
 
-.entry ul li:before, #sidebar ul ul li:before {
-	content: "\00BB \0020";
-	}
+
 
 .entry ol {
 	padding: 0 0 0 35px;
@@ -859,9 +857,9 @@ breakless br {display: none;}
   .my-legend .title {
     text-align: left;
     margin-bottom: 5px;
-    font-weight: bold;
+    font-weight: normal;
     width: 130%;
-    font-size: 90%;
+    font-size: 100%;
     }
   .my-legend .scale ul {
     margin: 0;
@@ -871,7 +869,7 @@ breakless br {display: none;}
     }
   .my-legend .scale ul li {
     list-style-type:none;
-    font-size: 80%;
+    font-size: 90%;
     list-style: none;
     margin-left: 0;
     line-height: 18px;
@@ -881,7 +879,7 @@ breakless br {display: none;}
     float: left;
     height: 16px;
     width: 30px;
-    margin-right: 5px;
+    margin-right: 15px;
     margin-left: 0;
     border: none;
     }
@@ -892,7 +890,7 @@ breakless br {display: none;}
     }
   .wax-legend .source {
     font-size: 70%;
-    color: #999;
+    color: #000;
     clear: both;
     }
   .my-attribution a,
