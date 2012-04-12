@@ -283,7 +283,6 @@ body {
 	margin: 0 0 0 1px;
 	padding: 0;
 	height: 10px;
-	
 	}
 
 
@@ -300,6 +299,7 @@ body {
  .progbar {
 	float: left;
         margin-top: 30px;
+        font-size: 1.3em;
 	
 	}
 
@@ -809,7 +809,7 @@ div.aligncenter {
 .foottype {margin-top: 40px;
      font-size: 11px; }
 
-breakless br {display: none;}
+.breakless br {display: none;}
 
 
 
@@ -853,12 +853,12 @@ breakless br {display: none;}
   top:50px;
   }
 
-
+  #tlegend { width: 135%;margin-top: 10px;}
+  
   .my-legend .title {
     text-align: left;
     margin-bottom: 5px;
     font-weight: normal;
-    width: 130%;
     font-size: 100%;
     }
   .my-legend .scale ul {
@@ -869,7 +869,6 @@ breakless br {display: none;}
     }
   .my-legend .scale ul li {
     list-style-type:none;
-    font-size: 90%;
     list-style: none;
     margin-left: 0;
     line-height: 18px;
@@ -898,6 +897,23 @@ breakless br {display: none;}
     color: #777;
     }
 
+    
+
+.button {
+    border: 3px solid #E1E8E8;
+    background: #E1E8E8;
+}
+.button:hover {
+    border: 3px solid #C1CACB;
+    background: #C1CACB;
+}
+label {
+    display: block;
+    width: 150px;
+    float: left;
+    margin: 2px 4px 6px 4px;
+    text-align: right;
+}
 
 /* "Daisy, Daisy, give me your answer do. I'm half crazy all for the love of you.
 	It won't be a stylish marriage, I can't afford a carriage.
