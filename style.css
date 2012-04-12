@@ -806,6 +806,10 @@ div.aligncenter {
 	margin: 0;
 }
 /* End captions mappp */
+
+.foottype {margin-top: 40px;
+     font-size: 11px; }
+
 breakless br {display: none;}
 
 

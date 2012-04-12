@@ -8,10 +8,12 @@
 <hr />
 <div id="footer" role="contentinfo">
 
-	<p class="nospnav">
-		
-	</p>
+
 </div>
+<div class="foottype">
+Built for the City of Santa Cruz by Code for America.
+</div>
+
 </div>
 
 
