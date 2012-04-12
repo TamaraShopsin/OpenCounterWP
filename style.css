@@ -135,7 +135,7 @@ section {
 
 
 h1, h2, h3 {
-	font-family: 'Trebuchet MS', 'FuturaTEST', Verdana, Arial, Sans-Serif;
+	font-family: 'FuturaTEST', Verdana, Arial, Sans-Serif;
 	font-weight: bold;
 	}
 
@@ -854,27 +854,36 @@ div.aligncenter {
   top:50px;
   }
 
-  #tlegend { width: 135%;margin-top: 10px;
-  }
+  #tlegend { width: 135%;
+             margin-top: 10px;
+             
+             
+-moz-column-count:2; /* Firefox */
+-webkit-column-count:2; /* Safari and Chrome */
+column-count:2;
+
+}
+  
   
   .my-legend .title {
     text-align: left;
     margin-bottom: 5px;
     font-weight: normal;
-    font-size: 100%;
+   
+    
     }
   .my-legend .scale ul {
     margin: 0;
-    margin-bottom: 5px;
     padding: 0;
     list-style-type: none;
+    font-size: 80%;
     }
   .my-legend .scale ul li {
     list-style-type:none;
     list-style: none;
     margin-left: 0;
-    line-height: 18px;
-    margin-bottom: 2px;
+    line-height: 15px;
+  
     }
   .my-legend ul.labels li span {
     float: left;
@@ -889,7 +898,7 @@ div.aligncenter {
     opacity:0.6;
     margin-left: 0;
     }
-  .wax-legend .source {
+  .my-legend .source {
     font-size: 70%;
     color: #000;
     clear: both;
