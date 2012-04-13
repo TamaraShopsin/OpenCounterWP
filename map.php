@@ -26,17 +26,37 @@ function executeQuery(address){
 	
 	var result;
 	
-        while(address.indexOf("  ") > -1){
-            address = address.replace("  "," ");
-        }
-        if(address.toLowerCase().indexOf("santa cruz") != -1){
-            if(address.toLowerCase().lastIndexOf("santa cruz") > address.toLowerCase().lastIndexOf("st")){
-                address = address.substring(0, address.toLowerCase().lastIndexOf("santa cruz"));
-                while(address.indexOf(",") > -1){
-                    address = address.replace(",","");
-                }
-            }
-        }
+          while(address.indexOf("  ") > -1){
+           address = address.replace("  "," ");
+       }
+       var lcadd = address.toLowerCase();
+       if(lcadd.indexOf("santa cruz") != -1){
+           if(lcadd.lastIndexOf("santa cruz") > lcadd.lastIndexOf("st")){
+               address = address.substring(0, lcadd.lastIndexOf("santa cruz"));
+           }
+       }
+       while(address.indexOf(",") > -1){
+       	address = address.replace(",","");
+       }
+       lcadd = address.toLowerCase();
+       if(lcadd.indexOf(" street") > -1){
+       	address = address.substring(0, lcadd.indexOf(" street") + 3);
+       }
+       if(lcadd.indexOf(" avenue") > -1){
+       	address = address.substring(0, lcadd.indexOf(" avenue") + 4);
+       }
+       if(lcadd.indexOf(" drive") > -1){
+       	address = address.substring(0, lcadd.indexOf(" drive") + 3);
+       }
+       if(lcadd.indexOf(" circle") > -1){
+       	address = address.substring(0, lcadd.indexOf(" circle") + 4);
+       }
+       if(lcadd.indexOf(" lane") > -1){
+       	address = address.substring(0, lcadd.indexOf(" lane")) + " Ln";
+       }
+       if(lcadd.indexOf(" boulevard") > -1){
+       	address = address.substring(0, lcadd.indexOf(" boulevard")) + " Blvd";
+       }
  	address = address.replace(/^\s+|\s+$/g,"");
 
 	query.where = "ADD_ LIKE upper ('%" + address + "')";
