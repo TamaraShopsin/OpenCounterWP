@@ -454,7 +454,7 @@ img.alignleft {
 	Special stylized non-IE bullets
 	Do not work in Internet Explorer, which merely default to normal bullets. */
 
-html>body .entry ul {
+html>body .entry ul .ku {
 	margin-left: 0px;
 	padding: 0 0 0 30px;
 	list-style: none;
@@ -536,7 +536,7 @@ ol li, #sidebar ul ol li {
 	}
 
 .entry form { /* This is mainly for password protected posts, makes them look better. */
-	text-align:center;
+	text-align:left;
 	}
 
 select {
@@ -909,7 +909,7 @@ column-count:2;
     }
 
     
-
+.formwidth {width: 100%;}
 .button {
     border: 3px solid #E1E8E8;
     background: #E1E8E8;
@@ -918,12 +918,10 @@ column-count:2;
     border: 3px solid #C1CACB;
     background: #C1CACB;
 }
+
 label {
-    display: block;
-    width: 150px;
-    float: left;
-    margin: 2px 4px 6px 4px;
-    text-align: right;
+    
+    text-align: left;
 }
 
 /* "Daisy, Daisy, give me your answer do. I'm half crazy all for the love of you.
