@@ -23,97 +23,108 @@ query.returnGeometry = true;
 query.outFields = ["*"];
 
 function executeQuery(address){
-	
 	var result;
-	
-          while(address.indexOf("  ") > -1){
-           address = address.replace("  "," ");
-       }
-       var lcadd = address.toLowerCase();
-       if(lcadd.indexOf("santa cruz") != -1){
-           if(lcadd.lastIndexOf("santa cruz") > lcadd.lastIndexOf("st")){
-               address = address.substring(0, lcadd.lastIndexOf("santa cruz"));
-           }
-       }
-       while(address.indexOf(",") > -1){
-       	address = address.replace(",","");
-       }
-       lcadd = address.toLowerCase();
-       if(lcadd.indexOf(" street") > -1){
-       	address = address.substring(0, lcadd.indexOf(" street") + 3);
-       }
-       if(lcadd.indexOf(" avenue") > -1){
-       	address = address.substring(0, lcadd.indexOf(" avenue") + 4);
-       }
-       if(lcadd.indexOf(" drive") > -1){
-       	address = address.substring(0, lcadd.indexOf(" drive") + 3);
-       }
-       if(lcadd.indexOf(" circle") > -1){
-       	address = address.substring(0, lcadd.indexOf(" circle") + 4);
-       }
-       if(lcadd.indexOf(" lane") > -1){
-       	address = address.substring(0, lcadd.indexOf(" lane")) + " Ln";
-       }
-       if(lcadd.indexOf(" boulevard") > -1){
-       	address = address.substring(0, lcadd.indexOf(" boulevard")) + " Blvd";
-       }
+	while(address.indexOf("  ") > -1){
+		address = address.replace("  "," ");
+	}
+	var lcadd = address.toLowerCase();
+	// filter addresses which end with ", Santa Cruz, CA" but not "Santa Cruz St"
+	if(lcadd.indexOf("santa cruz") != -1){
+		if(lcadd.lastIndexOf("santa cruz") > lcadd.lastIndexOf("st")){
+			address = address.substring(0, lcadd.lastIndexOf("santa cruz"));
+		}
+	}
+	while(address.indexOf(",") > -1){
+		address = address.replace(",","");
+	}
+	lcadd = address.toLowerCase();
+
+	// abbreviate addresses to match GIS data
+	if(lcadd.indexOf(" street") > -1){
+		address = address.substring(0, lcadd.indexOf(" street") + 3);
+	}
+	if(lcadd.indexOf(" avenue") > -1){
+		address = address.substring(0, lcadd.indexOf(" avenue") + 4);
+	}
+	if(lcadd.indexOf(" drive") > -1){
+		address = address.substring(0, lcadd.indexOf(" drive") + 3);
+	}
+	if(lcadd.indexOf(" circle") > -1){
+		address = address.substring(0, lcadd.indexOf(" circle") + 4);
+	}
+	if(lcadd.indexOf(" lane") > -1){
+		address = address.substring(0, lcadd.indexOf(" lane")) + " Ln";
+	}
+	if(lcadd.indexOf(" boulevard") > -1){
+		address = address.substring(0, lcadd.indexOf(" boulevard")) + " Blvd";
+	}
+	if(lcadd.indexOf(" court") > -1){
+		address = address.substring(0, lcadd.indexOf(" court")) + " Ct";
+	}
+	if(lcadd.indexOf(" place") > -1){
+		address = address.substring(0, lcadd.indexOf(" place")) + " Pl";
+	}
  	address = address.replace(/^\s+|\s+$/g,"");
 
-	query.where = "ADD_ LIKE upper ('%" + address + "')";
+	query.where = "ADD_ LIKE upper ('%" + address + "%')";
 	queryTask.execute(query, function(results){
-                if(results.features.length == 0){
-                    document.getElementById("address").style.backgroundColor = "#f44";
-                }
-                else{
-                
-                document.getElementById("address").style.backgroundColor = "#fff";
-                zone = results.features[0].attributes['Zoning1'];
-	
-	    var street = results.features[0].attributes['ADD_'];
-		var latlng = new L.LatLng(results.features[0].geometry.y, results.features[0].geometry.x);
-                console.log(latlng);
-		var marker = new L.Marker(latlng); 
-        map.addLayer(marker);
+        if(results.features.length == 0){
+        	// if address lookup fails, turn text box red
+			document.getElementById("address").style.backgroundColor = "#f44";
+		}
+		else{
+			document.getElementById("address").style.backgroundColor = "#fff";
+			var zone = results.features[0].attributes['Zoning1'];
+			var street = results.features[0].attributes['ADD_'];
+			var usecode = results.features[0].attributes['USECDDESC'];
 
-        street += "<br/>Zone: " + zone;
-		street += "<br/>Current Use: " + results.features[0].attributes['USECDDESC'];
-
-		marker.bindPopup(street).openPopup();
-	
-		 //console.log(results);
-                }
-		
+			var latlng = new L.LatLng(results.features[0].geometry.y, results.features[0].geometry.x);
+			//console.log(latlng);
+			
+			var marker = new L.Marker(latlng);
+			map.addLayer(marker);
+			marker.bindPopup(street + "<br/>Zone: " + zone + "<br/>Current Use: " + usecode).openPopup();
+			
+			// test: store zone and use code as a cookie
+			setCookie("zone_and_use", zone + "|" + usecode, 21);
+		}
 	});
 }
-
 
 var map;
 var _tilejson;
 wax.tilejson('http://a.tiles.mapbox.com/v3/tamaracfa.map-lhp1bb4f.jsonp',
-  function(tilejson) {
-  _tilejson = tilejson;
-  map = new L.Map('map-div', { scrollWheelZoom: false })
-    .addLayer(new wax.leaf.connector(tilejson))
-    .setView(new L.LatLng(36.9749, -122.0263), 14);
+	function(tilejson) {
+		_tilejson = tilejson;
+		map = new L.Map('map-div', { scrollWheelZoom: false })
+    		.addLayer(new wax.leaf.connector(tilejson))
+    		.setView(new L.LatLng(36.9749, -122.0263), 13);
+
+		wax.leaf.interaction()
+			.map(map)
+			.tilejson(tilejson)
+			.on(wax.tooltip().animate(false).parent(map._container).events())
+	}
+);
 
 
-	wax.leaf.interaction()
-    .map(map)
-    .tilejson(tilejson)
-    .on(wax.tooltip().animate(false).parent(map._container).events())
-
-});
-
-
-  function codeAddress() {
+function codeAddress() {
 	var address = document.getElementById("address").value;
 	executeQuery(address);
-  }
+}
 
 function checkForEnter(e){
 	if(e.keyCode == 13){
 		codeAddress();
 	}
+}
+
+// test: cookie to store zone and use code of address
+function setCookie(c_name,value,exdays){
+	var exdate=new Date();
+	exdate.setDate(exdate.getDate() + exdays);
+	var c_value=escape(value) + ((exdays==null) ? "" : "; expires="+exdate.toUTCString());
+	document.cookie=c_name + "=" + c_value;
 }
 
 </script>
