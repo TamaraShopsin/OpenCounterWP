@@ -220,6 +220,7 @@ function calculate(){
 	var rate_existing = getRate( $("#proptype_existing").val(), $("#myRegion").val() );
 	var rate_proposed = getRate( $("#proptype_proposed").val(), $("#myRegion").val() );
 	var addtrips = rate_proposed * ( $("#size_existing").val() / factor ) - rate_existing * ($("#size_existing").val() / factor );
+	addtrips = Math.ceil( addtrips );
 	if(addtrips > 0){
 		$("#calculated").html("Adding " + addtrips);
 	}
