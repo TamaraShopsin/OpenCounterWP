@@ -4,6 +4,25 @@
  * @subpackage Default_Theme
  */
 
+
+
+add_action('wp_head', 'add_mapjs');
+
+function add_mapjs(){
+
+  //var_dump(is_page_template('map.php'));
+  if(is_page_template('map.php') ){  
+  ?>
+  <script type="text/javascript" src="http://serverapi.arcgisonline.com/jsapi/arcgis/?v=2.8"></script>
+  <script src='http://mapbox.com/wax/externals/leaflet/leaflet.js' type='text/javascript'></script>
+  <script src='http://mapbox.com/wax/dist/wax.leaf.min.js' type='text/javascript'></script>
+  <link href='http://mapbox.com/wax/externals/leaflet/leaflet.css' rel='stylesheet' type='text/css' />
+<?php
+  }
+}
+
+
+
 $content_width = 450;
 
 add_theme_support( 'automatic-feed-links' );
