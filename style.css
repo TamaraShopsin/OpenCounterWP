@@ -132,6 +132,7 @@ section {
   
 }
 .micro {
+    /*font-family: 'lucida sans',sans-serif;*/
   font-size: .9em;
   
   
@@ -861,6 +862,16 @@ div.aligncenter {
   }
 
   #tlegend { width: 135%;
+             margin-top: 10px;
+             
+             
+-moz-column-count:2; /* Firefox */
+-webkit-column-count:2; /* Safari and Chrome */
+column-count:2;
+
+}
+
+  #zdef { width: 135%;
              margin-top: 10px;
              
              
