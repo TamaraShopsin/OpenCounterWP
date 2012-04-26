@@ -51,6 +51,7 @@
 	}
 	
 	.sp-total {
+            display:none;
 		margin:			0;
 		text-align:		center;
 	}
