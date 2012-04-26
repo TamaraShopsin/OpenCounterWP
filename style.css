@@ -132,7 +132,7 @@ section {
   
 }
 .micro {
-    /*font-family: 'lucida sans',sans-serif;*/
+  /*font-family: 'lucida sans',sans-serif;*/
   font-size: .9em;
   
   
@@ -737,6 +737,10 @@ a img {
     width: 39px;
     height: 51px;
     text-indent: -999em;
+    position: fixed;
+left: 15%;
+bottom: 15%;
+
 }
 
 .navigation .alignleft a:hover {
@@ -751,6 +755,9 @@ a img {
   width: 31px;
   height: 51px;
   text-indent: -999em;
+  position: fixed;
+right: 15%;
+bottom: 15%;
 }
 
 .navigation .alignright a:hover {
@@ -871,17 +878,28 @@ column-count:2;
 
 }
 
-  #zdef { width: 135%;
-             margin-top: 10px;
-             
-             
--moz-column-count:2; /* Firefox */
--webkit-column-count:2; /* Safari and Chrome */
-column-count:2;
+ .zdef {background: #E1E8E8;
+             padding-right:10px;
+padding-left:10px;
+    
+}
 
+.zdef li {list-style-type: none;
+        margin-left: 10px;
 }
   
-  
+.closebtn{
+	float: right;
+	padding: 3px;
+       
+
+}  
+
+/*.aj-hidden{
+	border-top: 2px dashed #000;
+	border-bottom: 2px dashed #000;
+}*/
+
   .my-legend .title {
     text-align: left;
     margin-bottom: 5px;
@@ -936,6 +954,35 @@ column-count:2;
 label {
     
     text-align: left;
+}
+
+.progbar{
+   
+	height: 18px;
+	margin-bottom: 18px;
+	overflow: hidden;
+	background-repeat: repeat-x;
+	width: 100%;
+	line-height: 18px;
+        border: 2px solid;
+        /*background-color: #E7E7E7;*/
+}
+.progbar .bar{
+    font-size: .8em;
+	color: #FFF;
+	text-align: left;
+        padding-left: 5px;
+        background-color: #000;
+        /*background-color: #E7E7E7;*/
+	background-repeat: repeat-x
+	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#149bdf', endColorstr='#0480be', GradientType=0)
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	line-height: 18px;
+	height: 100%;
+	/* add inline: width and margin-left */
 }
 
 /* "Daisy, Daisy, give me your answer do. I'm half crazy all for the love of you.
