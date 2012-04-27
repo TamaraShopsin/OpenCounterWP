@@ -178,7 +178,7 @@ var ThinBox = {
 			} else if(href=='') {
 				 return false;
 			} else {
-				var thinboxContent = $("<div style='height:100%;width:100%;background-color:#fff;'><div style='width:100%;padding:4px;background-color:#ddd;text-align:left;'>BETA VERSION<input type='button' value='X' onclick='ThinBox.remove()' style='float:right;margin-right:30px;'/></div><br/><br/><div style='padding:20px;'>OpenCounter is in beta<br/><br/>this will be more of a warning and will be styled soon</div></div>");
+				var thinboxContent = $("<div style='height:100%;width:100%;background-color:#fff;'><div style='width:100%;padding:4px;background-color:#FFC10E;;text-align:left;'>BETA VERSION<input type='button' value='X' onclick='ThinBox.remove()' style='font-size: 1em;float:right;margin-right:10px;border:none;cursor:pointer;background-color:#FFC10E;'/></div><br/><br/><div style='padding:20px;'>OpenCounter is in beta<br/><br/>this will be more of a warning and will be styled soon</div></div>");
 				//thinboxContent.attr("src",href);
 				var inIframe = true;
 			}
