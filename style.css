@@ -895,10 +895,12 @@ padding-left:10px;
 
 }  
 
-/*.aj-hidden{
-	border-top: 2px dashed #000;
+.aj-hidden{
+       border-top: 2px dashed #000;
 	border-bottom: 2px dashed #000;
-}*/
+      /*  border: 5px solid #F8F7ED;
+        background-color: #F8F7ED;*/
+}
 
   .my-legend .title {
     text-align: left;
@@ -984,6 +986,20 @@ label {
 	height: 100%;
 	/* add inline: width and margin-left */
 }
+
+
+.betaclose a {float:right;
+           margin-right:30px;}
+
+
+#tag {
+position: fixed;
+top: -5px;
+right: 25px;
+width: 100px;
+z-index: 999999999999;
+}
+
 
 /* "Daisy, Daisy, give me your answer do. I'm half crazy all for the love of you.
 	It won't be a stylish marriage, I can't afford a carriage.
