@@ -1000,6 +1000,11 @@ width: 100px;
 z-index: 999999999999;
 }
 
+body .gform_wrapper .description,
+.gform_wrapper .gfield_description,
+.gform_wrapper .gsection_description,
+.gform_wrapper .instruction  { font-family: 'FuturaTEST', Verdana, Arial, Sans-Serif !important;}
+
 
 /* "Daisy, Daisy, give me your answer do. I'm half crazy all for the love of you.
 	It won't be a stylish marriage, I can't afford a carriage.
