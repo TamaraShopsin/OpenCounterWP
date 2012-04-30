@@ -1025,6 +1025,31 @@ body .gform_wrapper .description,
 .gform_wrapper .instruction  { font-family: 'FuturaTEST', Verdana, Arial, Sans-Serif !important;}
 
 
+body .gform_wrapper input[type=text],
+.gform_wrapper input[type=url],
+.gform_wrapper input[type=email],
+.gform_wrapper input[type=tel],
+.gform_wrapper input[type=number],
+.gform_wrapper input[type=password] {
+	outline-style: none;
+	font-size: 14px;
+	font-family: inherit;
+	padding: 2px 0 2px 0;
+	letter-spacing: normal
+}
+
+body .gform_wrapper .ginput_complex label,
+.gform_wrapper .gfield_time_hour label,
+.gform_wrapper .gfield_time_minute label,
+.gform_wrapper .gfield_date_month label,
+.gform_wrapper .gfield_date_day label,
+.gform_wrapper .gfield_date_year label,
+.gform_wrapper .instruction {
+	display: block;
+	margin: 3px 0;
+	font-size: 12px;
+	letter-spacing: 0.5pt
+}
     
 
 

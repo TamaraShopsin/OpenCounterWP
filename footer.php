@@ -14,7 +14,7 @@
 </div>
 
 </div>
-<div id="tag"><a href="http://codeforamerica.org/"><img src="http://opencounter.org/wp-content/themes/opencounter/images/cfa_tagsc.png" width="100px" border="0"></a></div>
+<div id="tag"><a href="http://codeforamerica.org/" target="_blank"><img src="http://opencounter.org/wp-content/themes/opencounter/images/cfa_tagsc.png" width="100px" border="0"></a></div>
     </div>
 
 		<?php wp_footer(); ?>
