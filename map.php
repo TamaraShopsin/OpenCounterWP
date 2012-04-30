@@ -15,6 +15,8 @@ get_header(); ?>
         
     
 </div>
+
+<script type="text/javascript" src="http://opencounter.org/wp-content/themes/opencounter/scripts/cookies.min.js"></script>
 <script>
 dojo.require("esri.tasks.query");
 var queryTask = new esri.tasks.QueryTask("http://gis.cityofsantacruz.com/ArcGIS/rest/services/AddressSeach/MapServer/0");
@@ -86,7 +88,13 @@ function executeQuery(address){
 			marker.bindPopup(street + "<br/>Zone: " + zone + "<br/>Current Use: " + usecode).openPopup();
 			
 			// test: store zone and use code as a cookie
-			setCookie("zone_and_use", zone + "|" + usecode, 21);
+			//setCookie("zone_and_use", zone + "|" + usecode, 21);
+			Cookies.defaults = {
+				path: '/',
+				expires: 60 * 60 * 24 * 21,
+				secure: false
+			}
+			Cookies.set('zone_and_use', zone + "|" + usecode);
 		}
 	});
 }
@@ -118,15 +126,6 @@ function checkForEnter(e){
 		codeAddress();
 	}
 }
-
-// test: cookie to store zone and use code of address
-function setCookie(c_name,value,exdays){
-	var exdate=new Date();
-	exdate.setDate(exdate.getDate() + exdays);
-	var c_value=escape(value) + ((exdays==null) ? "" : "; expires="+exdate.toUTCString());
-	document.cookie=c_name + "=" + c_value;
-}
-
 </script>
     
 	<div id="content" class="narrowcolumn" role="main">
