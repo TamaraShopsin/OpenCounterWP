@@ -6,6 +6,11 @@
 
 
 
+add_filter('gform_field_value_address', 'address_from_cookie');
+function address_from_cookie(){
+  return $_COOKIE["address"];
+}
+
 add_action('wp_head', 'add_mapjs');
 
 function add_mapjs(){

@@ -16,7 +16,6 @@ get_header(); ?>
     
 </div>
 
-<script type="text/javascript" src="http://opencounter.org/wp-content/themes/opencounter/scripts/cookies.min.js"></script>
 <script>
 dojo.require("esri.tasks.query");
 var queryTask = new esri.tasks.QueryTask("http://gis.cityofsantacruz.com/ArcGIS/rest/services/AddressSeach/MapServer/0");
@@ -94,6 +93,7 @@ function executeQuery(address){
 				expires: 60 * 60 * 24 * 21,
 				secure: false
 			}
+			Cookies.set('address', document.getElementById("address").value );
 			Cookies.set('zone_and_use', zone + "|" + usecode);
 		}
 	});

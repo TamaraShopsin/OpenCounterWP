@@ -19,6 +19,9 @@
 
 <?php wp_head(); ?>
 
+<script type="text/javascript" src="http://opencounter.org/wp-content/themes/opencounter/scripts/json3.min.js"></script>
+<script type="text/javascript" src="http://opencounter.org/wp-content/themes/opencounter/scripts/cookies.min.js"></script>
+
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
