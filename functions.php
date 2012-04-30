@@ -8,7 +8,7 @@
 
 add_filter('gform_field_value_address', 'address_from_cookie');
 function address_from_cookie(){
-  return json_decode( $_COOKIE["address"] );
+  return str_replace('\\"', '', $_COOKIE["address"]);
 }
 
 add_filter('gform_field_value_city', 'get_my_city');
