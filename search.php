@@ -22,10 +22,7 @@ get_header(); ?>
 
 			<div <?php post_class(); ?>>
 				<h3 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php printf(__('Permanent Link to %s', 'kubrick'), the_title_attribute('echo=0')); ?>"><?php the_title(); ?></a></h3>
-				<small><?php the_time('l, F jS, Y') ?></small>
-
-				<p class="postmetadata"><?php the_tags(__('Tags:', 'kubrick') . ' ', ', ', '<br />'); ?> <?php printf(__('Posted in %s', 'kubrick'), get_the_category_list(', ')); ?> | <?php edit_post_link(__('Edit', 'kubrick'), '', ' | '); ?>  <?php comments_popup_link(__('No Comments &#187;', 'kubrick'), __('1 Comment &#187;', 'kubrick'), __('% Comments &#187;', 'kubrick'), '', __('Comments Closed', 'kubrick') ); ?></p>
-			</div>
+				 </div>
 
 		<?php endwhile; ?>
 
@@ -43,6 +40,5 @@ get_header(); ?>
 
 	</div>
 
-<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>

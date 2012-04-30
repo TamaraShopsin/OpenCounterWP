@@ -303,12 +303,7 @@ body {
         
      
         
- .progbar {
-	float: left;
-        margin-top: 30px;
-        font-size: 1.3em;
-	
-	}
+
 
 .widecolumn {
 	padding: 10px 0 20px 0;
@@ -884,9 +879,6 @@ padding-left:10px;
     
 }
 
-.zdef li {list-style-type: none;
-        margin-left: 10px;
-}
   
 .closebtn{
 	float: right;
@@ -945,12 +937,12 @@ padding-left:10px;
     
 .formwidth {width: 100%;}
 .button {
-    border: 3px solid #E1E8E8;
-    background: #E1E8E8;
+    border: 3px solid #E1E8E8;background: #E1E8E8;
 }
 .button:hover {
     border: 3px solid #C1CACB;
     background: #C1CACB;
+    
 }
 
 label {
@@ -958,8 +950,11 @@ label {
     text-align: left;
 }
 
+
+
 .progbar{
-   
+         float: left;
+        font-size: 1.3em;
 	height: 18px;
 	margin-bottom: 18px;
 	overflow: hidden;
@@ -988,8 +983,32 @@ label {
 }
 
 
-.betaclose a {float:right;
-           margin-right:30px;}
+.betabox {
+        height:100%;
+        width:100%;
+        background-color:#fff;
+}
+.betabox2 {
+        width:100%;
+        padding:10px;
+        background-color:#FFC10E;
+        text-align:left;
+        letter-spacing: 1px;
+}
+.betabox3 { 
+    padding:20px;
+}
+.betax {
+        font-size: 1em;
+        float:right;
+        margin-right:20px;
+        border:none;
+        cursor:pointer;
+        background-color:#FFC10E;
+      
+}
+
+
 
 
 #tag {
@@ -1004,6 +1023,9 @@ body .gform_wrapper .description,
 .gform_wrapper .gfield_description,
 .gform_wrapper .gsection_description,
 .gform_wrapper .instruction  { font-family: 'FuturaTEST', Verdana, Arial, Sans-Serif !important;}
+
+
+    
 
 
 /* "Daisy, Daisy, give me your answer do. I'm half crazy all for the love of you.

@@ -8,7 +8,7 @@
 
 get_header(); ?>
 <script type="text/javascript" src="http://opencounter.org/wp-content/themes/opencounter/scripts/jquery-1.3.min.js"></script>
-<script type="text/javascript" src="http://opencounter.org/wp-content/themes/opencounter/scripts/thinbox.js"></script>
+<script type="text/javascript" src="http://opencounter.org/wp-content/themes/opencounter/scripts/thinbox2.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
 	ThinBox.open("betawindow.html",{'width':'500px','height':'400px'});

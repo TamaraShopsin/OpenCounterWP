@@ -96,7 +96,7 @@ var _tilejson;
 wax.tilejson('http://a.tiles.mapbox.com/v3/tamaracfa.map-lhp1bb4f.jsonp',
 	function(tilejson) {
 		_tilejson = tilejson;
-		map = new L.Map('map-div', { scrollWheelZoom: false })
+		map = new L.Map('map-div', { scrollWheelZoom: false, maxZoom: 17 })
     		.addLayer(new wax.leaf.connector(tilejson))
     		.setView(new L.LatLng(36.9749, -122.0263), 13);
 
