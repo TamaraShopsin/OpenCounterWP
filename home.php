@@ -11,7 +11,10 @@ get_header(); ?>
 <script type="text/javascript" src="http://opencounter.org/wp-content/themes/opencounter/scripts/thinbox2.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
-	ThinBox.open("betawindow.html",{'width':'500px','height':'400px'});
+    if(Cookies.get("betachip") != "eaten"){
+	ThinBox.open("betawindow.html",{'width':'500px','height':'350px'});
+        Cookies.set("betachip", "eaten", { expires: 21 * 24 * 60 * 60 });
+    }
 });
 </script>
 
