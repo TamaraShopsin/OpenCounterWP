@@ -1012,7 +1012,7 @@ label {
 
 
 #tag {
-position: fixed;
+position: absolute;
 top: -5px;
 right: 25px;
 width: 100px;
