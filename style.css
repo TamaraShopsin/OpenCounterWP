@@ -882,10 +882,10 @@ padding-left:10px;
 
   
 .closebtn{
-    color: #000;
-	text-align: left;
-padding-right: 10px;
-background: #FFF;
+   /*color: #000;*/
+   position: absolute;
+   margin-left: -50px;
+   font-size: 2em;
 }
 
 
