@@ -879,19 +879,28 @@ padding-left:10px;
     
 }
 
+
   
 .closebtn{
-	float: right;
-	padding: 3px;
-       
+    color: #000;
+	text-align: left;
+padding-right: 10px;
+background: #FFF;
+}
 
-}  
+
+  
 
 .aj-hidden{
-       border-top: 2px dashed #000;
+       /*  border-top: 2px dashed #000;
 	border-bottom: 2px dashed #000;
-      /*  border: 5px solid #F8F7ED;
-        background-color: #F8F7ED;*/
+      border: 5px solid #C9E8F5;
+        background-color: #C9E8F5;
+      
+       */
+       border-left: 2px solid #000;
+       padding-left: 15px;
+       width: 120%;
 }
 
   .my-legend .title {
@@ -1050,6 +1059,8 @@ body .gform_wrapper .ginput_complex label,
 	font-size: 12px;
 	letter-spacing: 0.5pt
 }
+
+
     
 
 
