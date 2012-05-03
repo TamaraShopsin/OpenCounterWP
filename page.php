@@ -22,19 +22,20 @@ get_header(); ?>
 				<?php the_content('<p class="serif">' . __('Read the rest of this page &raquo;', 'kubrick') . '</p>'); ?>
 
 				<?php wp_link_pages(array('before' => '<p><strong>' . __('Pages:', 'kubrick') . '</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
-<div class="navigation">
-
-    <?php previous_link(); ?>
-<?php next_link(); ?>
-
-</div>
-                   	         
+           	         
 		</div>
 		<?php endwhile; endif; ?>
 	<?php edit_post_link(__('Edit this entry.', 'kubrick'), '<p>', '</p>'); ?>
 	
 	</div>
 
+            <div class="navigation">
+
+    <?php previous_link(); ?>
+<?php next_link(); ?>
+
+</div>
+        
 
             
 <?php get_footer(); ?>

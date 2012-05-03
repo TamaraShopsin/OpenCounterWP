@@ -14,13 +14,13 @@
 
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-<script type="text/javascript" src="http://opencounter.org/wp-content/themes/opencounter/scripts/clock3.js"></script>
 
 
 <?php wp_head(); ?>
 
 <script type="text/javascript" src="http://opencounter.org/wp-content/themes/opencounter/scripts/json3.min.js"></script>
 <script type="text/javascript" src="http://opencounter.org/wp-content/themes/opencounter/scripts/cookies.min.js"></script>
+<script type="text/javascript" src="wp-content/themes/OpenCounterWP/scripts/magic-arrows.js"></script>
 
 <script type="text/javascript">
 
