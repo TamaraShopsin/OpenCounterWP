@@ -113,4 +113,5 @@ jQuery.fn.extend({
 
 jQuery(document).ready(function(){
     jQuery('.alignright, .alignleft').magic_arrows({selector: '#content'});
+    jQuery(window).resize();
 });
