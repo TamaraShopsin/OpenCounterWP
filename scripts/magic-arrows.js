@@ -26,8 +26,7 @@ jQuery.fn.extend({
 	                    }
    	             		if(jQuery(mything).hasClass('alignright')){
                         	//console.log('right pixel');
-                        	jQuery(selector).css('left', '');
-                        	jQuery(selector).css('right', '15px');
+                        	jQuery(selector).css('left', '590px');
                         	jQuery(selector).css('position', 'absolute');                                      
                         }
                     }
