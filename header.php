@@ -20,7 +20,7 @@
 
 <script type="text/javascript" src="http://opencounter.org/wp-content/themes/opencounter/scripts/json3.min.js"></script>
 <script type="text/javascript" src="http://opencounter.org/wp-content/themes/opencounter/scripts/cookies.min.js"></script>
-<script type="text/javascript" src="http://opencounter.org/wp-content/themes/OpenCounterWP/scripts/magic-arrows.js"></script>
+<script type="text/javascript" src="http://opencounter.org/wp-content/themes/opencounter/scripts/magic-arrows.js"></script>
 
 <script type="text/javascript">
 
