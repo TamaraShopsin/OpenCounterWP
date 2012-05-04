@@ -7,7 +7,9 @@
 get_header(); ?>
 <div id="header3">
     <a href="http://opencounter.org">
-    <canvas id="clockcanvas" width="50" height="50"></canvas>
+    <canvas id="clockcanvas" width="50" height="50">
+         <img src="http://opencounter.org/wp-content/uploads/2012/04/clockbig2.png"/>
+    </canvas>
 </a>
     
         
