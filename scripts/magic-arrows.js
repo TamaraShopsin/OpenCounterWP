@@ -25,28 +25,57 @@ jQuery.fn.extend({
                         jQuery(selector).css('right', '15px');
                         jQuery(selector).css('position', 'absolute');                                      
                     }*/
-                    if(jQuery(that).hasClass('alignleft')){
-                        //console.log('left pixel');
-                        jQuery(selector).css('left', '15px');                    
-                        jQuery(selector).css('position', 'absolute');                                      
+                    for(var a=0;a<that.length;a++){
+                    	var mything = that[a];
+                    	var selector = '.'+jQuery(mything).attr('class') + ' a ';
+	                    if(jQuery(mything).hasClass('alignleft')){
+	                        //console.log('left pixel');
+	                        jQuery(selector).css('left', '15px');
+	                        jQuery(selector).css('right', '');
+	                        jQuery(selector).css('position', 'absolute');
+	                    }
+   	             		if(jQuery(mything).hasClass('alignright')){
+                        	//console.log('right pixel');
+                        	jQuery(selector).css('left', '');
+                        	jQuery(selector).css('right', '10%');
+                        	jQuery(selector).css('position', 'fixed');                                      
+                        }
                     }
-                    if(jQuery(that).hasClass('alignright')){
-                        console.log('right pixel');
-                        jQuery(selector).css('left', '600px');
-                        jQuery(selector).css('position', 'absolute');                                      
+                }
+                else if( browser_width < 750 ){
+                    for(var a=0;a<that.length;a++){
+                    	var mything = that[a];
+                    	var selector = '.'+jQuery(mything).attr('class') + ' a ';
+	                    if(jQuery(mything).hasClass('alignleft')){
+	                        //console.log('left pixel');
+	                        jQuery(selector).css('left', '15px');
+	                        jQuery(selector).css('right', '');
+	                        jQuery(selector).css('position', 'absolute');
+	                    }
+   	             		if(jQuery(mything).hasClass('alignright')){
+                        	//console.log('right pixel');
+                        	jQuery(selector).css('left', '');
+                        	jQuery(selector).css('right', '15px');
+                        	jQuery(selector).css('position', 'absolute');                                      
+                        }
                     }
                 }
                 else{
-                    if(jQuery(that).hasClass('alignleft')){
-                        //console.log('left percent');
-                        jQuery(selector).css('left', '15%');
-                        jQuery(selector).css('position', 'fixed');                                      
-
-                    }
-                    if(jQuery(that).hasClass('alignright')){
-                        console.log('right percent');
-                        jQuery(selector).css('right', '15%');                    
-                        jQuery(selector).css('position', 'fixed');                                      
+                    for(var a=0;a<that.length;a++){
+                    	var mything = that[a];
+                    	var selector = '.'+jQuery(mything).attr('class') + ' a ';
+	                    if(jQuery(mything).hasClass('alignleft')){
+	                        //console.log('left percent');
+	                        jQuery(selector).css('left', '15%');
+	                        jQuery(selector).css('right', '');
+	                        jQuery(selector).css('position', 'fixed');                                      
+	                    }
+	                    if(jQuery(mything).hasClass('alignright')){
+	                        //console.log('right percent');
+	                        jQuery(selector).css('right', '15%');
+	                        jQuery(selector).css('left', '');
+	                        jQuery(selector).css('position', 'fixed');
+	                    }
                     }
 
                 }
