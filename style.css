@@ -885,7 +885,12 @@ padding-left:10px;
    font-size: 2em;
 }
 
-
+.closebtn2{
+   /*color: #000;*/
+   position: absolute;
+   margin-left: -50px;
+   font-size: 2em;
+}
   
 
 .aj-hidden{
