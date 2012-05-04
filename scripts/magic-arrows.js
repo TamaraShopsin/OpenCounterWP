@@ -1,4 +1,3 @@
-
 jQuery.fn.extend({    
 
 
@@ -16,16 +15,26 @@ jQuery.fn.extend({
                 var selector = '.'+jQuery(that).attr('class') + ' a ';
                 //console.log(selector);
                 if( browser_width < 1111 ){ 
-                    if(jQuery(that).hasClass('alignleft')){
+                    /*if(jQuery(that).hasClass('alignleft')){
                         //console.log('left pixel');
                         jQuery(selector).css('left', '15px');                    
-                        jQuery(selector).css('position', 'fixed');                                      
+                        jQuery(selector).css('position', 'absolute');                                      
                     }
                     if(jQuery(that).hasClass('alignright')){
                         console.log('right pixel');
-                        jQuery(selector).css('right', '15px');  
-                        jQuery(selector).css('position', 'fixed');                                      
-                    }                              
+                        jQuery(selector).css('right', '15px');
+                        jQuery(selector).css('position', 'absolute');                                      
+                    }*/
+                    if(jQuery(that).hasClass('alignleft')){
+                        //console.log('left pixel');
+                        jQuery(selector).css('left', '15px');                    
+                        jQuery(selector).css('position', 'absolute');                                      
+                    }
+                    if(jQuery(that).hasClass('alignright')){
+                        console.log('right pixel');
+                        jQuery(selector).css('left', '600px');
+                        jQuery(selector).css('position', 'absolute');                                      
+                    }
                 }
                 else{
                     if(jQuery(that).hasClass('alignleft')){

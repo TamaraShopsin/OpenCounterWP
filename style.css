@@ -724,40 +724,37 @@ a img {
   margin: 0 auto;
 }
 
-
+.navigation {
+    position: fixed;
+    bottom: 15%;
+    width: 100%;
+    left: 0;
+}
 
 .navigation .alignleft a {
     background: transparent url('images/sprites.png') no-repeat 0px -60px;
-    display: block;
     width: 39px;
     height: 51px;
     text-indent: -999em;
     position: fixed;
-left: 15%;
-bottom: 15%;
-
+    left: 15%;
 }
 
 .navigation .alignleft a:hover {
     background: transparent url('images/sprites.png') no-repeat left top
-
 }
 
-
 .navigation .alignright a {
-  background: transparent url('images/sprites.png') no-repeat right -60px;
-  display: block;
-  width: 31px;
-  height: 51px;
-  text-indent: -999em;
-  position: fixed;
-right: 15%;
-bottom: 15%;
+    background: transparent url('images/sprites.png') no-repeat right -60px;
+    width: 31px;
+    height: 51px;
+    text-indent: -999em;
+    position: fixed;
+    right: 15%;
 }
 
 .navigation .alignright a:hover {
     background: transparent url('images/sprites.png') no-repeat right top
-
 }
 
 
