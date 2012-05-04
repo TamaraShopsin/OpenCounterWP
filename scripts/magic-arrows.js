@@ -14,7 +14,25 @@ jQuery.fn.extend({
                 var browser_height = jQuery(window).height();
                 var selector = '.'+jQuery(that).attr('class') + ' a ';
                 //console.log(selector);
-				if( browser_width < 750 ){
+				if( browser_width < 600 ){
+                    for(var a=0;a<that.length;a++){
+                    	var mything = that[a];
+                    	var selector = '.'+jQuery(mything).attr('class') + ' a ';
+	                    if(jQuery(mything).hasClass('alignleft')){
+	                        //console.log('left pixel');
+	                        jQuery(selector).css('left', '15px');
+	                        jQuery(selector).css('right', '');
+	                        jQuery(selector).css('position', 'absolute');
+	                    }
+   	             		if(jQuery(mything).hasClass('alignright')){
+                        	//console.log('right pixel');
+	                        jQuery(selector).css('left', '');
+	                        jQuery(selector).css('right', '15px');
+                        	jQuery(selector).css('position', 'fixed');                                      
+                        }
+                    }
+                }
+				else if( browser_width < 750 ){
                     for(var a=0;a<that.length;a++){
                     	var mything = that[a];
                     	var selector = '.'+jQuery(mything).attr('class') + ' a ';
@@ -27,6 +45,7 @@ jQuery.fn.extend({
    	             		if(jQuery(mything).hasClass('alignright')){
                         	//console.log('right pixel');
                         	jQuery(selector).css('left', '590px');
+	                        jQuery(selector).css('right', '');
                         	jQuery(selector).css('position', 'absolute');                                      
                         }
                     }
@@ -113,5 +132,4 @@ jQuery.fn.extend({
 
 jQuery(document).ready(function(){
     jQuery('.alignright, .alignleft').magic_arrows({selector: '#content'});
-    jQuery(window).resize();
 });
