@@ -1,3 +1,5 @@
+<?php /* Template Name: nonav
+*/ ?>
 <?php
 /**
  * @package WordPress
@@ -7,9 +9,7 @@
 get_header(); ?>
 <div id="header3">
     <a href="http://opencounter.org">
-    <canvas id="clockcanvas" width="50" height="50">
-         <img src="http://opencounter.org/wp-content/uploads/2012/04/clockbig2.png"/>
-    </canvas>
+    <canvas id="clockcanvas" width="50" height="50"></canvas>
 </a>
     
         
@@ -24,20 +24,13 @@ get_header(); ?>
 				<?php the_content('<p class="serif">' . __('Read the rest of this page &raquo;', 'kubrick') . '</p>'); ?>
 
 				<?php wp_link_pages(array('before' => '<p><strong>' . __('Pages:', 'kubrick') . '</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
-           	         
-		</div>
-		<?php endwhile; endif; ?>
-	<?php edit_post_link(__('Edit this entry.', 'kubrick'), '<p>', '</p>'); ?>
-	
-	</div>
+<div class="navigation">
 
-            <div class="navigation">
-
-    <?php previous_link(); ?>
-<?php next_link(); ?>
 
 </div>
-        
-<?php get_sidebar(); ?>
+		<?php endwhile; endif; ?>
+
+	</div>
+
             
 <?php get_footer(); ?>

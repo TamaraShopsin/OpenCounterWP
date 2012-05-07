@@ -84,7 +84,7 @@ function executeQuery(address){
 			
 			var marker = new L.Marker(latlng);
 			map.addLayer(marker);
-			marker.bindPopup(street + "<br/>Zone: " + zone + "<br/>Current Use (AKA Prior Use): " + usecode).openPopup();
+			marker.bindPopup(street + "<br/>Zone: " + zone + "<br/>Current Use (Prior Use): " + usecode).openPopup();
 			
 			// test: store zone and use code as a cookie
 			//setCookie("zone_and_use", zone + "|" + usecode, 21);

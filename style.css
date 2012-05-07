@@ -220,6 +220,10 @@ h3 {
 .commentmetadata {
 	font-weight: normal;
 	}
+        
+        #sidebar {position:fixed;
+        right: 80%;
+        top: 60px;}
 
 #sidebar {
 	font: 1em 'FuturaTEST', Verdana, Arial, Sans-Serif;
