@@ -15,13 +15,18 @@ Text Domain: OpenCounter
 /* Begin Typography & Colors t*/
 /* your custom CSS */
 #sidebar {
-  background-color: darkblue;
-  color: white;
+  width: 135px;  
+  background-color: rgba(255,193,14,0.8);
+  padding: 5px;
+  padding-left: 15px;
+  color: #000;
   position: fixed;
-  left: 0px;
-  top: 50px;
+  left: -130px;
+  top: 122px;
 }
 
+#sidebar a {color: #000;}
+#sidebar a:hover {color: #FFF;}
 
 
 body {
@@ -173,8 +178,14 @@ h2.pagetitle {
 	}
 
 #sidebar h2 {
+    font-weight: normal;
+        position: relative;
+        right: -59px;
 	font-family: 'FuturaTEST', Verdana, Sans-Serif;
-	font-size: 1.2em;
+	font-size: 1em;
+        -webkit-transform: rotate(-90deg); 
+-moz-transform: rotate(-90deg);	
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 	}
 
 h3 {
@@ -228,10 +239,7 @@ h3 {
 .commentmetadata {
 	font-weight: normal;
 	}
-        
-       /* #sidebar {position:fixed;
-        right: 80%;
-        top: 60px;}*/
+     
 
 #sidebar {
 	font: 1em 'FuturaTEST', Verdana, Arial, Sans-Serif;
@@ -396,7 +404,7 @@ h2.pagetitle {
 }
 
 #sidebar h2 {
-	margin: 5px 0 0;
+	margin: 2px 0 0;
 	padding: 0;
 	}
 
