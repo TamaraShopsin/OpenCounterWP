@@ -1,0 +1,13 @@
+#wpadminbar .quicklinks a span#un-new-feedback-count{
+	background: #eee;
+	color: #333;
+	text-shadow: none;
+	display: inline;
+	padding: 2px 5px;
+	font-size: 10px;
+	font-weight: bold;
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}

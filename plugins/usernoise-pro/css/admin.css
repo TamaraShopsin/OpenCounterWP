@@ -1,0 +1,51 @@
+#un-page-html code{
+	line-height: 17px !important;
+}
+#un-page-html pre{
+	overflow-x: scroll;
+}
+#un-rewrite table tr td, 
+#un-sql-queries tr td, 
+#un-query-vars tr td,
+#un-filters table tr td{
+	padding: 5px 7px;
+	line-height: 18px;
+}
+#un-rewrite table tr.even td,
+#un-sql-queries table tr.even td,
+#un-query-vars table tr.even td,
+#un-filters table tr.even td{
+	background: #eee !important;
+}
+#un-filters table table tr th{
+	font-style: italic;
+	font-weight: normal;
+
+	text-align: left;
+}
+#un-filters table table.internal tr td{
+	padding: 0px !important;
+}
+
+#un-sql-queries tr th{
+	background: #e6e6e6;
+	padding: 7px;
+}
+#un-sql-queries tr.totals td{
+	font-weight: bold;
+	background: #e6e6e6;
+	padding: 10px 7px;
+}
+#un-sql-queries .align-right{
+	text-align: right;
+}
+.column-un-status{
+	width: 8em;
+}
+td.column-un-status{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+td.column-un-status span{
+	display: inline-block;
+}

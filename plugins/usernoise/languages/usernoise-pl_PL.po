@@ -1,0 +1,683 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Usernoise 0.4.6.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/usernoise\n"
+"POT-Creation-Date: 2011-10-07 10:49:55+00:00\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: admin/admin-bar.php:23
+#: html/reply-meta-box.php:5
+#: html/window.php:20
+#: inc/integration.php:19
+#: inc/template.php:115
+#@ usernoise
+msgid "Feedback"
+msgstr "Kontakt"
+
+#: admin/admin-bar.php:30
+#: admin/menu.php:16
+#: html/window.php:23
+#: vendor/plugin-options-framework/plugin-options-framework.php:95
+#@ usernoise
+#@ default
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: html/window.php:31
+#: usernoise.php:81
+#@ usernoise
+#@ default
+msgid "Idea"
+msgstr "Pomysł"
+
+#: html/window.php:32
+#: usernoise.php:81
+#@ usernoise
+msgid "Problem"
+msgstr "Problem"
+
+#: html/window.php:33
+#: usernoise.php:81
+#@ usernoise
+msgid "Question"
+msgstr "Pytanie"
+
+#: html/window.php:34
+#: usernoise.php:82
+#@ usernoise
+msgid "Praise"
+msgstr "Pochwała"
+
+#: html/window.php:38
+#: inc/controller.php:28
+#@ usernoise
+msgid "Your feedback"
+msgstr "Twoja wiadomość"
+
+#: html/window.php:40
+#: inc/controller.php:26
+#@ usernoise
+msgid "Short summary"
+msgstr "Temat wiadomości"
+
+#: html/window.php:43
+#: inc/controller.php:30
+#@ usernoise
+msgid "Your email (will not be published)"
+msgstr "Twój email (nie będzie publikowany)"
+
+#: html/publish-meta-box.php:7
+#@ default
+msgid "Status:"
+msgstr "Statut:"
+
+#: html/publish-meta-box.php:12
+#@ default
+msgid "Privately Published"
+msgstr "Opublikowana prywatnie"
+
+#: html/publish-meta-box.php:15
+#: html/publish-meta-box.php:69
+#@ usernoise
+msgid "Reviewed"
+msgstr "Obejrzana"
+
+#: html/publish-meta-box.php:18
+#@ default
+msgid "Scheduled"
+msgstr "Zaplanowana"
+
+#: html/publish-meta-box.php:21
+#@ usernoise
+msgid "Pending Review"
+msgstr "Nie przeczytana"
+
+#: html/publish-meta-box.php:25
+#@ default
+msgid "Draft"
+msgstr "Projekt"
+
+#: html/publish-meta-box.php:36
+#@ default
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: html/publish-meta-box.php:37
+#, php-format
+#@ default
+msgid "Sent on: <b>%1$s</b>"
+msgstr "Wysłana dnia: <b>%1$s</b>"
+
+#: html/publish-meta-box.php:57
+#@ default
+msgid "Delete Permanently"
+msgstr "Skasowana permanentnie"
+
+#: html/publish-meta-box.php:59
+#@ default
+msgid "Move to Trash"
+msgstr "Przenieś do kosza"
+
+#: admin/editor-page.php:26
+#: html/publish-meta-box.php:68
+#@ default
+msgid "Publish"
+msgstr "Opublikuj"
+
+#: html/publish-meta-box.php:71
+#@ default
+msgid "Update"
+msgstr "Aktualizuj"
+
+#: html/publish-meta-box.php:72
+#@ default
+msgid "OK"
+msgstr "OK"
+
+#: html/powered-by.php:2
+#@ usernoise
+msgid "Powered by"
+msgstr "Napędzany"
+
+#: html/reply-meta-box.php:4
+#@ usernoise
+msgid "Subject"
+msgstr "Temat"
+
+#: html/reply-meta-box.php:8
+#@ usernoise
+msgid "Send"
+msgstr "Wyślij"
+
+#: inc/template.php:71
+#@ usernoise
+msgid "or"
+msgstr "lub"
+
+#: admin/settings.php:81
+#: inc/template.php:119
+#@ usernoise
+msgid "Submit feedback"
+msgstr "Wyślij wiadomość"
+
+#: admin/settings.php:64
+#: inc/template.php:124
+#@ usernoise
+msgid "Please tell us what do you think, any kind of feedback is highly appreciated."
+msgstr "Powiedz nam co myślisz, twoje sugestie są mile widziane."
+
+#: inc/model.php:21
+#: inc/model.php:23
+#: inc/model.php:24
+#@ usernoise
+msgctxt "admin"
+msgid "Feedback"
+msgstr "Wiadomość"
+
+#: inc/model.php:25
+#@ usernoise
+msgid "Add new"
+msgstr "Dodaj nową"
+
+#: inc/model.php:26
+#@ usernoise
+msgid "Add new feedback"
+msgstr "Napisz wiadomość"
+
+#: inc/model.php:27
+#: inc/model.php:29
+#@ usernoise
+msgid "View feedback"
+msgstr "Pokaż wiadomość"
+
+#: admin/dashboard.php:15
+#: inc/model.php:28
+#@ usernoise
+msgid "New feedback"
+msgstr "Nowa wiadomość"
+
+#: inc/model.php:30
+#@ usernoise
+msgid "Search feedback"
+msgstr "Szukaj wiadomośći"
+
+#: inc/model.php:31
+#@ usernoise
+msgid "Feedback not found"
+msgstr "Wiadomość nie odnaleziona"
+
+#: inc/model.php:32
+#@ usernoise
+msgid "Feedback not found in Trash"
+msgstr "Wiadomość nie odnaleziona w koszu"
+
+#: admin/menu.php:14
+#: inc/model.php:33
+#@ usernoise
+msgid "Usernoise"
+msgstr "Usernoise"
+
+#: inc/model.php:35
+#@ usernoise
+msgid "Feedback left by users using a form in a lightbox"
+msgstr "Wiadomość wysłana przez użytkownika używającego lightbox'a"
+
+#: inc/model.php:54
+#@ usernoise
+msgid "Please enter a summary."
+msgstr "Wpisz streszczenie."
+
+#: inc/model.php:57
+#@ usernoise
+msgid "Please enter the feedback."
+msgstr "Napisz wiadomość"
+
+#: inc/model.php:60
+#@ usernoise
+msgid "Please enter a valid email address."
+msgstr "Wpisz poprawny adres email."
+
+#: inc/model.php:90
+#@ default
+msgid "feedback"
+msgstr "wiadomośći"
+
+#: inc/model.php:91
+#, php-format
+#@ default
+msgid "A new %s has been submitted. View it: <a href=\"%s\">%s</a>."
+msgstr "Nowa %s została wysłana. ZObacz: <a href=\"%s\">%s</a>."
+
+#: inc/model.php:99
+#, php-format
+#@ default
+msgid "New %s submitted at %s"
+msgstr ""
+
+#: inc/model.php:152
+#@ usernoise
+msgid "ideas"
+msgstr "pomysły"
+
+#: inc/model.php:153
+#@ usernoise
+msgid "questions"
+msgstr "pytania"
+
+#: inc/model.php:154
+#@ usernoise
+msgid "problems"
+msgstr "problemy"
+
+#: inc/model.php:155
+#@ usernoise
+msgid "praises"
+msgstr "pochwały"
+
+#: admin/settings.php:45
+#@ usernoise
+msgctxt "button"
+msgid "Feedback"
+msgstr "Wiadomość"
+
+#: admin/settings.php:61
+#@ usernoise
+msgctxt "form"
+msgid "Feedback"
+msgstr "Wiadomość"
+
+#: admin/settings.php:13
+#@ usernoise
+msgid "Usernoise settings"
+msgstr "Ustawienia Usernoisa"
+
+#: admin/settings.php:26
+#: vendor/plugin-options-framework/plugin-options-framework.php:393
+#@ usernoise
+#@ default
+msgid "General"
+msgstr "Główne"
+
+#: admin/settings.php:28
+#@ usernoise
+msgid "Enable Usernoise"
+msgstr "Włącz Usernoisa"
+
+#: admin/settings.php:31
+#@ usernoise
+msgid "Show Powered by"
+msgstr "Pokaż napędzane przez"
+
+#: admin/settings.php:39
+#: admin/upgrade.php:42
+#@ usernoise
+msgid "Button"
+msgstr "Przycisk"
+
+#: admin/settings.php:50
+#@ usernoise
+msgid "Background color"
+msgstr "Kolor tła"
+
+#: admin/settings.php:44
+#@ usernoise
+msgid "Text"
+msgstr "Tekst"
+
+#: admin/settings.php:47
+#@ usernoise
+msgid "Text color"
+msgstr "Kolor tekstu"
+
+#: admin/settings.php:23
+#@ default
+msgid "Left"
+msgstr "Lewa"
+
+#: admin/settings.php:23
+#@ default
+msgid "Right"
+msgstr "Prawa"
+
+#: admin/settings.php:23
+#@ default
+msgid "Top"
+msgstr "Góra"
+
+#: admin/settings.php:24
+#@ default
+msgid "Bottom"
+msgstr "Dół"
+
+#: admin/settings.php:53
+#@ usernoise
+msgid "Show border"
+msgstr "Pokaż obramowanie"
+
+#: admin/settings.php:41
+#@ usernoise
+msgid "Position"
+msgstr "Pozycja"
+
+#: admin/settings.php:60
+#@ usernoise
+msgid "Form title"
+msgstr "Tytuł wiadomości"
+
+#: admin/settings.php:63
+#@ usernoise
+msgid "Introductional text"
+msgstr "Tekst wprowadzający"
+
+#: admin/settings.php:68
+#: admin/settings.php:69
+#@ usernoise
+msgid "Ask for feedback type"
+msgstr "Proś o typ wiadomości"
+
+#: admin/settings.php:72
+#: admin/settings.php:73
+#@ usernoise
+msgid "Ask for a summary"
+msgstr "Proś o streszczenie"
+
+#: admin/settings.php:76
+#: admin/settings.php:77
+#@ usernoise
+msgid "Ask for an email"
+msgstr "Proś o adres email"
+
+#: admin/settings.php:80
+#@ usernoise
+msgid "Submit button text"
+msgstr "Tekst na przycisku wysyłania wiadomości"
+
+#: admin/settings.php:82
+#@ usernoise
+msgid "Thank you screen"
+msgstr "Ekran podziękowalny"
+
+#: admin/settings.php:84
+#@ usernoise
+msgid "Thank you screen title"
+msgstr "Tytuł ekranu podziękowalnego"
+
+#: admin/settings.php:87
+#@ usernoise
+msgid "Thank you text"
+msgstr "Podziękowanie"
+
+#: admin/settings.php:98
+#, php-format
+#@ usernoise
+msgid "Notification emails will be sent to: <a href=\"mailto:%s\">%s</a>"
+msgstr "Email z potwierdzenie będzie wysłany do: <a href=\"mailto:%s\">%s</a>"
+
+#: admin/settings.php:101
+#, php-format
+#@ usernoise
+msgid "(you can change it at <a href=\"%s\">%s</a> page)."
+msgstr "(możesz to zmienić na stronie <a href=\"%s\">%s</a>)."
+
+#: admin/settings.php:102
+#@ default
+msgid "General Options"
+msgstr "Opcje główne"
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:296
+#@ default
+msgid "Select a Color"
+msgstr "Wybierz kolor"
+
+#: admin/editor-page.php:54
+#@ usernoise
+msgid "Feedback was marked as reviewed"
+msgstr "Wiadomość oznaczona jako przeczytana"
+
+#: admin/editor-page.php:73
+#@ default
+msgid "Author"
+msgstr "Autor"
+
+#: admin/notifications.php:20
+#, php-format
+#@ usernoise
+msgid "Usernoise is disabled now. You can enable and configure it at the <a href=\"%s\">settings page</a>."
+msgstr "Usernoise jest wyłączony. Możesz go włączyć i skonfigurować na stronie <a href=\"%s\">ustawień</a>."
+
+#: admin/feedback-list.php:33
+#@ usernoise
+msgid "Type"
+msgstr "Typ"
+
+#: admin/feedback-list.php:56
+#@ usernoise
+msgid "All feedback types"
+msgstr "Wszystkie typy wiadomości"
+
+#: admin/dashboard.php:32
+#@ default
+msgid "by"
+msgstr "przez"
+
+#: admin/dashboard.php:42
+#@ usernoise
+msgid "View all feedback"
+msgstr "Pokaż wszystkie wiadomości"
+
+#: admin/dashboard.php:45
+#@ usernoise
+msgid "No new feedback now."
+msgstr "Brak nowych wiadomości."
+
+#: admin/admin-bar.php:17
+#, php-format
+#@ default
+msgid "Usernoise %s"
+msgstr ""
+
+#: admin/editor-page.php:33
+#@ usernoise
+msgid "HTTP Headers"
+msgstr ""
+
+#: admin/editor-page.php:35
+#@ default
+msgid "Discussion"
+msgstr ""
+
+#: admin/editor-page.php:36
+#@ usernoise
+msgid "WordPress Debug Info"
+msgstr ""
+
+#: admin/settings.php:32
+#@ usernoise
+msgid "Show <strong>\"Powered by Usernoise\"</strong> link at the modal window. Check this, please!"
+msgstr ""
+
+#: admin/settings.php:34
+#@ default
+msgid "The link will only be visible at the modal window."
+msgstr ""
+
+#: admin/settings.php:36
+#: admin/settings.php:37
+#@ usernoise
+msgid "Disable on mobile devices"
+msgstr ""
+
+#: admin/settings.php:57
+#: admin/settings.php:58
+#@ usernoise
+msgid "Form"
+msgstr ""
+
+#: admin/settings.php:65
+#: admin/settings.php:89
+#@ default
+msgid "This text will be wrapped into &lt;p&gt; tag. You can still use HTML code."
+msgstr ""
+
+#: admin/settings.php:85
+#: html/window.php:55
+#@ usernoise
+msgid "Thank you"
+msgstr ""
+
+#: admin/settings.php:88
+#: html/window.php:57
+#@ usernoise
+msgid "Your feedback has been received."
+msgstr ""
+
+#: admin/settings.php:92
+#@ usernoise
+msgid "Notifications"
+msgstr ""
+
+#: admin/settings.php:94
+#@ usernoise
+msgid "New feedback received admin notification"
+msgstr ""
+
+#: admin/settings.php:95
+#@ usernoise
+msgid "Enable"
+msgstr ""
+
+#: admin/settings.php:115
+#@ usernoise
+msgid "Notifications do not work right?"
+msgstr ""
+
+#: admin/upgrade.php:18
+#@ usernoise
+msgid "Pro Settings"
+msgstr ""
+
+#: admin/upgrade.php:19
+#: admin/upgrade.php:20
+#@ usernoise
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: admin/upgrade.php:21
+#, php-format
+#@ usernoise
+msgid "Please <a href=\"%s\" class=\"un-upgrade\" target='_new'>Upgrade to Pro</a> to enable the settings below."
+msgstr ""
+
+#: admin/upgrade.php:26
+#: admin/upgrade.php:27
+#@ usernoise
+msgid "Enable feedback list &amp; discussions."
+msgstr ""
+
+#: admin/upgrade.php:30
+#: admin/upgrade.php:36
+#@ usernoise
+msgid "Screenshots"
+msgstr ""
+
+#: admin/upgrade.php:34
+#: admin/upgrade.php:35
+#@ usernoise
+msgid "Gather advanced debug info"
+msgstr ""
+
+#: admin/upgrade.php:44
+#: admin/upgrade.php:45
+#@ usernoise
+msgid "Hide Feedback button"
+msgstr ""
+
+#: admin/upgrade.php:46
+#@ usernoise
+msgid "You can hide Feedback button to show it programmatically."
+msgstr ""
+
+#: admin/upgrade.php:49
+#@ usernoise
+msgid "Alternate \"Feedback\" button ID"
+msgstr ""
+
+#: admin/upgrade.php:51
+#@ usernoise
+msgid "Usernoise window will be shown upon click of element with that ID. For example, if you have the next link: <code>&lt;a href=\"#\" id=\"my-link\"&gt;some link&lt;/a&gt;</code>, put \"my-link\" here."
+msgstr ""
+
+#: admin/upgrade.php:54
+#@ usernoise-pro
+msgid "Custom CSS properties"
+msgstr ""
+
+#: admin/upgrade.php:55
+#@ usernoise-pro
+msgid "Usernoise button custom CSS properties. Remove /* and */ to enable. Don't put here HTML tags."
+msgstr ""
+
+#: admin/upgrade.php:59
+#@ usernoise-pro
+msgid "Form design"
+msgstr ""
+
+#: admin/upgrade.php:61
+#@ usernoise-pro
+msgid "Custom CSS for Usernoise window"
+msgstr ""
+
+#: admin/upgrade.php:63
+#@ usernoise-pro
+msgid "You can override the form's style by applying your own CSS. Don't forget to remove comment symbols and do not put HTML tags here."
+msgstr ""
+
+#: html/window.php:14
+#@ usernoise
+msgid "Close"
+msgstr ""
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:151
+#@ default
+msgid "Please provide some settings fields when creating an options framework instance"
+msgstr ""
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:171
+#@ default
+msgid "This page requires JavaScript to be enabled in your browser. Please enable JavaScript."
+msgstr ""
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:218
+#@ default
+msgid "Save Options"
+msgstr ""
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:219
+#@ default
+msgid "Restore Defaults"
+msgstr ""
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:219
+#@ default
+msgid "Click OK to reset. All the settings will be reset to defaults!"
+msgstr ""
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:330
+#@ default
+msgid "Upgrade to WordPress 3.3 or later to enable WYSIWYG editor"
+msgstr ""
+

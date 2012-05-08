@@ -1,0 +1,597 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Nikolay Karev <karev.n@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ usernoise
+#: inc/model.php:25
+msgid "Add new"
+msgstr "Добави ново"
+
+#@ usernoise
+#: inc/model.php:26
+msgid "Add new feedback"
+msgstr "Добави ново съобщение"
+
+#@ usernoise
+#: admin/settings.php:79
+msgid "Admin notifications"
+msgstr "Известяване на администратор"
+
+#@ usernoise
+#: admin/feedback-list.php:56
+msgid "All feedback types"
+msgstr "Всички типове съобщения"
+
+#@ usernoise
+#: admin/settings.php:60
+#: admin/settings.php:61
+msgid "Ask for a summary"
+msgstr "Изискай кратко заглавие"
+
+#@ usernoise
+#: admin/settings.php:64
+#: admin/settings.php:65
+msgid "Ask for an email"
+msgstr "Изискай е-поща"
+
+#@ default
+#: admin/editor-page.php:87
+msgid "Author"
+msgstr "Подател"
+
+#@ usernoise
+#: admin/settings.php:37
+msgid "Background color"
+msgstr "Цвят на фона"
+
+#@ usernoise
+#: admin/settings.php:35
+msgid "Button"
+msgstr "Бутон"
+
+#@ default
+#: html/publish-meta-box.php:57
+msgid "Delete Permanently"
+msgstr "Изтрий перманентно"
+
+#@ default
+#: html/publish-meta-box.php:25
+msgid "Draft"
+msgstr "Чернова"
+
+#@ usernoise
+#: admin/settings.php:50
+msgid "Feedback form"
+msgstr "Форма за контакт"
+
+#@ usernoise
+#: inc/model.php:35
+msgid "Feedback left by users using a form in a lightbox"
+msgstr "Съобщение, оставено чрез форма на Usernoice"
+
+#@ usernoise
+#: inc/model.php:31
+msgid "Feedback not found"
+msgstr "Няма съобщения"
+
+#@ usernoise
+#: inc/model.php:32
+msgid "Feedback not found in Trash"
+msgstr "В Кошчето няма съобщения"
+
+#@ usernoise
+#: admin/settings.php:32
+msgid "Font"
+msgstr "Шрифт"
+
+#@ usernoise
+#: admin/settings.php:52
+msgid "Form title"
+msgstr "Заглавие на формата"
+
+#@ usernoise
+#@ default
+#: admin/settings.php:16
+#: vendor/plugin-options-framework/plugin-options-framework.php:124
+msgid "General"
+msgstr "Общи"
+
+#@ usernoise
+#@ default
+#: html/form-feedback.php:16
+#: usernoise.php:79
+msgid "Idea"
+msgstr "Идея"
+
+#@ usernoise
+#: admin/settings.php:55
+msgid "Introductional text"
+msgstr "Приветствен текст"
+
+#@ default
+#: html/publish-meta-box.php:36
+msgid "M j, Y @ G:i"
+msgstr "j.M.Y в G:i ч."
+
+#@ default
+#: html/publish-meta-box.php:59
+msgid "Move to Trash"
+msgstr "Сложи в Кошчето"
+
+#@ usernoise
+#: admin/dashboard.php:15
+#: inc/model.php:28
+msgid "New feedback"
+msgstr "Ново съобщение"
+
+#@ usernoise
+#: admin/settings.php:81
+#: admin/settings.php:82
+msgid "New feedback received"
+msgstr "Получено ново съобщение"
+
+#@ usernoise
+#: html/publish-meta-box.php:21
+msgid "Pending Review"
+msgstr "Очаква преглед"
+
+#@ usernoise
+#: inc/model.php:55
+msgid "Please enter a summary."
+msgstr "Моля, въведете кратко заглавие"
+
+#@ usernoise
+#: inc/model.php:61
+msgid "Please enter a valid email address."
+msgstr "Моля, въведете валидна е-поща"
+
+#@ usernoise
+#: inc/model.php:58
+msgid "Please enter the feedback."
+msgstr "Моля, въведете съобщение"
+
+#@ usernoise
+#: admin/settings.php:56
+#: inc/template.php:114
+msgid "Please tell us what do you think, any kind of feedback is highly appreciated."
+msgstr "Моля, изберете една от четирите възможности да потърсите контакт с нас: идея, проблем, въпрос или похвала."
+
+#@ usernoise
+#: html/form-feedback.php:19
+#: usernoise.php:80
+msgid "Praise"
+msgstr "Похвала"
+
+#@ default
+#: html/publish-meta-box.php:12
+msgid "Privately Published"
+msgstr "Публикувано с ограничен достъп"
+
+#@ usernoise
+#: html/form-feedback.php:17
+#: usernoise.php:79
+msgid "Problem"
+msgstr "Проблем"
+
+#@ default
+#: admin/editor-page.php:19
+#: html/publish-meta-box.php:68
+msgid "Publish"
+msgstr "Публикувай"
+
+#@ usernoise
+#: html/form-feedback.php:18
+#: usernoise.php:79
+msgid "Question"
+msgstr "Въпрос"
+
+#@ usernoise
+#: html/publish-meta-box.php:15
+#: html/publish-meta-box.php:69
+msgid "Reviewed"
+msgstr "Прегледано"
+
+#@ default
+#: html/publish-meta-box.php:18
+msgid "Scheduled"
+msgstr "Планирано"
+
+#@ usernoise
+#: inc/model.php:30
+msgid "Search feedback"
+msgstr "Търси съобщение"
+
+#@ default
+#: vendor/plugin-options-framework/plugin-options-framework.php:222
+msgid "Select a Color"
+msgstr "Избери цвят"
+
+#@ default
+#: html/publish-meta-box.php:37
+#, php-format
+msgid "Sent on: <b>%1$s</b>"
+msgstr "Изпратено на: <b>%1$s</b>"
+
+#@ usernoise
+#: html/form-feedback.php:25
+#: inc/controller.php:29
+msgid "Short summary"
+msgstr "Кратко заглавие"
+
+#@ usernoise
+#: admin/settings.php:33
+msgid "Site default font"
+msgstr "Шрифт на сайта"
+
+#@ default
+#: html/publish-meta-box.php:7
+msgid "Status:"
+msgstr "Статус:"
+
+#@ usernoise
+#: admin/settings.php:68
+msgid "Submit button text"
+msgstr "Текст на бутона за изпращане"
+
+#@ usernoise
+#: admin/settings.php:69
+#: inc/template.php:109
+msgid "Submit feedback"
+msgstr "Изпрати съобщението"
+
+#@ usernoise
+#: admin/settings.php:40
+msgid "Text"
+msgstr "Текст"
+
+#@ usernoise
+#: admin/settings.php:43
+msgid "Text color"
+msgstr "Цвят на текста"
+
+#@ usernoise
+#: admin/settings.php:73
+#: html/thankyou.php:2
+msgid "Thank you"
+msgstr "Благодарим ви!"
+
+#@ usernoise
+#: admin/settings.php:70
+msgid "Thank you screen"
+msgstr "Благодарствен екран"
+
+#@ usernoise
+#: admin/settings.php:72
+msgid "Thank you screen title"
+msgstr "Заглавие на благодарствения екран"
+
+#@ usernoise
+#: admin/settings.php:75
+msgid "Thank you text"
+msgstr "Благодарствен текст"
+
+#@ usernoise
+#: admin/feedback-list.php:32
+msgid "Type"
+msgstr "Вид"
+
+#@ default
+#: html/publish-meta-box.php:71
+msgid "Update"
+msgstr "Обнови"
+
+#@ usernoise
+#: admin/menu.php:14
+#: inc/model.php:33
+msgid "Usernoise"
+msgstr "Usernoise"
+
+#@ usernoise
+#: admin/settings.php:92
+msgid "Usernoise settings"
+msgstr "Настройки на Usernoise"
+
+#@ usernoise
+#: inc/model.php:27
+#: inc/model.php:29
+msgid "View feedback"
+msgstr "Виж съобщението"
+
+#@ usernoise
+#: html/form-feedback.php:28
+#: inc/controller.php:33
+msgid "Your email (will not be published)"
+msgstr "Вашата е-поща (няма да бъде публикувана)"
+
+#@ usernoise
+#: html/form-feedback.php:23
+#: inc/controller.php:31
+msgid "Your feedback"
+msgstr "Вашето съобщение"
+
+#@ usernoise
+#: admin/settings.php:76
+#: html/thankyou.php:4
+msgid "Your feedback has been received."
+msgstr "Вашето съобщение е прието."
+
+#@ usernoise
+#: inc/model.php:21
+#: inc/model.php:23
+#: inc/model.php:24
+msgctxt "admin"
+msgid "Feedback"
+msgstr "Съобщение"
+
+#@ usernoise
+#: admin/settings.php:41
+msgctxt "button"
+msgid "Feedback"
+msgstr "Съобщение"
+
+#@ default
+#: inc/model.php:91
+msgid "feedback"
+msgstr "съобщение"
+
+#@ usernoise
+#: admin/settings.php:53
+msgctxt "form"
+msgid "Feedback"
+msgstr "Съобщение"
+
+#@ default
+#: admin/admin-bar.php:17
+#, php-format
+msgid "Usernoise %s"
+msgstr "Usernoise %s"
+
+#@ default
+#: admin/dashboard.php:32
+msgid "by"
+msgstr "от"
+
+#@ usernoise
+#: admin/dashboard.php:42
+msgid "View all feedback"
+msgstr "Виж всички съобщения"
+
+#@ usernoise
+#: admin/dashboard.php:45
+msgid "No new feedback now."
+msgstr "Няма нови съобщения."
+
+#@ default
+#: admin/editor-page.php:27
+msgid "Reply"
+msgstr "Отговор"
+
+#@ default
+#: admin/editor-page.php:42
+msgid "Hacking, huh?"
+msgstr "Хакерстваме, а?"
+
+#@ usernoise
+#: admin/editor-page.php:45
+msgid "Please enter some message."
+msgstr "Моля, въведете съобщение"
+
+#@ usernoise
+#: admin/editor-page.php:56
+msgid "Feedback author email is unknown."
+msgstr "Е-пощата на Подателя е неизвестна"
+
+#@ usernoise
+#: admin/editor-page.php:61
+msgid "Email sent successfully."
+msgstr "Писмото е изпратено успешно"
+
+#@ usernoise
+#: admin/editor-page.php:66
+msgid "Feedback was marked as reviewed"
+msgstr "Съобщението бе отбелязано като прегледано."
+
+#@ usernoise
+#@ default
+#: admin/admin-bar.php:30
+#: admin/menu.php:16
+#: html/form-feedback.php:8
+#: vendor/plugin-options-framework/plugin-options-framework.php:52
+msgid "Settings"
+msgstr "Настройки"
+
+#@ usernoise
+#: admin/settings.php:25
+msgid "Show Powered by"
+msgstr "Показване на \"Благодарение на\""
+
+#@ usernoise
+#: admin/settings.php:26
+msgid "I like Usernoise and want to show <em>\"Powered by Usernoise\"</em>  link at the modal window."
+msgstr "Харесвам Usernoise и искам да се показва връзка <em>\"Благодарение на Usernoise\"</em> в прозореца за съобщения."
+
+#@ default
+#: admin/settings.php:12
+msgid "Left"
+msgstr "Вляво"
+
+#@ default
+#: admin/settings.php:12
+msgid "Right"
+msgstr "Вдясно"
+
+#@ default
+#: admin/settings.php:12
+msgid "Top"
+msgstr "Горе"
+
+#@ default
+#: admin/settings.php:13
+msgid "Bottom"
+msgstr "Долу"
+
+#@ usernoise
+#: admin/settings.php:46
+msgid "Show border"
+msgstr "Покажи рамка"
+
+#@ usernoise
+#: admin/settings.php:48
+msgid "Position"
+msgstr "Позиция"
+
+#@ usernoise
+#: admin/settings.php:21
+#: admin/settings.php:22
+msgid "Hide on mobile devices"
+msgstr "Скрий за мобилни устройства"
+
+#@ default
+#: admin/settings.php:88
+msgid "General Options"
+msgstr "Общи настройки"
+
+#@ usernoise
+#: html/powered-by.php:2
+msgid "Powered by"
+msgstr "Благодарение на "
+
+#@ default
+#: html/publish-meta-box.php:72
+msgid "OK"
+msgstr "ОК"
+
+#@ usernoise
+#: html/reply-meta-box.php:4
+msgid "Subject"
+msgstr "Относно"
+
+#@ usernoise
+#: admin/admin-bar.php:23
+#: html/form-feedback.php:5
+#: html/reply-meta-box.php:5
+#: inc/integration.php:24
+#: inc/template.php:105
+msgid "Feedback"
+msgstr "Съобщение"
+
+#@ usernoise
+#: html/reply-meta-box.php:8
+msgid "Send"
+msgstr "Изпрати"
+
+#@ usernoise
+#: inc/template.php:61
+msgid "or"
+msgstr "или"
+
+#@ usernoise
+#: admin/ads.php:16
+#, php-format
+msgid "Usernoise is disabled now. You can enable and configure it at the <a href=\"%s\">settings page</a>."
+msgstr "Usernoise не е активиран все още. Можете да го направите и настроите в страницата за <a href=\"%s\">Настройки</a>"
+
+#@ usernoise
+#: admin/settings.php:18
+msgid "Enable Usernoise"
+msgstr "Активирай Usernoice"
+
+#@ usernoise
+#: admin/settings.php:85
+#, php-format
+msgid "Notification emails will be sent to: <a href=\"mailto:%s\">%s</a>"
+msgstr "Известяванията ще бъдат изпращани на: <a href=\"mailto:%s\">%s</a>"
+
+#@ usernoise
+#: admin/settings.php:87
+#, php-format
+msgid "(you can change it at <a href=\"%s\">%s</a> page)."
+msgstr "(можете да промените е-пощата си в <a href=\"%s\">%s</a>)."
+
+#@ default
+#: inc/model.php:92
+#, php-format
+msgid "A new %s has been submitted. View it: <a href=\"%s\">%s</a>."
+msgstr "Имате ново %s. Вижте го: <a href=\"%s\">%s</a>!"
+
+#@ default
+#: inc/model.php:100
+#, php-format
+msgid "New %s submitted at %s"
+msgstr "Прието е ново %s от %s"
+
+#@ usernoise
+#: inc/model.php:152
+msgid "ideas"
+msgstr "идеи"
+
+#@ usernoise
+#: inc/model.php:153
+msgid "questions"
+msgstr "въпроси"
+
+#@ usernoise
+#: inc/model.php:154
+msgid "problems"
+msgstr "проблеми"
+
+#@ usernoise
+#: inc/model.php:155
+msgid "praises"
+msgstr "похвали"
+
+#@ usernoise
+#: admin/settings.php:29
+#: admin/settings.php:30
+msgid "Load Usernoise in footer"
+msgstr "Зареди Usernoise в долния колонтитул."
+
+#@ usernoise
+#: admin/settings.php:31
+msgid "Load Usernoise javascripts in footer. Sligtly increases page loading speed, but may be incompatible with some themes."
+msgstr "Зарежда джаваскрипта за Usernose в долния колонтитул на сайта (footer). Това намалява леко времето за зареждане на страницата, но може да се окаже проблемно при някои шаблони."
+
+#@ default
+#: admin/settings.php:57
+#: admin/settings.php:77
+msgid "This text will be wrapped into &lt;p&gt; tag. You can still use HTML code."
+msgstr "Този текст ще бъде поставн в оператор &lt;p&gt;, като възможността да ползвате HTML код си остава."
+
+#@ default
+#: vendor/plugin-options-framework/plugin-options-framework.php:103
+msgid "Please provide some settings fields when creating an options framework instance"
+msgstr "Моля, посочете няколко стойности, когато създавате възможност за избор."
+
+#@ default
+#: vendor/plugin-options-framework/plugin-options-framework.php:172
+msgid "Save Options"
+msgstr "Запази настройките"
+
+#@ default
+#: vendor/plugin-options-framework/plugin-options-framework.php:173
+msgid "Restore Defaults"
+msgstr "Възстанови началните настройки"
+
+#@ default
+#: vendor/plugin-options-framework/plugin-options-framework.php:173
+msgid "Click OK to reset. All the settings will be reset to defaults!"
+msgstr "Натиснете ОК за изчистване. Всички настройки ще се върнат към първоначалните си стойности."
+
+#@ default
+#: vendor/plugin-options-framework/plugin-options-framework.php:250
+msgid "Upgrade to WordPress 3.3 or later to enable WYSIWYG editor"
+msgstr "Обновете до версия 3.3 или по-нова на Уърдпрес, за да можете да ползвате екранен редактор WYSIWYG."
+

@@ -42,4 +42,5 @@ get_header(); ?>
             <?php echo  get_post_meta($post->ID, 'percent', 1); ?> 
 
             </div>
+            <?php get_sidebar(); ?>
 <?php get_footer(); ?>

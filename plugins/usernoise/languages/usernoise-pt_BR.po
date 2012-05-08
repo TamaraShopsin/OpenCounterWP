@@ -1,0 +1,601 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/usernoise\n"
+"POT-Creation-Date: 2011-10-07 10:49:55+00:00\n"
+"PO-Revision-Date: 2011-10-07 20:52+GM+3\n"
+"Last-Translator: Ricardo Amaral <ricardo.amaral@me.com>\n"
+"Language-Team: Portugues_Brasil pt_BR <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: admin/admin-bar.php:23
+#: html/form-feedback.php:5
+#: html/reply-meta-box.php:5
+#: inc/integration.php:24
+#: inc/template.php:105
+#@ usernoise
+msgid "Feedback"
+msgstr "Comentário"
+
+#: admin/admin-bar.php:30
+#: admin/menu.php:16
+#: html/form-feedback.php:8
+#: vendor/plugin-options-framework/plugin-options-framework.php:52
+#@ usernoise
+#@ default
+msgid "Settings"
+msgstr "Configuração"
+
+#: html/form-feedback.php:16
+#: usernoise.php:79
+#@ usernoise
+#@ default
+msgid "Idea"
+msgstr "Idéia"
+
+#: html/form-feedback.php:17
+#: usernoise.php:79
+#@ usernoise
+msgid "Problem"
+msgstr "Problema"
+
+#: html/form-feedback.php:18
+#: usernoise.php:79
+#@ usernoise
+msgid "Question"
+msgstr "Dúvida"
+
+#: html/form-feedback.php:19
+#: usernoise.php:80
+#@ usernoise
+msgid "Praise"
+msgstr "Elogio"
+
+#: html/form-feedback.php:23
+#: inc/controller.php:31
+#@ usernoise
+msgid "Your feedback"
+msgstr "Seu Comentário"
+
+#: html/form-feedback.php:25
+#: inc/controller.php:29
+#@ usernoise
+msgid "Short summary"
+msgstr "Resumo"
+
+#: html/form-feedback.php:28
+#: inc/controller.php:33
+#@ usernoise
+msgid "Your email (will not be published)"
+msgstr "Seu email (não será publicado)"
+
+#: html/publish-meta-box.php:7
+#@ default
+msgid "Status:"
+msgstr "Situação"
+
+#: html/publish-meta-box.php:12
+#@ default
+msgid "Privately Published"
+msgstr "Publicação privada"
+
+#: html/publish-meta-box.php:15
+#: html/publish-meta-box.php:69
+#@ usernoise
+msgid "Reviewed"
+msgstr "Revisado"
+
+#: html/publish-meta-box.php:18
+#@ default
+msgid "Scheduled"
+msgstr "Programado"
+
+#: html/publish-meta-box.php:21
+#@ usernoise
+msgid "Pending Review"
+msgstr "Pendente de revisão"
+
+#: html/publish-meta-box.php:25
+#@ default
+msgid "Draft"
+msgstr "Rascunho"
+
+#: html/publish-meta-box.php:36
+#@ default
+msgid "M j, Y @ G:i"
+msgstr "j de M de Y @ G:i"
+
+#: html/publish-meta-box.php:37
+#, php-format
+#@ default
+msgid "Sent on: <b>%1$s</b>"
+msgstr "Enviado em: <b>%1$s</b>"
+
+#: html/publish-meta-box.php:57
+#@ default
+msgid "Delete Permanently"
+msgstr "Apagado"
+
+#: html/publish-meta-box.php:59
+#@ default
+msgid "Move to Trash"
+msgstr "Mover para lixeira"
+
+#: admin/editor-page.php:19
+#: html/publish-meta-box.php:68
+#@ default
+msgid "Publish"
+msgstr "Publicar"
+
+#: html/publish-meta-box.php:71
+#@ default
+msgid "Update"
+msgstr "Atualizar"
+
+#: html/publish-meta-box.php:72
+#@ default
+msgid "OK"
+msgstr "OK"
+
+#: admin/settings.php:73
+#: html/thankyou.php:2
+#@ usernoise
+msgid "Thank you"
+msgstr "Obrigado"
+
+#: admin/settings.php:76
+#: html/thankyou.php:4
+#@ usernoise
+msgid "Your feedback has been received."
+msgstr "Seu comentário foi recebido."
+
+#: html/powered-by.php:2
+#@ usernoise
+msgid "Powered by"
+msgstr "Desenvolvido por"
+
+#: html/reply-meta-box.php:4
+#@ usernoise
+msgid "Subject"
+msgstr "Assunto"
+
+#: html/reply-meta-box.php:8
+#@ usernoise
+msgid "Send"
+msgstr "Enviar"
+
+#: inc/template.php:61
+#@ usernoise
+msgid "or"
+msgstr "ou"
+
+#: admin/settings.php:69
+#: inc/template.php:109
+#@ usernoise
+msgid "Submit feedback"
+msgstr "Enviar comentário"
+
+#: admin/settings.php:56
+#: inc/template.php:114
+#@ usernoise
+msgid "Please tell us what do you think, any kind of feedback is highly appreciated."
+msgstr "O que você esta pensando? Qualquer comentário será apreciado.Obrigado."
+
+#: inc/model.php:21
+#: inc/model.php:23
+#: inc/model.php:24
+#@ usernoise
+msgctxt "admin"
+msgid "Feedback"
+msgstr "Comentário"
+
+#: inc/model.php:25
+#@ usernoise
+msgid "Add new"
+msgstr "Adicionar novo"
+
+#: inc/model.php:26
+#@ usernoise
+msgid "Add new feedback"
+msgstr "Adicionar novo comentário"
+
+#: inc/model.php:27
+#: inc/model.php:29
+#@ usernoise
+msgid "View feedback"
+msgstr "Visualizar comentário"
+
+#: admin/dashboard.php:15
+#: inc/model.php:28
+#@ usernoise
+msgid "New feedback"
+msgstr "Novo comentário"
+
+#: inc/model.php:30
+#@ usernoise
+msgid "Search feedback"
+msgstr "Buscar comentário"
+
+#: inc/model.php:31
+#@ usernoise
+msgid "Feedback not found"
+msgstr "Comentário não encontrado"
+
+#: inc/model.php:32
+#@ usernoise
+msgid "Feedback not found in Trash"
+msgstr "Comentário não encontrado no lixo"
+
+#: admin/menu.php:14
+#: inc/model.php:33
+#@ usernoise
+msgid "Usernoise"
+msgstr "Usernoise"
+
+#: inc/model.php:35
+#@ usernoise
+msgid "Feedback left by users using a form in a lightbox"
+msgstr "Comentário deixado por usuários usando um formulário"
+
+#: inc/model.php:55
+#@ usernoise
+msgid "Please enter a summary."
+msgstr "Por favor escreva um resumo"
+
+#: inc/model.php:58
+#@ usernoise
+msgid "Please enter the feedback."
+msgstr "Por favor escreva um comentário"
+
+#: inc/model.php:61
+#@ usernoise
+msgid "Please enter a valid email address."
+msgstr "Por favor informe um endereço de e-mail válido"
+
+#: inc/model.php:91
+#@ default
+msgid "feedback"
+msgstr "Comentário"
+
+#: inc/model.php:92
+#, php-format
+#@ default
+msgid "A new %s has been submitted. View it: <a href=\"%s\">%s</a>."
+msgstr "Um novo %s foi enviado. Visualizar isto: <a href=\"%s\">%s</a>."
+
+#: inc/model.php:100
+#, php-format
+#@ default
+msgid "New %s submitted at %s"
+msgstr "Novo %s enviado as %s"
+
+#: inc/model.php:152
+#@ usernoise
+msgid "ideas"
+msgstr "idéias"
+
+#: inc/model.php:153
+#@ usernoise
+msgid "questions"
+msgstr "dúvidas"
+
+#: inc/model.php:154
+#@ usernoise
+msgid "problems"
+msgstr "problemas"
+
+#: inc/model.php:155
+#@ usernoise
+msgid "praises"
+msgstr "elogios"
+
+#: admin/settings.php:41
+#@ usernoise
+msgctxt "button"
+msgid "Feedback"
+msgstr "Comentário"
+
+#: admin/settings.php:53
+#@ usernoise
+msgctxt "form"
+msgid "Feedback"
+msgstr "Comentário"
+
+#: admin/settings.php:92
+#@ usernoise
+msgid "Usernoise settings"
+msgstr "Configurar Usernoise"
+
+#: admin/settings.php:16
+#: vendor/plugin-options-framework/plugin-options-framework.php:124
+#@ usernoise
+#@ default
+msgid "General"
+msgstr "Geral"
+
+#: admin/settings.php:18
+#@ usernoise
+msgid "Enable Usernoise"
+msgstr "Habilitar Usernoise"
+
+#: admin/settings.php:25
+#@ usernoise
+msgid "Show Powered by"
+msgstr "Mostrar Desenvolvido por"
+
+#: admin/settings.php:32
+#@ usernoise
+msgid "Font"
+msgstr "Fonte"
+
+#: admin/settings.php:33
+#@ usernoise
+msgid "Site default font"
+msgstr "Fonte default"
+
+#: admin/settings.php:35
+#@ usernoise
+msgid "Button"
+msgstr "Botão"
+
+#: admin/settings.php:37
+#@ usernoise
+msgid "Background color"
+msgstr "Cor de fundo"
+
+#: admin/settings.php:40
+#@ usernoise
+msgid "Text"
+msgstr "Texto"
+
+#: admin/settings.php:43
+#@ usernoise
+msgid "Text color"
+msgstr "Cor do texto"
+
+#: admin/settings.php:12
+#@ default
+msgid "Left"
+msgstr "Esquerda"
+
+#: admin/settings.php:12
+#@ default
+msgid "Right"
+msgstr "Direita"
+
+#: admin/settings.php:12
+#@ default
+msgid "Top"
+msgstr "Acima"
+
+#: admin/settings.php:13
+#@ default
+msgid "Bottom"
+msgstr "Abaixo"
+
+#: admin/settings.php:46
+#@ usernoise
+msgid "Show border"
+msgstr "Mostar borda"
+
+#: admin/settings.php:48
+#@ usernoise
+msgid "Position"
+msgstr "Posição"
+
+#: admin/settings.php:21
+#: admin/settings.php:22
+#@ usernoise
+msgid "Hide on mobile devices"
+msgstr "Esconder em dispositivos móveis"
+
+#: admin/settings.php:50
+#@ usernoise
+msgid "Feedback form"
+msgstr "Formulário de comentário"
+
+#: admin/settings.php:52
+#@ usernoise
+msgid "Form title"
+msgstr "Título do formulário"
+
+#: admin/settings.php:55
+#@ usernoise
+msgid "Introductional text"
+msgstr "Texto de introdução"
+
+#: admin/settings.php:60
+#: admin/settings.php:61
+#@ usernoise
+msgid "Ask for a summary"
+msgstr "Pedir um sumário"
+
+#: admin/settings.php:64
+#: admin/settings.php:65
+#@ usernoise
+msgid "Ask for an email"
+msgstr "Pedir um e-mail"
+
+#: admin/settings.php:68
+#@ usernoise
+msgid "Submit button text"
+msgstr "Texto do botão enviar"
+
+#: admin/settings.php:70
+#@ usernoise
+msgid "Thank you screen"
+msgstr "Tela de agradecimento"
+
+#: admin/settings.php:72
+#@ usernoise
+msgid "Thank you screen title"
+msgstr "Título da tela de agradecimento"
+
+#: admin/settings.php:75
+#@ usernoise
+msgid "Thank you text"
+msgstr "Texto de agradecimento"
+
+#: admin/settings.php:79
+#@ usernoise
+msgid "Admin notifications"
+msgstr "Notificações do admin"
+
+#: admin/settings.php:81
+#: admin/settings.php:82
+#@ usernoise
+msgid "New feedback received"
+msgstr "Novo comentário recebido"
+
+#: admin/settings.php:85
+#, php-format
+#@ usernoise
+msgid "Notification emails will be sent to: <a href=\"mailto:%s\">%s</a>"
+msgstr "Email de notificação serão enviados para: <a href=\"mailto:%s\">%s</a>"
+
+#: admin/settings.php:87
+#, php-format
+#@ usernoise
+msgid "(you can change it at <a href=\"%s\">%s</a> page)."
+msgstr "(você pode mudar isto na página <a href=\"%s\">%s</a> )."
+
+#: admin/settings.php:88
+#@ default
+msgid "General Options"
+msgstr "Opções gerais"
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:222
+#@ default
+msgid "Select a Color"
+msgstr "Selecione uma cor"
+
+#: admin/editor-page.php:27
+#@ default
+msgid "Reply"
+msgstr "Responder"
+
+#: admin/editor-page.php:42
+#@ default
+msgid "Hacking, huh?"
+msgstr "Hacking, huh?"
+
+#: admin/editor-page.php:45
+#@ usernoise
+msgid "Please enter some message."
+msgstr "Por favor deixe uma mensagem"
+
+#: admin/editor-page.php:56
+#@ usernoise
+msgid "Feedback author email is unknown."
+msgstr "Autor do comentário desconhecido"
+
+#: admin/editor-page.php:61
+#@ usernoise
+msgid "Email sent successfully."
+msgstr "Email enviado com sucesso"
+
+#: admin/editor-page.php:66
+#@ usernoise
+msgid "Feedback was marked as reviewed"
+msgstr "Comentário foi marcado como revisado"
+
+#: admin/editor-page.php:87
+#@ default
+msgid "Author"
+msgstr "Autor"
+
+#: admin/ads.php:16
+#, php-format
+#@ usernoise
+msgid "Usernoise is disabled now. You can enable and configure it at the <a href=\"%s\">settings page</a>."
+msgstr "Usernoise esta desabilitado. Você pode habilita-lo e configura-lo em <a href=\"%s\">página de configuração</a>."
+
+#: admin/feedback-list.php:32
+#@ usernoise
+msgid "Type"
+msgstr "Tipo"
+
+#: admin/feedback-list.php:56
+#@ usernoise
+msgid "All feedback types"
+msgstr "Todos os tipos de comentários"
+
+#: admin/dashboard.php:32
+#@ default
+msgid "by"
+msgstr "por"
+
+#: admin/dashboard.php:42
+#@ usernoise
+msgid "View all feedback"
+msgstr "Visualizar todos os comentários"
+
+#: admin/dashboard.php:45
+#@ usernoise
+msgid "No new feedback now."
+msgstr "Sem novo comentário por hora."
+
+#: admin/admin-bar.php:17
+#, php-format
+#@ default
+msgid "Usernoise %s"
+msgstr "Usernoise %s"
+
+#: admin/settings.php:26
+#@ usernoise
+msgid "I like Usernoise and want to show <em>\"Powered by Usernoise\"</em>  link at the modal window."
+msgstr ""
+
+#: admin/settings.php:29
+#: admin/settings.php:30
+#@ usernoise
+msgid "Load Usernoise in footer"
+msgstr ""
+
+#: admin/settings.php:31
+#@ usernoise
+msgid "Load Usernoise javascripts in footer. Sligtly increases page loading speed, but may be incompatible with some themes."
+msgstr ""
+
+#: admin/settings.php:57
+#: admin/settings.php:77
+#@ default
+msgid "This text will be wrapped into &lt;p&gt; tag. You can still use HTML code."
+msgstr ""
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:103
+#@ default
+msgid "Please provide some settings fields when creating an options framework instance"
+msgstr ""
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:172
+#@ default
+msgid "Save Options"
+msgstr ""
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:173
+#@ default
+msgid "Restore Defaults"
+msgstr ""
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:173
+#@ default
+msgid "Click OK to reset. All the settings will be reset to defaults!"
+msgstr ""
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:250
+#@ default
+msgid "Upgrade to WordPress 3.3 or later to enable WYSIWYG editor"
+msgstr ""
+

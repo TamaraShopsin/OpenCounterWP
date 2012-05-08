@@ -1,0 +1,692 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ default
+#: inc/model.php:90
+msgid "A new"
+msgstr "Новий(а)"
+
+#@ usernoise
+#: inc/model.php:25
+msgid "Add new"
+msgstr "Додати"
+
+#@ usernoise
+#: inc/model.php:26
+msgid "Add new feedback"
+msgstr "Додати відгук\""
+
+#@ usernoise
+#: admin/settings.php:134
+msgid "Admin notifications"
+msgstr "Повідомлення адміністратора"
+
+#@ usernoise
+#: admin/feedback-list.php:55
+msgid "All feedback types"
+msgstr "Всі типи відгуків"
+
+#@ usernoise
+#: admin/settings.php:113
+msgid "Ask for a summary"
+msgstr "Запитувати заголовок відгуків"
+
+#@ usernoise
+#: admin/settings.php:117
+msgid "Ask for an email"
+msgstr "Питати email"
+
+#@ usernoise
+#: admin/settings.php:109
+msgid "Ask for feedback type"
+msgstr "Питати тип відгуку"
+
+#@ default
+#: admin/editor-page.php:86
+msgid "Author"
+msgstr "Автор"
+
+#@ usernoise
+#: admin/settings.php:73
+msgid "Background color"
+msgstr "Колір фону кнопки"
+
+#@ usernoise
+#: admin/settings.php:72
+msgid "Button"
+msgstr "Кнопка"
+
+#@ default
+#: html/publish-meta-box.php:61
+msgid "Delete Permanently"
+msgstr "Остаточно видалити"
+
+#@ default
+#: html/publish-meta-box.php:29
+msgid "Draft"
+msgstr "Чернетка"
+
+#@ usernoise
+#: admin/settings.php:100
+msgid "Feedback form"
+msgstr "Форма відгуку"
+
+#@ usernoise
+#: inc/model.php:35
+msgid "Feedback left by users using a form in a lightbox"
+msgstr "Відгуки через Usernoise"
+
+#@ usernoise
+#: inc/model.php:31
+msgid "Feedback not found"
+msgstr "Відгук не знайдено"
+
+#@ usernoise
+#: inc/model.php:32
+msgid "Feedback not found in Trash"
+msgstr "Відгук не знайдено в корзині"
+
+#@ usernoise
+#: admin/settings.php:66
+msgid "Font"
+msgstr "Шрифт"
+
+#@ usernoise
+#: admin/settings.php:101
+msgid "Form title"
+msgstr "Заголовок форми"
+
+#@ usernoise
+#: admin/settings.php:57
+msgid "General"
+msgstr "Загальні"
+
+#@ usernoise
+#@ default
+#: html/form-feedback.php:16
+#: usernoise.php:101
+msgid "Idea"
+msgstr "Ідея"
+
+#@ usernoise
+#: admin/settings.php:105
+msgid "Introductional text"
+msgstr "Текст на формі"
+
+#@ default
+#: html/publish-meta-box.php:40
+msgid "M j, Y @ G:i"
+msgstr "j M Y @ G:i"
+
+#@ default
+#: html/publish-meta-box.php:63
+msgid "Move to Trash"
+msgstr "Видалити"
+
+#@ default
+#: inc/model.php:95
+msgid "New"
+msgstr "Новий(а)"
+
+#@ usernoise
+#: admin/dashboard.php:13
+#: inc/model.php:28
+msgid "New feedback"
+msgstr "Новий відгук"
+
+#@ usernoise
+#: admin/settings.php:135
+msgid "New feedback received"
+msgstr "Отримано новий відгук"
+
+#@ usernoise
+#: html/publish-meta-box.php:25
+msgid "Pending Review"
+msgstr "Чекає на узгодження"
+
+#@ usernoise
+#: inc/model.php:55
+msgid "Please enter a summary."
+msgstr "Будь ласка введіть заголовок."
+
+#@ usernoise
+#: inc/model.php:61
+msgid "Please enter a valid email address."
+msgstr "Введіть ваш email."
+
+#@ usernoise
+#: inc/model.php:58
+msgid "Please enter the feedback."
+msgstr "Будь ласка напишіть ваш відгук."
+
+#@ usernoise
+#: inc/template.php:102
+#: usernoise.php:74
+msgid "Please tell us what do you think, any kind of feedback is highly appreciated."
+msgstr "Тут ви можете висловити вашу думку. Ми раді будь-яким відгукам."
+
+#@ usernoise
+#: html/form-feedback.php:19
+#: usernoise.php:102
+msgid "Praise"
+msgstr "Дякую"
+
+#@ default
+#: html/publish-meta-box.php:16
+msgid "Privately Published"
+msgstr "Приватне"
+
+#@ usernoise
+#: html/form-feedback.php:17
+#: usernoise.php:101
+msgid "Problem"
+msgstr "Проблема"
+
+#@ default
+#: admin/editor-page.php:19
+#: html/publish-meta-box.php:72
+msgid "Publish"
+msgstr "Опублікувати"
+
+#@ usernoise
+#: html/form-feedback.php:18
+#: usernoise.php:101
+msgid "Question"
+msgstr "Питання"
+
+#@ usernoise
+#: html/publish-meta-box.php:19
+#: html/publish-meta-box.php:73
+msgid "Reviewed"
+msgstr "Схвалити"
+
+#@ default
+#: html/publish-meta-box.php:22
+msgid "Scheduled"
+msgstr "Заплановано"
+
+#@ usernoise
+#: inc/model.php:30
+msgid "Search feedback"
+msgstr "Шукати у відгуках"
+
+#@ default
+#: admin/settings.php:169
+msgid "Select a Color"
+msgstr "Вибір кольору"
+
+#@ default
+#: html/publish-meta-box.php:41
+#, php-format
+msgid "Sent on: <b>%1$s</b>"
+msgstr "Надіслано: <b>%1$s</b>"
+
+#@ usernoise
+#: html/form-feedback.php:25
+#: inc/controller.php:28
+msgid "Short summary"
+msgstr "Заголовок"
+
+#@ usernoise
+#: admin/settings.php:71
+msgid "Site default font"
+msgstr "Як є"
+
+#@ default
+#: html/publish-meta-box.php:11
+msgid "Status:"
+msgstr "Статус:"
+
+#@ usernoise
+#: admin/settings.php:121
+msgid "Submit button text"
+msgstr "Текст кнопки надсилання"
+
+#@ usernoise
+#: inc/template.php:97
+#: usernoise.php:78
+#: usernoise.php:82
+msgid "Submit feedback"
+msgstr "Надіслати відгук"
+
+#@ usernoise
+#: admin/settings.php:77
+msgid "Text"
+msgstr "Текст"
+
+#@ usernoise
+#: admin/settings.php:81
+msgid "Text color"
+msgstr "Колір тексту"
+
+#@ usernoise
+#: usernoise.php:79
+msgid "Thank you"
+msgstr "Дякуємо за відгук"
+
+#@ usernoise
+#: admin/settings.php:125
+msgid "Thank you screen"
+msgstr "Після надсилання"
+
+#@ usernoise
+#: admin/settings.php:126
+msgid "Thank you screen title"
+msgstr "Заголовок"
+
+#@ usernoise
+#: admin/settings.php:130
+msgid "Thank you text"
+msgstr "екст"
+
+#@ usernoise
+#: admin/feedback-list.php:32
+msgid "Type"
+msgstr "Тип відгуку"
+
+#@ default
+#: html/publish-meta-box.php:75
+msgid "Update"
+msgstr "Зберегти"
+
+#@ usernoise
+#@ default
+#: admin/menu.php:14
+#: admin/settings.php:18
+#: html/powered-by.php:3
+#: inc/model.php:33
+msgid "Usernoise"
+msgstr "Usernoise"
+
+#@ usernoise
+#: admin/settings.php:25
+msgid "Usernoise settings"
+msgstr "Налаштування Usernoise"
+
+#@ usernoise
+#: inc/model.php:27
+#: inc/model.php:29
+msgid "View feedback"
+msgstr "Перегляд відгуку"
+
+#@ default
+#: inc/model.php:91
+msgid "View it:"
+msgstr "Переглянути:"
+
+#@ usernoise
+#: html/form-feedback.php:28
+#: inc/controller.php:32
+msgid "Your email (will not be published)"
+msgstr "Ваш email (не буде опубліковано)"
+
+#@ usernoise
+#: html/form-feedback.php:23
+#: inc/controller.php:30
+msgid "Your feedback"
+msgstr "Текст відгуку"
+
+#@ usernoise
+#: usernoise.php:80
+msgid "Your feedback has been received."
+msgstr "Ваш відгук отримано і надіслано адміністратору."
+
+#@ usernoise
+#: inc/model.php:21
+#: inc/model.php:23
+#: inc/model.php:24
+msgctxt "admin"
+msgid "Feedback"
+msgstr "Відгуки"
+
+#@ usernoise
+#: usernoise.php:69
+msgctxt "button"
+msgid "Feedback"
+msgstr "Відгуки"
+
+#@ default
+#: inc/model.php:89
+msgid "feedback"
+msgstr "відгук"
+
+#@ usernoise
+#: usernoise.php:73
+msgctxt "form"
+msgid "Feedback"
+msgstr "Зворотній зв'язок"
+
+#@ default
+#: inc/model.php:95
+msgid "submitted at"
+msgstr "надіслано"
+
+#@ default
+#: admin/admin-bar.php:15
+#, php-format
+msgid "Usernoise %s"
+msgstr ""
+
+#@ default
+#: admin/dashboard.php:29
+msgid "by"
+msgstr ""
+
+#@ default
+#: admin/dashboard.php:37
+msgid "View all feedback"
+msgstr ""
+
+#@ usernoise
+#: admin/dashboard.php:40
+msgid "No new feedback now."
+msgstr ""
+
+#@ default
+#: admin/editor-page.php:27
+msgid "Reply"
+msgstr ""
+
+#@ default
+#: admin/editor-page.php:42
+#: pro/inc/model.php:37
+msgid "Hacking, huh?"
+msgstr ""
+
+#@ default
+#: admin/editor-page.php:45
+msgid "Please enter some message."
+msgstr ""
+
+#@ default
+#: admin/editor-page.php:56
+msgid "Feedback author email is unknown."
+msgstr ""
+
+#@ default
+#: admin/editor-page.php:61
+msgid "Email sent successfully."
+msgstr ""
+
+#@ default
+#: admin/editor-page.php:66
+msgid "Feedback was marked as reviewed"
+msgstr ""
+
+#@ default
+#: admin/menu.php:16
+msgid "Settings"
+msgstr ""
+
+#@ default
+#: admin/settings.php:32
+msgid "Save Changes"
+msgstr ""
+
+#@ usernoise
+#: admin/settings.php:59
+msgid "Show Powered by"
+msgstr "Показувати Powered by"
+
+#@ usernoise
+#: admin/settings.php:63
+msgid "I like Usernoise and want to show <em>\"Powered by Usernoise\"</em>  link at the modal window."
+msgstr "Мені подобається Usernoise і я хочу показувати посилання <em>\"Powered by Usernoise\"</em> на формі."
+
+#@ default
+#: admin/settings.php:85
+msgid "Left"
+msgstr ""
+
+#@ default
+#: admin/settings.php:85
+msgid "Right"
+msgstr ""
+
+#@ default
+#: admin/settings.php:85
+msgid "Top"
+msgstr ""
+
+#@ default
+#: admin/settings.php:86
+msgid "Bottom"
+msgstr ""
+
+#@ usernoise
+#: admin/settings.php:87
+msgid "Show border"
+msgstr "Показувати білу рамку"
+
+#@ usernoise
+#: admin/settings.php:91
+msgid "Position"
+msgstr "Розміщення"
+
+#@ usernoise
+#: admin/settings.php:96
+msgid "Hide on mobile devices"
+msgstr "Вимкнути на мобільних пристроях"
+
+#@ usernoise
+#: admin/settings.php:143
+msgid "Notification emails will be sent to:"
+msgstr "Оповіщення про відгуки будуть надіслані на адресу"
+
+#@ usernoise
+#: admin/settings.php:145
+msgid "you can change it at"
+msgstr "ви можете змінити його на сторінці"
+
+#@ default
+#: admin/settings.php:145
+msgid "General Options"
+msgstr ""
+
+#@ default
+#: html/powered-by.php:2
+msgid "Powered by"
+msgstr ""
+
+#@ default
+#: html/publish-meta-box.php:76
+msgid "OK"
+msgstr ""
+
+#@ default
+#: html/reply-meta-box.php:4
+msgid "Subject"
+msgstr ""
+
+#@ usernoise
+#: html/reply-meta-box.php:5
+#: inc/integration.php:22
+#: inc/template.php:93
+msgid "Feedback"
+msgstr "Відгуки"
+
+#@ default
+#: html/reply-meta-box.php:8
+msgid "Send"
+msgstr ""
+
+#@ default
+#: inc/model.php:90
+msgid "has been submitted."
+msgstr ""
+
+#@ default
+#: inc/template.php:60
+msgid "or"
+msgstr ""
+
+#@ usernoise-pro
+#: pro/admin/editor-page.php:19
+msgid "Details"
+msgstr ""
+
+#@ usernoise-pro
+#: pro/admin/editor-page.php:21
+msgid "HTML Dump"
+msgstr ""
+
+#@ usernoise-pro
+#: pro/admin/editor-page.php:25
+msgid "Rewrite rules"
+msgstr ""
+
+#@ usernoise-pro
+#: pro/admin/editor-page.php:28
+msgid "SQL Queries"
+msgstr ""
+
+#@ usernoise-pro
+#: pro/admin/editor-page.php:31
+msgid "WP query_vars"
+msgstr ""
+
+#@ usernoise-pro
+#: pro/admin/editor-page.php:35
+msgid "WP filters"
+msgstr ""
+
+#@ default
+#: pro/admin/editor-page.php:70
+msgid "View in new tab"
+msgstr ""
+
+#@ usernoise-pro
+#: pro/admin/settings.php:11
+msgid "Debug"
+msgstr ""
+
+#@ usernoise
+#: pro/admin/settings.php:12
+msgid "Enable advanced debug info <br><small><em>(dont use in production!)</em></small>"
+msgstr ""
+
+#@ default
+#: pro/html/details_meta_box.php:2
+msgid "URL:"
+msgstr ""
+
+#@ default
+#: pro/html/details_meta_box.php:6
+msgid "Browser:"
+msgstr ""
+
+#@ default
+#: pro/html/details_meta_box.php:11
+msgid "Client IP:"
+msgstr ""
+
+#@ default
+#: pro/html/details_meta_box.php:18
+msgid "X-Forwarded-For:"
+msgstr ""
+
+#@ default
+#: pro/html/feedback-discussion.php:14
+#: pro/html/feedback-item.php:19
+msgid "Leave a comment"
+msgstr ""
+
+#@ default
+#: pro/html/feedback-discussion.php:30
+msgid "Cancel"
+msgstr ""
+
+#@ default
+#: pro/html/feedback-item.php:8
+msgid "I like it!"
+msgstr ""
+
+#@ default
+#: pro/html/feedback-item.php:17
+msgid "comment"
+msgid_plural "comments"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#@ usernoise
+#: pro/html/feedback-list.php:2
+msgid "Back"
+msgstr "Повернутися"
+
+#@ default
+#: pro/html/feedback-list.php:3
+msgid "Popular ideas"
+msgstr ""
+
+#@ default
+#: pro/html/feedback-list.php:19
+msgid "Load more"
+msgstr ""
+
+#@ default
+#: pro/html/feedback-list.php:28
+msgid "Sorry, there are no ideas available."
+msgstr ""
+
+#@ default
+#: pro/html/filters-meta-box.php:3
+#: pro/html/query-vars-meta-box.php:3
+msgid "Name"
+msgstr ""
+
+#@ default
+#: pro/html/filters-meta-box.php:4
+msgid "Hooks"
+msgstr ""
+
+#@ default
+#: pro/html/query-vars-meta-box.php:4
+msgid "Value"
+msgstr ""
+
+#@ default
+#: pro/html/query-vars-meta-box.php:18
+msgid "Empty query vars"
+msgstr ""
+
+#@ default
+#: pro/html/sql-queries-meta-box.php:3
+msgid "SQL"
+msgstr ""
+
+#@ default
+#: pro/html/sql-queries-meta-box.php:4
+msgid "Time"
+msgstr ""
+
+#@ default
+#: pro/html/sql-queries-meta-box.php:5
+msgid "Stacktrace"
+msgstr ""
+
+#@ default
+#: pro/html/sql-queries-meta-box.php:13
+#: pro/html/sql-queries-meta-box.php:19
+msgid "ms"
+msgstr ""
+
+#@ default
+#: pro/html/sql-queries-meta-box.php:18
+msgid "queries"
+msgstr ""
+

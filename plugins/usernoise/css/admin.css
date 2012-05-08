@@ -1,0 +1,137 @@
+.un-feedback-type{
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	background-position: 0 -32px !important;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+#un-rewrite .inside, #un-filters .inside, #un{
+	overflow-x: scroll;
+}
+#dashboard_usernoise .un-feedback-type{
+	position: relative;
+	top: 2px;
+	margin-right: 5px;
+}
+.un-feedback-type-praise{
+	background: url(../images/icon-praise.png);
+}
+.un-feedback-type-question{
+	background-image: url(../images/icon-question.png);
+}
+.un-feedback-type-problem{
+	background: url(../images/icon-problem.png);
+}
+.un-feedback-type-idea{
+	background-image: url(../images/icon-idea.png);
+	background-position: 3px -32px;
+}
+
+#dashboard_usernoise ul li p{
+	margin-top: 0;
+}
+#dashboard_usernoise ul{
+	margin-bottom: 0.95em;
+}
+
+#dashboard_usernoise #un-view-more{
+	text-align: right;
+	display: block;
+}
+.wp-list-table .column-un-type{
+	width: 50px;
+}
+#adminmenu .awaiting-mod,
+#adminmenu span.update-plugins,
+#sidemenu li a span.update-plugins {
+	position: absolute;
+	font-family: sans-serif;
+	font-size: 9px;
+	line-height: 17px;
+	font-weight: bold;
+	margin-top: 1px;
+	margin-left: 7px;
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#adminmenu li .awaiting-mod span,
+#adminmenu li span.update-plugins span,
+#sidemenu li a span.update-plugins span {
+	display: block;
+	padding: 0 6px;
+}
+
+.un-admin-section{
+	border-top: 1px solid white;
+	border-bottom: 1px solid #DFDFDF;
+	padding: 7px 0;
+}
+.un-admin-section-first{
+	border-top: none;
+}
+.un-admin-section-last{
+	border-bottom: none;
+}
+#un-feedback-reply form{
+	padding-top: 15px !important;
+}
+#un-feedback-reply label{
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+	color: #464646;
+}
+#un-feedback-reply textarea, #un-feedback-reply input[type=text]{
+	width: 100%;
+	display: block;
+	margin-bottom: 7px;
+}
+#all-in-one-email{
+	display: block;
+	float: right;
+	position: relative;
+	top: 0.75em;
+}
+#pro-settings{
+	background-color: #d54e21;
+	color: white;
+	text-shadow: #b84f2c 1px 1px 1px;
+	letter-spacing: 1px;
+}
+a.un-upgrade{
+	color: #d54e21;
+	font-weight: bold;
+}
+a.un-upgrade-button {
+	float: right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+	padding: 7px 20px;
+	text-decoration: none;
+	background: -moz-linear-gradient(
+		top,
+		#de5425 0%,
+		#ad350e);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#de5425),
+		to(#ad350e));
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #b0401a;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,1);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.4),
+		0px 1px 0px rgba(255,255,255,0.3);
+}

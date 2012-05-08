@@ -1,0 +1,563 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Usernoise 0.4\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/usernoise\n"
+"POT-Creation-Date: 2011-08-23 15:49:49+00:00\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: html/form-feedback.php:25
+#: inc/controller.php:28
+#@ usernoise
+msgid "Short summary"
+msgstr "Aihe"
+
+#: html/form-feedback.php:23
+#: inc/controller.php:30
+#@ usernoise
+msgid "Your feedback"
+msgstr "Palautteesi"
+
+#: html/form-feedback.php:28
+#: inc/controller.php:32
+#@ usernoise
+msgid "Your email (will not be published)"
+msgstr "Email (Ei julkaista)"
+
+#: inc/model.php:21
+#: inc/model.php:23
+#: inc/model.php:24
+#@ usernoise
+msgctxt "admin"
+msgid "Feedback"
+msgstr "Palaute"
+
+#: inc/model.php:25
+#@ usernoise
+msgid "Add new"
+msgstr "Liitä uusi"
+
+#: inc/model.php:26
+#@ usernoise
+msgid "Add new feedback"
+msgstr "Lisää uusi palaute"
+
+#: inc/model.php:27
+#: inc/model.php:29
+#@ usernoise
+msgid "View feedback"
+msgstr "Näytä palaute"
+
+#: admin/dashboard.php:15
+#: inc/model.php:28
+#@ usernoise
+msgid "New feedback"
+msgstr "Uusi Palaute"
+
+#: inc/model.php:30
+#@ usernoise
+msgid "Search feedback"
+msgstr "Katso palaute"
+
+#: inc/model.php:31
+#@ usernoise
+msgid "Feedback not found"
+msgstr "Palautetta ei löytynyt"
+
+#: inc/model.php:32
+#@ usernoise
+msgid "Feedback not found in Trash"
+msgstr ""
+
+#: admin/menu.php:14
+#: admin/settings.php:18
+#: inc/model.php:33
+#@ usernoise
+#@ default
+msgid "Usernoise"
+msgstr ""
+
+#: inc/model.php:35
+#@ usernoise
+msgid "Feedback left by users using a form in a lightbox"
+msgstr ""
+
+#: inc/model.php:55
+#@ usernoise
+msgid "Please enter a summary."
+msgstr "Lisää aihe"
+
+#: inc/model.php:58
+#@ usernoise
+msgid "Please enter the feedback."
+msgstr "Lisää palaute"
+
+#: inc/model.php:61
+#@ usernoise
+msgid "Please enter a valid email address."
+msgstr "Lisää email osoite"
+
+#: inc/model.php:91
+#@ default
+msgid "feedback"
+msgstr "Palaute"
+
+#: inc/template.php:60
+#@ usernoise
+msgid "or"
+msgstr "tai"
+
+#: admin/admin-bar.php:23
+#: html/form-feedback.php:5
+#: html/reply-meta-box.php:5
+#: inc/integration.php:22
+#: inc/template.php:102
+#@ usernoise
+msgid "Feedback"
+msgstr "Palaute"
+
+#: inc/template.php:106
+#: usernoise.php:73
+#: usernoise.php:77
+#@ usernoise
+msgid "Submit feedback"
+msgstr "Lähetä palaute"
+
+#: inc/template.php:111
+#: usernoise.php:69
+#@ usernoise
+msgid "Please tell us what do you think, any kind of feedback is highly appreciated."
+msgstr "Kerro meille mitä mieltä olet, arvostamme palautettasi"
+
+#: admin/admin-bar.php:30
+#: admin/menu.php:16
+#@ usernoise
+msgid "Settings"
+msgstr "Asetukset"
+
+#: admin/feedback-list.php:32
+#@ usernoise
+msgid "Type"
+msgstr "Tyyppi"
+
+#: admin/feedback-list.php:55
+#@ usernoise
+msgid "All feedback types"
+msgstr "Kaikki palautetyypit"
+
+#: admin/admin-bar.php:17
+#, php-format
+#@ default
+msgid "Usernoise %s"
+msgstr ""
+
+#: admin/settings.php:25
+#@ usernoise
+msgid "Usernoise settings"
+msgstr "Usernoise asetukset"
+
+#: admin/settings.php:33
+#@ default
+msgid "Save Changes"
+msgstr "Tallenna muutokset"
+
+#: admin/settings.php:60
+#@ usernoise
+msgid "General"
+msgstr "Yleinen"
+
+#: admin/settings.php:67
+#@ usernoise
+msgid "Show Powered by"
+msgstr ""
+
+#: admin/settings.php:71
+#@ usernoise
+msgid "I like Usernoise and want to show <em>\"Powered by Usernoise\"</em>  link at the modal window."
+msgstr ""
+
+#: admin/settings.php:74
+#@ usernoise
+msgid "Font"
+msgstr "Fontti"
+
+#: admin/settings.php:79
+#@ usernoise
+msgid "Site default font"
+msgstr ""
+
+#: admin/settings.php:80
+#@ usernoise
+msgid "Button"
+msgstr "Button"
+
+#: admin/settings.php:81
+#@ usernoise
+msgid "Background color"
+msgstr "Taustaväri"
+
+#: admin/settings.php:85
+#@ usernoise
+msgid "Text"
+msgstr "Teksti"
+
+#: admin/settings.php:89
+#@ usernoise
+msgid "Text color"
+msgstr "Tekstin väri"
+
+#: admin/settings.php:93
+#@ default
+msgid "Left"
+msgstr "Vasen"
+
+#: admin/settings.php:93
+#@ default
+msgid "Right"
+msgstr "Oikea"
+
+#: admin/settings.php:93
+#@ default
+msgid "Top"
+msgstr "Ylös"
+
+#: admin/settings.php:94
+#@ default
+msgid "Bottom"
+msgstr "Alas"
+
+#: admin/settings.php:95
+#@ usernoise
+msgid "Show border"
+msgstr "Näytä reunus"
+
+#: admin/settings.php:99
+#@ usernoise
+msgid "Position"
+msgstr "Asemointi"
+
+#: admin/settings.php:104
+#@ usernoise
+msgid "Hide on mobile devices"
+msgstr ""
+
+#: admin/settings.php:108
+#@ usernoise
+msgid "Feedback form"
+msgstr "Feedback lomake"
+
+#: admin/settings.php:109
+#@ usernoise
+msgid "Form title"
+msgstr "Lomakkeen otsikko"
+
+#: admin/settings.php:113
+#@ usernoise
+msgid "Introductional text"
+msgstr "Johdanto teksti"
+
+#: admin/settings.php:117
+#@ usernoise
+msgid "Ask for feedback type"
+msgstr "Kysy palautteen tyyppi"
+
+#: admin/settings.php:121
+#@ usernoise
+msgid "Ask for a summary"
+msgstr "Kysy palautteen aihe"
+
+#: admin/settings.php:125
+#@ usernoise
+msgid "Ask for an email"
+msgstr "Kysy email"
+
+#: admin/settings.php:129
+#@ usernoise
+msgid "Submit button text"
+msgstr "Lähetä buttonin teksti"
+
+#: admin/settings.php:133
+#@ usernoise
+msgid "Thank you screen"
+msgstr "Kiitosviesti"
+
+#: admin/settings.php:134
+#@ usernoise
+msgid "Thank you screen title"
+msgstr "Kiitosviestin otsikko"
+
+#: admin/settings.php:138
+#@ usernoise
+msgid "Thank you text"
+msgstr "Kiitosviestin teksti"
+
+#: admin/settings.php:142
+#@ usernoise
+msgid "Admin notifications"
+msgstr "Admin ilmoitukset"
+
+#: admin/settings.php:143
+#@ usernoise
+msgid "New feedback received"
+msgstr "Uusi palaute saapunut"
+
+#: admin/settings.php:159
+#@ default
+msgid "General Options"
+msgstr "Asetukset"
+
+#: admin/settings.php:184
+#@ default
+msgid "Select a Color"
+msgstr "Valitse väri"
+
+#: admin/dashboard.php:31
+#@ default
+msgid "by"
+msgstr ""
+
+#: admin/dashboard.php:39
+#@ usernoise
+msgid "View all feedback"
+msgstr "Näytä kaikki palautteet"
+
+#: admin/dashboard.php:42
+#@ usernoise
+msgid "No new feedback now."
+msgstr "Ei uusia palautteita"
+
+#: admin/editor-page.php:19
+#: html/publish-meta-box.php:68
+#@ default
+msgid "Publish"
+msgstr "Julkaise"
+
+#: admin/editor-page.php:27
+#@ default
+msgid "Reply"
+msgstr "Vastaa"
+
+#: admin/editor-page.php:42
+#@ default
+msgid "Hacking, huh?"
+msgstr ""
+
+#: admin/editor-page.php:45
+#@ usernoise
+msgid "Please enter some message."
+msgstr "Laita joku viesti"
+
+#: admin/editor-page.php:56
+#@ usernoise
+msgid "Feedback author email is unknown."
+msgstr "Tuntematon email"
+
+#: admin/editor-page.php:61
+#@ usernoise
+msgid "Email sent successfully."
+msgstr "Email lähetetty onnistuneesti"
+
+#: admin/editor-page.php:66
+#@ usernoise
+msgid "Feedback was marked as reviewed"
+msgstr ""
+
+#: admin/editor-page.php:86
+#@ default
+msgid "Author"
+msgstr "Tuntematon"
+
+#: usernoise.php:64
+#@ usernoise
+msgctxt "button"
+msgid "Feedback"
+msgstr "Palaute"
+
+#: usernoise.php:68
+#@ usernoise
+msgctxt "form"
+msgid "Feedback"
+msgstr "Palaute"
+
+#: html/thankyou.php:2
+#: usernoise.php:74
+#@ usernoise
+msgid "Thank you"
+msgstr "Kiitos"
+
+#: html/thankyou.php:4
+#: usernoise.php:75
+#@ usernoise
+msgid "Your feedback has been received."
+msgstr "Palautteesi on lähetetty"
+
+#: html/form-feedback.php:16
+#: usernoise.php:97
+#@ usernoise
+#@ default
+msgid "Idea"
+msgstr "Idea"
+
+#: html/form-feedback.php:18
+#: usernoise.php:97
+#@ usernoise
+msgid "Question"
+msgstr "Kysymys"
+
+#: html/form-feedback.php:17
+#: usernoise.php:97
+#@ usernoise
+msgid "Problem"
+msgstr "Ongelma"
+
+#: html/form-feedback.php:19
+#: usernoise.php:98
+#@ usernoise
+msgid "Praise"
+msgstr "Ruusuja"
+
+#: html/reply-meta-box.php:4
+#@ usernoise
+msgid "Subject"
+msgstr "Aihe"
+
+#: html/reply-meta-box.php:8
+#@ usernoise
+msgid "Send"
+msgstr "Lähetä"
+
+#: html/publish-meta-box.php:7
+#@ default
+msgid "Status:"
+msgstr "Status"
+
+#: html/publish-meta-box.php:12
+#@ default
+msgid "Privately Published"
+msgstr "Yksityinen"
+
+#: html/publish-meta-box.php:15
+#: html/publish-meta-box.php:69
+#@ usernoise
+msgid "Reviewed"
+msgstr "hyväksytty"
+
+#: html/publish-meta-box.php:18
+#@ default
+msgid "Scheduled"
+msgstr "Sovittu"
+
+#: html/publish-meta-box.php:21
+#@ usernoise
+msgid "Pending Review"
+msgstr "Odottaa hyväksymistä"
+
+#: html/publish-meta-box.php:25
+#@ default
+msgid "Draft"
+msgstr "Luonnos"
+
+#: html/publish-meta-box.php:36
+#@ default
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: html/publish-meta-box.php:37
+#, php-format
+#@ default
+msgid "Sent on: <b>%1$s</b>"
+msgstr "Lähetetään: <b>%1$s</b>"
+
+#: html/publish-meta-box.php:57
+#@ default
+msgid "Delete Permanently"
+msgstr "Poista lopullisesti"
+
+#: html/publish-meta-box.php:59
+#@ default
+msgid "Move to Trash"
+msgstr "Siirrä roskakoriin"
+
+#: html/publish-meta-box.php:71
+#@ default
+msgid "Update"
+msgstr "Päivitä"
+
+#: html/publish-meta-box.php:72
+#@ default
+msgid "OK"
+msgstr "OK"
+
+#: html/powered-by.php:2
+#@ usernoise
+msgid "Powered by"
+msgstr "Powered by"
+
+#: admin/ads.php:18
+#, php-format
+#@ usernoise
+msgid "Usernoise is disabled now. You can enable and configure it at the <a href=\"%s\">settings page</a>."
+msgstr ""
+
+#: admin/settings.php:62
+#@ usernoise
+msgid "Enable Usernoise"
+msgstr ""
+
+#: admin/settings.php:156
+#, php-format
+#@ usernoise
+msgid "Notification emails will be sent to: <a href=\"mailto:%s\">%s</a>"
+msgstr ""
+
+#: admin/settings.php:158
+#, php-format
+#@ usernoise
+msgid "(you can change it at <a href=\"%s\">%s</a> page)."
+msgstr ""
+
+#: inc/model.php:92
+#, php-format
+#@ default
+msgid "A new %s has been submitted. View it: <a href=\"%s\">%s</a>."
+msgstr ""
+
+#: inc/model.php:100
+#, php-format
+#@ default
+msgid "New %s submitted at %s"
+msgstr ""
+
+#: inc/model.php:152
+#@ usernoise
+msgid "ideas"
+msgstr ""
+
+#: inc/model.php:153
+#@ usernoise
+msgid "questions"
+msgstr ""
+
+#: inc/model.php:154
+#@ usernoise
+msgid "problems"
+msgstr ""
+
+#: inc/model.php:155
+#@ usernoise
+msgid "praises"
+msgstr ""
+

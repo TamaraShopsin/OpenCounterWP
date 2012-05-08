@@ -1,0 +1,688 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: admin/admin-bar.php:17
+#, php-format
+#@ default
+msgid "Usernoise %s"
+msgstr "Usernoise"
+
+#: admin/admin-bar.php:23
+#: html/reply-meta-box.php:5
+#: html/window.php:20
+#: inc/integration.php:21
+#: inc/template.php:115
+#@ usernoise
+msgid "Feedback"
+msgstr "Atsiliepimas"
+
+#: admin/admin-bar.php:30
+#: admin/menu.php:16
+#: html/window.php:23
+#: vendor/plugin-options-framework/plugin-options-framework.php:95
+#@ usernoise
+#@ default
+msgid "Settings"
+msgstr "Nustatymai"
+
+#: admin/dashboard.php:15
+#: inc/model.php:28
+#@ usernoise
+msgid "New feedback"
+msgstr "Naujas atsiliepimas"
+
+#: admin/dashboard.php:32
+#@ default
+msgid "by"
+msgstr "iš"
+
+#: admin/dashboard.php:42
+#@ usernoise
+msgid "View all feedback"
+msgstr "Peržiūrėti visus atsiliepimus"
+
+#: admin/dashboard.php:45
+#@ usernoise
+msgid "No new feedback now."
+msgstr "Nėra naujų atsiliepimų"
+
+#: admin/editor-page.php:29
+#: html/publish-meta-box.php:68
+#@ default
+msgid "Publish"
+msgstr "Skelbti"
+
+#: admin/editor-page.php:36
+#@ usernoise
+msgid "HTTP Headers"
+msgstr "HTTP antraštės"
+
+#: admin/editor-page.php:38
+#@ default
+msgid "Discussion"
+msgstr "Diskusija"
+
+#: admin/editor-page.php:39
+#@ usernoise
+msgid "WordPress Debug Info"
+msgstr "Wordpress debug informacija"
+
+#: admin/editor-page.php:57
+#@ usernoise
+msgid "Feedback was marked as reviewed"
+msgstr "Atsiliepimas pažymėtas kaip perskaitytas"
+
+#: admin/editor-page.php:76
+#@ default
+msgid "Author"
+msgstr "Autorius"
+
+#: admin/feedback-list.php:33
+#@ usernoise
+msgid "Type"
+msgstr "Tipas"
+
+#: admin/feedback-list.php:56
+#@ usernoise
+msgid "All feedback types"
+msgstr "Visi atsiliepimų tipai"
+
+#: admin/menu.php:14
+#: inc/model.php:33
+#@ usernoise
+msgid "Usernoise"
+msgstr "Usernoise"
+
+#: admin/notifications.php:20
+#, php-format
+#@ usernoise
+msgid "Usernoise is disabled now. You can enable and configure it at the <a href=\"%s\">settings page</a>."
+msgstr "Usernoise išjungtas. Įskiepį įjungti ir konfigūruoti galite <a href=\"%s\">nustatymuose.</a>."
+
+#: admin/settings.php:13
+#@ usernoise
+msgid "Usernoise settings"
+msgstr "Usernoise nustatymai"
+
+#: admin/settings.php:23
+#@ default
+msgid "Left"
+msgstr "Kairėje"
+
+#: admin/settings.php:23
+#@ default
+msgid "Right"
+msgstr "Dešinėje"
+
+#: admin/settings.php:23
+#@ default
+msgid "Top"
+msgstr "Viršuje"
+
+#: admin/settings.php:24
+#@ default
+msgid "Bottom"
+msgstr "Apačioje"
+
+#: admin/settings.php:26
+#: vendor/plugin-options-framework/plugin-options-framework.php:393
+#@ usernoise
+#@ default
+msgid "General"
+msgstr "Pagrindinis"
+
+#: admin/settings.php:28
+#@ usernoise
+msgid "Enable Usernoise"
+msgstr "Rodyti Usernoise"
+
+#: admin/settings.php:31
+#@ usernoise
+msgid "Show Powered by"
+msgstr "Rodyti Sukurta:"
+
+#: admin/settings.php:32
+#@ usernoise
+msgid "Show <strong>\"Powered by Usernoise\"</strong> link at the modal window. Check this, please!"
+msgstr "Formoje rodyti <strong>\"Sukurta Usernoise\"</strong>."
+
+#: admin/settings.php:34
+#@ default
+msgid "The link will only be visible at the modal window."
+msgstr "Nuoroda bus matoma tik modaliniame lange"
+
+#: admin/settings.php:36
+#: admin/settings.php:37
+#@ usernoise
+msgid "Disable on mobile devices"
+msgstr "Nerodyti mobiliuosiuose įrenginiuose"
+
+#: admin/settings.php:39
+#: admin/upgrade.php:42
+#@ usernoise
+msgid "Button"
+msgstr "Mygtukas"
+
+#: admin/settings.php:41
+#@ usernoise
+msgid "Position"
+msgstr "Pozicija"
+
+#: admin/settings.php:44
+#@ usernoise
+msgid "Text"
+msgstr "Tekstas"
+
+#: admin/settings.php:45
+#@ usernoise
+msgctxt "button"
+msgid "Feedback"
+msgstr "Atsiliepimas"
+
+#: admin/settings.php:47
+#@ usernoise
+msgid "Text color"
+msgstr "Teksto spalva"
+
+#: admin/settings.php:50
+#@ usernoise
+msgid "Background color"
+msgstr "Fono spalva"
+
+#: admin/settings.php:53
+#@ usernoise
+msgid "Show border"
+msgstr "Įjungti rėmelį "
+
+#: admin/settings.php:57
+#: admin/settings.php:58
+#@ usernoise
+msgid "Form"
+msgstr "Forma"
+
+#: admin/settings.php:60
+#@ usernoise
+msgid "Form title"
+msgstr "Formos pavadinimas"
+
+#: admin/settings.php:61
+#@ usernoise
+msgctxt "form"
+msgid "Feedback"
+msgstr "Atsiliepimas"
+
+#: admin/settings.php:63
+#@ usernoise
+msgid "Introductional text"
+msgstr "Pristatymo tekstas"
+
+#: admin/settings.php:68
+#: admin/settings.php:69
+#@ usernoise
+msgid "Ask for feedback type"
+msgstr "Prašyti nurodyti atsiliepimo tipą"
+
+#: admin/settings.php:72
+#: admin/settings.php:73
+#@ usernoise
+msgid "Ask for a summary"
+msgstr "Prašyti santraukos"
+
+#: admin/settings.php:76
+#: admin/settings.php:77
+#@ usernoise
+msgid "Ask for an email"
+msgstr "Prašyto el. pašto"
+
+#: admin/settings.php:80
+#@ usernoise
+msgid "Submit button text"
+msgstr "Siųsti mygtuko tekstas"
+
+#: admin/settings.php:81
+#: inc/template.php:119
+#@ usernoise
+msgid "Submit feedback"
+msgstr "Siųsti atsiliepimą"
+
+#: admin/settings.php:82
+#@ usernoise
+msgid "Thank you screen"
+msgstr "Padėkos langas"
+
+#: admin/settings.php:84
+#@ usernoise
+msgid "Thank you screen title"
+msgstr "Padėkos lango pavadinimas"
+
+#: admin/settings.php:85
+#: html/window.php:55
+#@ usernoise
+msgid "Thank you"
+msgstr "Ačiū"
+
+#: admin/settings.php:87
+#@ usernoise
+msgid "Thank you text"
+msgstr "Padėkos tekstas"
+
+#: admin/settings.php:88
+#: html/window.php:57
+#@ usernoise
+msgid "Your feedback has been received."
+msgstr "Jūsų atsiliepimas buvo gautas."
+
+#: admin/settings.php:92
+#@ usernoise
+msgid "Notifications"
+msgstr "Pranešimai"
+
+#: admin/settings.php:94
+#@ usernoise
+msgid "New feedback received admin notification"
+msgstr "Gauti pranešimus el. paštu apie naujus atsiliepimus"
+
+#: admin/settings.php:95
+#@ usernoise
+msgid "Enable"
+msgstr "Įjungti"
+
+#: admin/settings.php:98
+#, php-format
+#@ usernoise
+msgid "Notification emails will be sent to: <a href=\"mailto:%s\">%s</a>"
+msgstr "Pranešimai bus siunčiami: <a href=\"mailto:%s\">%s</a>"
+
+#: admin/settings.php:101
+#, php-format
+#@ usernoise
+msgid "(you can change it at <a href=\"%s\">%s</a> page)."
+msgstr "(adresą gali pakeisti <a href=\"%s\">%s</a> puslapyje)."
+
+#: admin/settings.php:102
+#@ default
+msgid "General Options"
+msgstr "Pagrindiniai nustatymai"
+
+#: admin/settings.php:115
+#@ usernoise
+msgid "Notifications do not work right?"
+msgstr "Perspėjimai apie pranešimus juk tinkamai neatlieka darbo, tiesa?"
+
+#: admin/upgrade.php:18
+#@ usernoise
+msgid "Pro Settings"
+msgstr "Pilna versija"
+
+#: admin/upgrade.php:19
+#: admin/upgrade.php:20
+#@ usernoise
+msgid "Upgrade to Pro"
+msgstr "Atnaujinti į Pro versiją"
+
+#: admin/upgrade.php:21
+#, php-format
+#@ usernoise
+msgid "Please <a href=\"%s\" class=\"un-upgrade\" target='_new'>Upgrade to Pro</a> to enable the settings below."
+msgstr "Norėdami aktyvuoti žemiau esančias funkcijas, prašome <a href=\"%s\" class=\"un-upgrade\" target='_new'>atnaujinti į Pro</a>"
+
+#: admin/upgrade.php:26
+#: admin/upgrade.php:27
+#@ usernoise
+msgid "Enable feedback list &amp; discussions."
+msgstr "Aktyvuoti diskusijų sąrašą Usernoise lange"
+
+#: admin/upgrade.php:30
+#: admin/upgrade.php:36
+#@ usernoise
+msgid "Screenshots"
+msgstr "Pavyzdys"
+
+#: admin/upgrade.php:34
+#: admin/upgrade.php:35
+#@ usernoise
+msgid "Gather advanced debug info"
+msgstr "Gauti išplėstinę derinimo informaciją"
+
+#: admin/upgrade.php:44
+#: admin/upgrade.php:45
+#@ usernoise
+msgid "Hide Feedback button"
+msgstr "Nerodyti atsiliepimų mygtuko"
+
+#: admin/upgrade.php:46
+#@ usernoise
+msgid "You can hide Feedback button to show it programmatically."
+msgstr "Gali paslėpti Atsiliepimų mygtuką ir pats suprogramuoti, kur jį rodyti "
+
+#: admin/upgrade.php:49
+#@ usernoise
+msgid "Alternate \"Feedback\" button ID"
+msgstr "Kitas \"Atsiliepimų\" mygtuko ID"
+
+#: admin/upgrade.php:51
+#@ usernoise
+msgid "Usernoise window will be shown upon click of element with that ID. For example, if you have the next link: <code>&lt;a href=\"#\" id=\"my-link\"&gt;some link&lt;/a&gt;</code>, put \"my-link\" here."
+msgstr "Usernoise langas bus parodytas, kuomet bus paspaustas atitinkamas elementas su tuo ID pavyzdžiui, jei turi šią nuorodą: <code>&lt;a href=\"#\" id=\"my-link\"&gt;susisiekite su mumis&lt;/a&gt;</code>, patalpink \"my-link\" čia."
+
+#: admin/upgrade.php:54
+#@ usernoise-pro
+msgid "Custom CSS properties"
+msgstr "Pasirinktinės CSS nuostatos"
+
+#: admin/upgrade.php:55
+#@ usernoise-pro
+msgid "Usernoise button custom CSS properties. Remove /* and */ to enable. Don't put here HTML tags."
+msgstr "Usernoise mygtuko pasirinktiniai CSS nustatymai. Ištrink /* and */ kad įjungti. Nerašyk HTML tagų."
+
+#: admin/upgrade.php:59
+#@ usernoise-pro
+msgid "Form design"
+msgstr "Formos dizainas"
+
+#: admin/upgrade.php:61
+#@ usernoise-pro
+msgid "Custom CSS for Usernoise window"
+msgstr "Tavo CSS Usernoise langui"
+
+#: admin/upgrade.php:63
+#@ usernoise-pro
+msgid "You can override the form's style by applying your own CSS. Don't forget to remove comment symbols and do not put HTML tags here."
+msgstr "Gali keisti formos išvaizdą redaguojant CSS. Nepamiršk ištrinti komentavimo simbolių ir nenaudoti HTML tagų."
+
+#: html/powered-by.php:2
+#@ usernoise
+msgid "Powered by"
+msgstr "Veikia su"
+
+#: html/publish-meta-box.php:7
+#@ default
+msgid "Status:"
+msgstr "Būsena:"
+
+#: html/publish-meta-box.php:12
+#@ default
+msgid "Privately Published"
+msgstr "Paskelbta privačiai"
+
+#: html/publish-meta-box.php:15
+#: html/publish-meta-box.php:69
+#@ usernoise
+msgid "Reviewed"
+msgstr "Peržiūrėta"
+
+#: html/publish-meta-box.php:18
+#@ default
+msgid "Scheduled"
+msgstr "Nustatyta"
+
+#: html/publish-meta-box.php:21
+#@ usernoise
+msgid "Pending Review"
+msgstr "Laukiama peržiūros"
+
+#: html/publish-meta-box.php:25
+#@ default
+msgid "Draft"
+msgstr "Špargalkė"
+
+#: html/publish-meta-box.php:36
+#@ default
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: html/publish-meta-box.php:37
+#, php-format
+#@ default
+msgid "Sent on: <b>%1$s</b>"
+msgstr "Išsiųsta: <b>%1$s</b>"
+
+#: html/publish-meta-box.php:57
+#@ default
+msgid "Delete Permanently"
+msgstr "Ištrinti negrėžtamai"
+
+#: html/publish-meta-box.php:59
+#@ default
+msgid "Move to Trash"
+msgstr "Perkelti į šiukšlinę"
+
+#: html/publish-meta-box.php:71
+#@ default
+msgid "Update"
+msgstr "Antnaujinti"
+
+#: html/publish-meta-box.php:72
+#@ default
+msgid "OK"
+msgstr "OK"
+
+#: html/reply-meta-box.php:4
+#@ usernoise
+msgid "Subject"
+msgstr "Tema"
+
+#: html/reply-meta-box.php:8
+#@ usernoise
+msgid "Send"
+msgstr "Siųsti"
+
+#: html/window.php:14
+#@ usernoise
+msgid "Close"
+msgstr "Uždaryti"
+
+#: html/window.php:31
+#: usernoise.php:83
+#@ usernoise
+#@ default
+msgid "Idea"
+msgstr "Idėja"
+
+#: html/window.php:32
+#: usernoise.php:83
+#@ usernoise
+msgid "Problem"
+msgstr "Problema"
+
+#: html/window.php:33
+#: usernoise.php:83
+#@ usernoise
+msgid "Question"
+msgstr "Klausimas"
+
+#: html/window.php:34
+#: usernoise.php:84
+#@ usernoise
+msgid "Praise"
+msgstr "Pagyrimas"
+
+#: html/window.php:38
+#: inc/controller.php:28
+#@ usernoise
+msgid "Your feedback"
+msgstr "Jūsų atsiliepimas"
+
+#: html/window.php:40
+#: inc/controller.php:26
+#@ usernoise
+msgid "Short summary"
+msgstr "Atsiliepimo santrauka"
+
+#: html/window.php:43
+#: inc/controller.php:30
+#@ usernoise
+msgid "Your email (will not be published)"
+msgstr "Jūsų el. paštas (nebus skelbiamas viešai)"
+
+#: inc/model.php:21
+#: inc/model.php:23
+#: inc/model.php:24
+#@ usernoise
+msgctxt "admin"
+msgid "Feedback"
+msgstr "Atsiliepimas"
+
+#: inc/model.php:25
+#@ usernoise
+msgid "Add new"
+msgstr "Pridėti naują"
+
+#: inc/model.php:26
+#@ usernoise
+msgid "Add new feedback"
+msgstr "Pridėti naują atsiliepimą"
+
+#: inc/model.php:27
+#: inc/model.php:29
+#@ usernoise
+msgid "View feedback"
+msgstr "Peržiūrėti atsiliepimą"
+
+#: inc/model.php:30
+#@ usernoise
+msgid "Search feedback"
+msgstr "Ieškoti atsiliepimo"
+
+#: inc/model.php:31
+#@ usernoise
+msgid "Feedback not found"
+msgstr "Atsiliepimas nerastas!"
+
+#: inc/model.php:32
+#@ usernoise
+msgid "Feedback not found in Trash"
+msgstr "Šiukšlinėje atsiliepimas nerastas"
+
+#: inc/model.php:35
+#@ usernoise
+msgid "Feedback left by users using a form in a lightbox"
+msgstr "Atsliepimas užpildytas naudojant formą"
+
+#: inc/model.php:54
+#@ usernoise
+msgid "Please enter a summary."
+msgstr "Prašome užpildyti atsiliepimo santrauką"
+
+#: inc/model.php:57
+#@ usernoise
+msgid "Please enter the feedback."
+msgstr "Prašome užpildyti atsiliepimą"
+
+#: inc/model.php:60
+#@ usernoise
+msgid "Please enter a valid email address."
+msgstr "Prašome įvesti galiojantį el. pašto adresą"
+
+#: inc/model.php:90
+#@ default
+msgid "feedback"
+msgstr "atsiliepimas"
+
+#: inc/model.php:91
+#, php-format
+#@ default
+msgid "A new %s has been submitted. View it: <a href=\"%s\">%s</a>."
+msgstr "Gautas naujas %s. Peržiūrėti: <a href=\"%s\">%s</a>."
+
+#: inc/model.php:99
+#, php-format
+#@ default
+msgid "New %s submitted at %s"
+msgstr "Nauji %s atsiųsti %s"
+
+#: inc/model.php:152
+#@ usernoise
+msgid "ideas"
+msgstr "Idėjos"
+
+#: inc/model.php:153
+#@ usernoise
+msgid "questions"
+msgstr "Klausimai"
+
+#: inc/model.php:154
+#@ usernoise
+msgid "problems"
+msgstr "Problemos"
+
+#: inc/model.php:155
+#@ usernoise
+msgid "praises"
+msgstr "Pagyrimai"
+
+#: inc/template.php:71
+#@ usernoise
+msgid "or"
+msgstr "ar"
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:151
+#@ default
+msgid "Please provide some settings fields when creating an options framework instance"
+msgstr "Prašau nurodyti bent kelis laukus, kuomet kuriate nustatymų struktūrą "
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:171
+#@ default
+msgid "This page requires JavaScript to be enabled in your browser. Please enable JavaScript."
+msgstr "Šiam puslapiui peržiūrėti reikalingas JavaScript. Prašome aktyvuotiJavaScript."
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:218
+#@ default
+msgid "Save Options"
+msgstr "išsaugoti nustatymus"
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:219
+#@ default
+msgid "Restore Defaults"
+msgstr "Atkurti numatytasias reikšmes"
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:219
+#@ default
+msgid "Click OK to reset. All the settings will be reset to defaults!"
+msgstr "Norėdami atkurti pradinius nustatymus - spauskite OK. Visi nustatymai bus atkurti į numatytuosius!"
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:296
+#@ default
+msgid "Select a Color"
+msgstr "Pasirinkite spavą"
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:330
+#@ default
+msgid "Upgrade to WordPress 3.3 or later to enable WYSIWYG editor"
+msgstr "Norėdami naudotis WYSIWYG redaktoriumi - atnaujinkite Wordpress sistemą bent iki 3.3 versijos."
+
+#: admin/settings.php:64
+#: inc/template.php:124
+#@ usernoise
+msgid "Please tell us what do you think, any kind of feedback is highly appreciated."
+msgstr ""
+
+#: admin/settings.php:65
+#: admin/settings.php:89
+#@ default
+msgid "This text will be wrapped into &lt;p&gt; tag. You can still use HTML code."
+msgstr ""
+
+#: admin/settings.php:116
+#@ usernoise
+msgid "Check out <a href='http://codecanyon.net/item/all-in-one-email-for-wordpress/1290390?ref=karevn'>All in One Email plugin</a>. It adds email options missing in WordPress natively."
+msgstr ""
+

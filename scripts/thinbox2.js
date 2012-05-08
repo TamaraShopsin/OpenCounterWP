@@ -178,7 +178,7 @@ var ThinBox = {
 			} else if(href=='') {
 				 return false;
 			} else {
-				var thinboxContent = $("<div class='betabox'><div class='betabox2'>BETA WARNING<input type='button' value='X' onclick='ThinBox.remove()' class='betax'/></div><br/><div class='betabox3'>Welcome to Open Counter, a site built for the <a href='http://www.cityofsantacruz.com/' target='_blank'>City of Santa Cruz</a> by <a href='http://codeforamerica.org/' target='_blank'>Code for America</a>.</br></br>PLEASE NOTE:</br></br>This is an experimental/beta version of the site. It may contain inaccuracies!!</br></br>Your suggestions will help make this site better, so if you have any comments please click on the tab to the left and leave feedback.</div></div>");
+				var thinboxContent = $("<div class='betabox'><div class='betabox2'>BETA WARNING<input type='button' value='X' onclick='ThinBox.remove()' class='betax'/></div><br/><div class='betabox3'>Welcome to Open Counter, a site built for the <a href='http://www.cityofsantacruz.com/' target='_blank'>City of Santa Cruz</a> by <a href='http://codeforamerica.org/' target='_blank'>Code for America</a>.</br></br>PLEASE NOTE:</br></br>This is an experimental/beta version of the site. It may contain inaccuracies!!</br></br>Your suggestions will help make this site better, so if you have any comments please share them on any page by clicking on the thumb icon in the upper left corner.</div></div>");
 				//thinboxContent.attr("src",href);
 				var inIframe = true;
 			}

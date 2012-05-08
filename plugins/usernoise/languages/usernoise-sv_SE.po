@@ -1,0 +1,601 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Usernoise 0.4\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/usernoise\n"
+"POT-Creation-Date: 2011-08-23 15:49:49+00:00\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: html/form-feedback.php:25
+#: inc/controller.php:29
+#@ usernoise
+msgid "Short summary"
+msgstr "Kort sammanfattning"
+
+#: html/form-feedback.php:23
+#: inc/controller.php:31
+#@ usernoise
+msgid "Your feedback"
+msgstr "Din feedback"
+
+#: html/form-feedback.php:28
+#: inc/controller.php:33
+#@ usernoise
+msgid "Your email (will not be published)"
+msgstr "Din e-postadress (delas inte vidare)"
+
+#: inc/model.php:21
+#: inc/model.php:23
+#: inc/model.php:24
+#@ usernoise
+msgctxt "admin"
+msgid "Feedback"
+msgstr "Feedback"
+
+#: inc/model.php:25
+#@ usernoise
+msgid "Add new"
+msgstr "Lägg till ny"
+
+#: inc/model.php:26
+#@ usernoise
+msgid "Add new feedback"
+msgstr "Lägg till ny feedback"
+
+#: inc/model.php:27
+#: inc/model.php:29
+#@ usernoise
+msgid "View feedback"
+msgstr "Se feedback"
+
+#: admin/dashboard.php:15
+#: inc/model.php:28
+#@ usernoise
+msgid "New feedback"
+msgstr "Ny feedback"
+
+#: inc/model.php:30
+#@ usernoise
+msgid "Search feedback"
+msgstr "Sök feedback"
+
+#: inc/model.php:31
+#@ usernoise
+msgid "Feedback not found"
+msgstr "Feedback hittades inte"
+
+#: inc/model.php:32
+#@ usernoise
+msgid "Feedback not found in Trash"
+msgstr "Feedback hittades inte i Papperskorgen"
+
+#: admin/menu.php:14
+#: inc/model.php:33
+#@ usernoise
+msgid "Usernoise"
+msgstr ""
+
+#: inc/model.php:35
+#@ usernoise
+msgid "Feedback left by users using a form in a lightbox"
+msgstr "Feedback lämnat av användare i ett formulär i en lightbox"
+
+#: inc/model.php:55
+#@ usernoise
+msgid "Please enter a summary."
+msgstr "Var god skriv sammanfattning"
+
+#: inc/model.php:58
+#@ usernoise
+msgid "Please enter the feedback."
+msgstr "Var god lämna feedback"
+
+#: inc/model.php:61
+#@ usernoise
+msgid "Please enter a valid email address."
+msgstr "Var god lämna en giltig e-postadress"
+
+#: inc/model.php:91
+#@ default
+msgid "feedback"
+msgstr "feedback"
+
+#: inc/template.php:61
+#@ usernoise
+msgid "or"
+msgstr "eller"
+
+#: admin/admin-bar.php:23
+#: html/form-feedback.php:5
+#: html/reply-meta-box.php:5
+#: inc/integration.php:24
+#: inc/template.php:105
+#@ usernoise
+msgid "Feedback"
+msgstr "Feedback"
+
+#: admin/settings.php:69
+#: inc/template.php:109
+#@ usernoise
+msgid "Submit feedback"
+msgstr "Skicka feedback"
+
+#: admin/settings.php:56
+#: inc/template.php:114
+#@ usernoise
+msgid "Please tell us what do you think, any kind of feedback is highly appreciated."
+msgstr ""
+
+#: admin/admin-bar.php:30
+#: admin/menu.php:16
+#: html/form-feedback.php:8
+#: vendor/plugin-options-framework/plugin-options-framework.php:52
+#@ usernoise
+#@ default
+msgid "Settings"
+msgstr "Inställningar"
+
+#: admin/feedback-list.php:32
+#@ usernoise
+msgid "Type"
+msgstr "Typ"
+
+#: admin/feedback-list.php:56
+#@ usernoise
+msgid "All feedback types"
+msgstr "Alla feedbacktyper"
+
+#: admin/admin-bar.php:17
+#, php-format
+#@ default
+msgid "Usernoise %s"
+msgstr "Usernoise %s"
+
+#: admin/settings.php:92
+#@ usernoise
+msgid "Usernoise settings"
+msgstr "Usernoiseinställningar"
+
+#: admin/settings.php:16
+#: vendor/plugin-options-framework/plugin-options-framework.php:124
+#@ usernoise
+#@ default
+msgid "General"
+msgstr "Allmänt"
+
+#: admin/settings.php:25
+#@ usernoise
+msgid "Show Powered by"
+msgstr "Visa Drivs med"
+
+#: admin/settings.php:26
+#@ usernoise
+msgid "I like Usernoise and want to show <em>\"Powered by Usernoise\"</em>  link at the modal window."
+msgstr "Jag gillar Usernoise och vill visa <em>\"Drivs med Usernoise\"</em>-länk i det modala fönstret."
+
+#: admin/settings.php:32
+#@ usernoise
+msgid "Font"
+msgstr "Typsnitt"
+
+#: admin/settings.php:33
+#@ usernoise
+msgid "Site default font"
+msgstr "Sajtens förvalda typsnitt"
+
+#: admin/settings.php:35
+#@ usernoise
+msgid "Button"
+msgstr "Knapp"
+
+#: admin/settings.php:37
+#@ usernoise
+msgid "Background color"
+msgstr "Bakgrundsfärg"
+
+#: admin/settings.php:40
+#@ usernoise
+msgid "Text"
+msgstr "Text"
+
+#: admin/settings.php:43
+#@ usernoise
+msgid "Text color"
+msgstr "Textfärg"
+
+#: admin/settings.php:12
+#@ default
+msgid "Left"
+msgstr "Vänster"
+
+#: admin/settings.php:12
+#@ default
+msgid "Right"
+msgstr "Höger"
+
+#: admin/settings.php:12
+#@ default
+msgid "Top"
+msgstr "Längst upp"
+
+#: admin/settings.php:13
+#@ default
+msgid "Bottom"
+msgstr "Längst ner"
+
+#: admin/settings.php:46
+#@ usernoise
+msgid "Show border"
+msgstr "Visa bård"
+
+#: admin/settings.php:48
+#@ usernoise
+msgid "Position"
+msgstr "Plats"
+
+#: admin/settings.php:21
+#: admin/settings.php:22
+#@ usernoise
+msgid "Hide on mobile devices"
+msgstr "Göm i mobila enheter"
+
+#: admin/settings.php:50
+#@ usernoise
+msgid "Feedback form"
+msgstr "Feedbackformulär"
+
+#: admin/settings.php:52
+#@ usernoise
+msgid "Form title"
+msgstr "Formulärstitel"
+
+#: admin/settings.php:55
+#@ usernoise
+msgid "Introductional text"
+msgstr "Introduktionstext"
+
+#: admin/settings.php:60
+#: admin/settings.php:61
+#@ usernoise
+msgid "Ask for a summary"
+msgstr "Be om sammanfattning"
+
+#: admin/settings.php:64
+#: admin/settings.php:65
+#@ usernoise
+msgid "Ask for an email"
+msgstr "Be om e-postadress"
+
+#: admin/settings.php:68
+#@ usernoise
+msgid "Submit button text"
+msgstr "Knapptext"
+
+#: admin/settings.php:70
+#@ usernoise
+msgid "Thank you screen"
+msgstr "Tackfönster"
+
+#: admin/settings.php:72
+#@ usernoise
+msgid "Thank you screen title"
+msgstr "Tackfönstrets rubrik"
+
+#: admin/settings.php:75
+#@ usernoise
+msgid "Thank you text"
+msgstr "Tackmeddelande"
+
+#: admin/settings.php:79
+#@ usernoise
+msgid "Admin notifications"
+msgstr "Admin-notifikationer"
+
+#: admin/settings.php:81
+#: admin/settings.php:82
+#@ usernoise
+msgid "New feedback received"
+msgstr "Ny feedback mottagen"
+
+#: admin/settings.php:88
+#@ default
+msgid "General Options"
+msgstr "Allmäna inställningar"
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:222
+#@ default
+msgid "Select a Color"
+msgstr "Välj en färg"
+
+#: admin/dashboard.php:32
+#@ default
+msgid "by"
+msgstr "av"
+
+#: admin/dashboard.php:42
+#@ usernoise
+msgid "View all feedback"
+msgstr "Se all feedback"
+
+#: admin/dashboard.php:45
+#@ usernoise
+msgid "No new feedback now."
+msgstr "Ingen ny feedback"
+
+#: admin/editor-page.php:19
+#: html/publish-meta-box.php:68
+#@ default
+msgid "Publish"
+msgstr "Publicera"
+
+#: admin/editor-page.php:27
+#@ default
+msgid "Reply"
+msgstr "Svara"
+
+#: admin/editor-page.php:42
+#@ default
+msgid "Hacking, huh?"
+msgstr "Hackar du?"
+
+#: admin/editor-page.php:45
+#@ usernoise
+msgid "Please enter some message."
+msgstr "Var vänlig skriv ett meddelande"
+
+#: admin/editor-page.php:56
+#@ usernoise
+msgid "Feedback author email is unknown."
+msgstr "Feedbackförfattarens e-postadress är okänd"
+
+#: admin/editor-page.php:61
+#@ usernoise
+msgid "Email sent successfully."
+msgstr "E-post skickades"
+
+#: admin/editor-page.php:66
+#@ usernoise
+msgid "Feedback was marked as reviewed"
+msgstr "Feedbacken märktes som genomgången"
+
+#: admin/editor-page.php:87
+#@ default
+msgid "Author"
+msgstr "Författare"
+
+#: admin/settings.php:41
+#@ usernoise
+msgctxt "button"
+msgid "Feedback"
+msgstr "Feedback"
+
+#: admin/settings.php:53
+#@ usernoise
+msgctxt "form"
+msgid "Feedback"
+msgstr "Feedback"
+
+#: admin/settings.php:73
+#: html/thankyou.php:2
+#@ usernoise
+msgid "Thank you"
+msgstr "Tack"
+
+#: admin/settings.php:76
+#: html/thankyou.php:4
+#@ usernoise
+msgid "Your feedback has been received."
+msgstr "Din feedback har tagits emot"
+
+#: html/form-feedback.php:16
+#: usernoise.php:79
+#@ usernoise
+#@ default
+msgid "Idea"
+msgstr "Förslag"
+
+#: html/form-feedback.php:18
+#: usernoise.php:79
+#@ usernoise
+msgid "Question"
+msgstr "Fråga"
+
+#: html/form-feedback.php:17
+#: usernoise.php:79
+#@ usernoise
+msgid "Problem"
+msgstr "Problem"
+
+#: html/form-feedback.php:19
+#: usernoise.php:80
+#@ usernoise
+msgid "Praise"
+msgstr "Beröm"
+
+#: html/reply-meta-box.php:4
+#@ usernoise
+msgid "Subject"
+msgstr "Ämne"
+
+#: html/reply-meta-box.php:8
+#@ usernoise
+msgid "Send"
+msgstr "Skicka"
+
+#: html/publish-meta-box.php:7
+#@ default
+msgid "Status:"
+msgstr "Status:"
+
+#: html/publish-meta-box.php:12
+#@ default
+msgid "Privately Published"
+msgstr "Privat publicerad"
+
+#: html/publish-meta-box.php:15
+#: html/publish-meta-box.php:69
+#@ usernoise
+msgid "Reviewed"
+msgstr "Genomgången"
+
+#: html/publish-meta-box.php:18
+#@ default
+msgid "Scheduled"
+msgstr "Schemalagd"
+
+#: html/publish-meta-box.php:21
+#@ usernoise
+msgid "Pending Review"
+msgstr "Väntar på genomgång"
+
+#: html/publish-meta-box.php:25
+#@ default
+msgid "Draft"
+msgstr "Utkast"
+
+#: html/publish-meta-box.php:36
+#@ default
+msgid "M j, Y @ G:i"
+msgstr "Y.m.d @ H:i:s"
+
+#: html/publish-meta-box.php:37
+#, php-format
+#@ default
+msgid "Sent on: <b>%1$s</b>"
+msgstr "Skickat: <b>%1$s</b>"
+
+#: html/publish-meta-box.php:57
+#@ default
+msgid "Delete Permanently"
+msgstr "Radera permanent"
+
+#: html/publish-meta-box.php:59
+#@ default
+msgid "Move to Trash"
+msgstr "Lägg i Papperskorgen"
+
+#: html/publish-meta-box.php:71
+#@ default
+msgid "Update"
+msgstr "Uppdatera"
+
+#: html/publish-meta-box.php:72
+#@ default
+msgid "OK"
+msgstr "OK"
+
+#: html/powered-by.php:2
+#@ usernoise
+msgid "Powered by"
+msgstr "Drivs av"
+
+#: admin/ads.php:16
+#, php-format
+#@ usernoise
+msgid "Usernoise is disabled now. You can enable and configure it at the <a href=\"%s\">settings page</a>."
+msgstr ""
+
+#: admin/settings.php:18
+#@ usernoise
+msgid "Enable Usernoise"
+msgstr ""
+
+#: admin/settings.php:85
+#, php-format
+#@ usernoise
+msgid "Notification emails will be sent to: <a href=\"mailto:%s\">%s</a>"
+msgstr ""
+
+#: admin/settings.php:87
+#, php-format
+#@ usernoise
+msgid "(you can change it at <a href=\"%s\">%s</a> page)."
+msgstr ""
+
+#: inc/model.php:92
+#, php-format
+#@ default
+msgid "A new %s has been submitted. View it: <a href=\"%s\">%s</a>."
+msgstr ""
+
+#: inc/model.php:100
+#, php-format
+#@ default
+msgid "New %s submitted at %s"
+msgstr ""
+
+#: inc/model.php:152
+#@ usernoise
+msgid "ideas"
+msgstr ""
+
+#: inc/model.php:153
+#@ usernoise
+msgid "questions"
+msgstr ""
+
+#: inc/model.php:154
+#@ usernoise
+msgid "problems"
+msgstr ""
+
+#: inc/model.php:155
+#@ usernoise
+msgid "praises"
+msgstr ""
+
+#: admin/settings.php:29
+#: admin/settings.php:30
+#@ usernoise
+msgid "Load Usernoise in footer"
+msgstr ""
+
+#: admin/settings.php:31
+#@ usernoise
+msgid "Load Usernoise javascripts in footer. Sligtly increases page loading speed, but may be incompatible with some themes."
+msgstr ""
+
+#: admin/settings.php:57
+#: admin/settings.php:77
+#@ default
+msgid "This text will be wrapped into &lt;p&gt; tag. You can still use HTML code."
+msgstr ""
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:103
+#@ default
+msgid "Please provide some settings fields when creating an options framework instance"
+msgstr ""
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:172
+#@ default
+msgid "Save Options"
+msgstr ""
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:173
+#@ default
+msgid "Restore Defaults"
+msgstr ""
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:173
+#@ default
+msgid "Click OK to reset. All the settings will be reset to defaults!"
+msgstr ""
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:250
+#@ default
+msgid "Upgrade to WordPress 3.3 or later to enable WYSIWYG editor"
+msgstr ""
+

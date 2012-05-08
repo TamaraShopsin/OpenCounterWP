@@ -15,13 +15,12 @@ Text Domain: OpenCounter
 /* Begin Typography & Colors t*/
 /* your custom CSS */
 #sidebar {
-  width: 135px;  
+  width: 150px;  
   background-color: rgba(255,193,14,0.8);
   padding: 5px;
-  padding-left: 15px;
   color: #000;
   position: fixed;
-  left: -130px;
+  left: -135px;
   top: 122px;
 }
 
@@ -179,8 +178,9 @@ h2.pagetitle {
 
 #sidebar h2 {
     font-weight: normal;
-        position: relative;
-        right: -59px;
+        position: absolute;
+        
+        right: -26px;
 	font-family: 'FuturaTEST', Verdana, Sans-Serif;
 	font-size: 1em;
         -webkit-transform: rotate(-90deg); 
@@ -188,6 +188,9 @@ h2.pagetitle {
 filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 	}
 
+        
+        
+        
 h3 {
 	font-size: 1.3em;
 	}
@@ -243,6 +246,7 @@ h3 {
 
 #sidebar {
 	font: 1em 'FuturaTEST', Verdana, Arial, Sans-Serif;
+        
 	}
 
 small, #sidebar ul ul li, #sidebar ul ol li, .nocomments, .postmetadata, blockquote, strike {
@@ -404,7 +408,7 @@ h2.pagetitle {
 }
 
 #sidebar h2 {
-	margin: 2px 0 0;
+	margin: 30px 0 0;
 	padding: 0;
 	}
 
@@ -526,7 +530,7 @@ html>body .entry li {
 	}
 
 #sidebar ul ul ul, #sidebar ul ol {
-	margin: 0 0 0 10px;
+	margin: 0 0 0 5px;
 	}
 
 ol li, #sidebar ul ol li {
@@ -534,7 +538,7 @@ ol li, #sidebar ul ol li {
 	}
 
 #sidebar ul ul li, #sidebar ul ol li {
-	margin: 3px 0 0;
+	margin: 0px 0 0;
 	padding: 0;
 	}
 /* End Entry Lists */
@@ -1085,6 +1089,42 @@ body .gform_wrapper .ginput_complex label,
 
 
     
+body #un-button.un-left.css3{
+	left: -46px;
+	top: 0%;
+	-moz-transform-origin: 0 0;
+	-webkit-transform-origin: 0 0;
+	-o-transform-origin: 0 0;
+	transform-origin: 0 0;
+	-ms-transform-origin: 0 0;
+	-webkit-transform: none;
+	-moz-transform: none;
+	-o-transform: none;
+	-ms-transform:none;
+}
+
+body #un-button {
+    text-indent: -1000em;
+    overflow: hidden;
+    background: url(http://opencounter.org/wp-content/themes/opencounter/images/icon-thumb.png) no-repeat  5px 1px #404040;
+    font-size: 1em;
+    color: white;
+    float: none;
+    line-height: 14px;
+    opacity: 0.95;
+    padding: 11px 15px 5px;
+    position: fixed;
+    text-decoration: none;
+    text-shadow: none;
+    z-index: 9997;
+    border radius:0;
+    -webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-o-border-radius: 0;
+}
+
+body #un-button:hover { background-position: 5px -26px;}
+
 
 
 /* "Daisy, Daisy, give me your answer do. I'm half crazy all for the love of you.
