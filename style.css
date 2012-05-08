@@ -549,7 +549,7 @@ ol li, #sidebar ul ol li {
 #searchform {
 	margin: 10px auto;
 	padding: 5px 3px;
-	text-align: center;
+	text-align: left;
 	}
 
 #sidebar #searchform #s {

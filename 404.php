@@ -15,11 +15,12 @@ get_header();
 </div>
 
 	<div id="content" class="narrowcolumn">
-
+<p class="wipeoutimage"><img src="http://opencounter.org/wp-content/themes/opencounter/images/animal404.png" alt="404"/></p>
 		<p class="b"><?php _e('Wipe Out 404', 'kubrick'); ?></p>
-<p class="s">Maybe try searching for it, dude:<?php get_search_form(); ?></p> 
+<p class="s">Maybe try searching for it, dude.<?php get_search_form(); ?></p> 
 	</div>
 
 
+<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>

@@ -4,7 +4,14 @@
  * @subpackage Default_Theme
  */
 
-get_header(); ?>
+get_header(); ?> <div id="header3">
+    <a href="http://opencounter.org">
+    <canvas id="clockcanvas" width="50" height="50"></canvas>
+</a>
+    
+        
+    
+</div>
 
 	<div id="content" class="narrowcolumn" role="main">
 
@@ -12,10 +19,7 @@ get_header(); ?>
 
 		<h2 class="pagetitle"><?php _e('Search Results', 'kubrick'); ?></h2>
 
-		<div class="navigation">
-			<div class="alignleft"><?php next_posts_link(__('&laquo; Older Entries', 'kubrick')) ?></div>
-			<div class="alignright"><?php previous_posts_link(__('Newer Entries &raquo;', 'kubrick')) ?></div>
-		</div>
+		
 
 
 		<?php while (have_posts()) : the_post(); ?>
@@ -26,10 +30,7 @@ get_header(); ?>
 
 		<?php endwhile; ?>
 
-		<div class="navigation">
-			<div class="alignleft"><?php next_posts_link(__('&laquo; Older Entries', 'kubrick')) ?></div>
-			<div class="alignright"><?php previous_posts_link(__('Newer Entries &raquo;', 'kubrick')) ?></div>
-		</div>
+		
 
 	<?php else : ?>
 
@@ -40,5 +41,5 @@ get_header(); ?>
 
 	</div>
 
-
+<?php get_sidebar(); ?>
 <?php get_footer(); ?>
