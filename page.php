@@ -25,7 +25,8 @@ get_header(); ?>
 
 				<?php wp_link_pages(array('before' => '<p><strong>' . __('Pages:', 'kubrick') . '</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
            	         
-		</div>
+		         </div>
+                 
 		<?php endwhile; endif; ?>
 	<?php edit_post_link(__('Edit this entry.', 'kubrick'), '<p>', '</p>'); ?>
 	
@@ -35,9 +36,10 @@ get_header(); ?>
 
     <?php previous_link(); ?>
 <?php next_link(); ?>
-
+</div>   
 </div>
-        
+            
+            
 <?php get_sidebar(); ?>
             
 <?php get_footer(); ?>

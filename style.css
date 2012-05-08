@@ -18,7 +18,7 @@ Text Domain: OpenCounter
   background-color: darkblue;
   color: white;
   position: fixed;
-  left: -200px;
+  left: 0px;
   top: 50px;
 }
 
@@ -630,12 +630,12 @@ select {
 
 
 /* Begin Sidebar */
-#sidebar
+/*#sidebar
 {
 	padding: 20px 0 10px 0;
 	margin-left: 545px;
 	width: 190px;
-	}
+	}*/
 
 #sidebar form {
 	margin: 0;

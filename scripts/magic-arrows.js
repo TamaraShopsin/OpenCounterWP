@@ -137,19 +137,17 @@ jQuery(document).ready(function(){
 /* JavaScript that should appear on the page somewhere where jQuery is also being used */
 /* inside jQuery.ready(document) {  } if you can find one */
 
+var amount = 22;
+
 jQuery("#sidebar").mouseover( function() {
    /* mouse on top of specialnav */
-   jQuery("#sidebar").css( { "left", "0px" } );
-} );
-
-$("#sidebar").mouseout( function() {
-   /* mouse on top of specialnav */
-   $("#sidebar").css( { "left", "-200px" } );
+   jQuery("#sidebar").css( { "left": amount } );
 } );
 
 jQuery("#sidebar").mouseout( function() {
    /* mouse on top of specialnav */
-   jQuery("#sidebar").css( { "left", "-200px" } );
+   jQuery("#sidebar").css( { "left": -amount } );
 } );
+
     
 });
