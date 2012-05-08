@@ -131,5 +131,25 @@ jQuery.fn.extend({
 
 
 jQuery(document).ready(function(){
+    
     jQuery('.alignright, .alignleft').magic_arrows({selector: '#content'});
+
+/* JavaScript that should appear on the page somewhere where jQuery is also being used */
+/* inside jQuery.ready(document) {  } if you can find one */
+
+jQuery("#sidebar").mouseover( function() {
+   /* mouse on top of specialnav */
+   jQuery("#sidebar").css( { "left", "0px" } );
+} );
+
+$("#sidebar").mouseout( function() {
+   /* mouse on top of specialnav */
+   $("#sidebar").css( { "left", "-200px" } );
+} );
+
+jQuery("#sidebar").mouseout( function() {
+   /* mouse on top of specialnav */
+   jQuery("#sidebar").css( { "left", "-200px" } );
+} );
+    
 });

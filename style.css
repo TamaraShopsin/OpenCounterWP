@@ -13,6 +13,14 @@ Text Domain: OpenCounter
 
 
 /* Begin Typography & Colors t*/
+/* your custom CSS */
+#sidebar {
+  background-color: darkblue;
+  color: white;
+  position: fixed;
+  left: -200px;
+  top: 50px;
+}
 
 
 
@@ -221,9 +229,9 @@ h3 {
 	font-weight: normal;
 	}
         
-        #sidebar {position:fixed;
+       /* #sidebar {position:fixed;
         right: 80%;
-        top: 60px;}
+        top: 60px;}*/
 
 #sidebar {
 	font: 1em 'FuturaTEST', Verdana, Arial, Sans-Serif;
