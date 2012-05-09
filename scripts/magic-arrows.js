@@ -9,7 +9,7 @@ jQuery.fn.extend({
 
         jQuery(window).resize(function(e) {
 
-
+return;
                 var browser_width = jQuery(window).width();
                 var browser_height = jQuery(window).height();
                 var selector = '.'+jQuery(that).attr('class') + ' a ';
@@ -132,7 +132,7 @@ jQuery.fn.extend({
 
 jQuery(document).ready(function(){
     
-    jQuery('.alignright, .alignleft').magic_arrows({selector: '#content'});
+    //jQuery('.alignright, .alignleft').magic_arrows({selector: '#content'});
 
 /* JavaScript that should appear on the page somewhere where jQuery is also being used */
 /* inside jQuery.ready(document) {  } if you can find one */
@@ -147,6 +147,17 @@ jQuery("#sidebar").mouseout( function() {
    /* mouse on top of specialnav */
    jQuery("#sidebar").css( { "left": "-130px" } );
 } );
+
+jQuery(window).on("resize", function() {
+  var contentWidth = jQuery("#page").width();
+  var body = jQuery(document.body);
+  if (window.innerWidth < contentWidth) {
+    body.addClass("svelte-window");
+  }
+  else {
+    body.removeClass("svelte-window");
+  }
+});
 
     
 });

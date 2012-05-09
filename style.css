@@ -751,17 +751,22 @@ a img {
 .navigation {
     position: fixed;
     bottom: 15%;
-    width: 100%;
-    left: 0;
+    /* width = page width and margin left = half of width*/
+    width: 760px;
+    left: 50%;
+    margin-left: -380px;
 }
+
+.svelte-window .navigation {left:0;
+margin-left: 0;}
 
 .navigation .alignleft a {
     background: transparent url('images/sprites.png') no-repeat 0px -60px;
     width: 39px;
     height: 51px;
     text-indent: -999em;
-    position: fixed;
-    left: 15%;
+    position: absolute;
+    left: 30px;
 }
 
 .navigation .alignleft a:hover {
@@ -773,8 +778,8 @@ a img {
     width: 31px;
     height: 51px;
     text-indent: -999em;
-    position: fixed;
-    right: 15%;
+    position: absolute;
+    right: 30px;
 }
 
 .navigation .alignright a:hover {
@@ -1044,7 +1049,9 @@ label {
       
 }
 
-
+.wipeoutimage {
+   overflow: hidden;
+}
 
 
 #tag {
