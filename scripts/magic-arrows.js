@@ -148,16 +148,16 @@ jQuery("#sidebar").mouseout( function() {
    jQuery("#sidebar").css( { "left": "-130px" } );
 } );
 
-jQuery(window).on("resize", function() {
-  var contentWidth = jQuery("#page").width();
-  var body = jQuery(document.body);
-  if (window.innerWidth < contentWidth) {
-    body.addClass("svelte-window");
-  }
-  else {
-    body.removeClass("svelte-window");
-  }
-});
+//jQuery(window).on("resize", function() {
+//  var contentWidth = jQuery("#page").width();
+//  var body = jQuery(document.body);
+//  if (window.innerWidth < contentWidth) {
+//    body.addClass("svelte-window");
+//  }
+//  else {
+//    body.removeClass("svelte-window");
+//  }
+//});
 
     
 });
