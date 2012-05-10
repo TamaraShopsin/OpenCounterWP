@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------------------------------------------
+Version 1.0.beta1
+    - Fixed duplicate field size setting
+    - Updated field size setting to an open text input instead of a drop down
+    - Fixed conflict with datepicker field
+
+-------------------------------------------------------------------------------------------------------------------
+Version 1.0.alpha2
+    - Fixed issue with multi-page forms where signature was not maintaining its value from page to page
