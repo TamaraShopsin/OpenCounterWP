@@ -340,9 +340,6 @@ body {
 	text-align: left;
 	}
 
-.post hr {
-	display: block;
-	}
 
 .widecolumn .post {
 	margin: 0;
@@ -851,6 +848,9 @@ div.aligncenter {
 #map-div { width: 135%; 
 }
 
+.checklist { width: 120%; 
+}
+
 .wax-tooltip {
   z-index:999999;
   position:absolute;
@@ -1113,7 +1113,7 @@ body #un-button.un-left.css3{
 body #un-button {
     text-indent: -1000em;
     overflow: hidden;
-    background: url(http://opencounter.org/wp-content/themes/opencounter/images/icon-thumb.png) no-repeat  5px 1px #404040;
+    background: url(http://opencounter.org/wp-content/themes/opencounter/images/icon-thumb2.png) no-repeat  5px -26px #404040;
     font-size: 1em;
     color: white;
     float: none;
@@ -1130,7 +1130,8 @@ body #un-button {
 	-o-border-radius: 0;
 }
 
-body #un-button:hover { background-position: 5px -26px;}
+/*body #un-button:hover { background-position: 5px -26px;}
+background: url(http://opencounter.org/wp-content/themes/opencounter/images/icon-thumb2.png) no-repeat  5px 1px #404040;*/
 
 
 

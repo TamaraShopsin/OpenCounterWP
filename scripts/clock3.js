@@ -44,8 +44,14 @@ function draw() {
 }
 
 window.onload = function(){
-  document.getElementById("clockcanvas").onmouseover = hoverClock;
-  document.getElementById("clockcanvas").onmouseout = unhoverClock;
-  setInterval(draw, 60000);
-  draw();
+  if(document.getElementById("clockcanvas")){
+    document.getElementById("clockcanvas").onmouseover = hoverClock;
+    document.getElementById("clockcanvas").onmouseout = unhoverClock;
+    setInterval(draw, 60000);
+    draw();
+  }
 };
+ 
+ if (typeof console == "undefined" || typeof console.log == "undefined"){
+ console = { log: function() {} };
+}

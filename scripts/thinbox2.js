@@ -1,11 +1,11 @@
 var ThinBox = {
 	modals: [],
 	remove: function() {
-		$(this.modals[0]).data('thinbox').remove();
+		jQuery(this.modals[0]).data('thinbox').remove();
 		return false;
 	},
 	resize: function(width,height) {
-		$(this.modals[0]).data('thinbox').resize(width,height);
+		jQuery(this.modals[0]).data('thinbox').resize(width,height);
 		return false;
 	},
 	onShow: function(self) {}
