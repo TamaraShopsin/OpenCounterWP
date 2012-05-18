@@ -17,10 +17,10 @@
 
 
 <?php wp_head(); ?>
-<script type="text/javascript" src="<?php echo WP_CONTENT_URL . '/themes/opencounter/scripts/clock3.js'; ?>"></script>
-<script type="text/javascript" src="<?php echo WP_CONTENT_URL . '/themes/opencounter/scripts/json3.min.js'; ?>"></script>
-<script type="text/javascript" src="<?php echo WP_CONTENT_URL . '/themes/opencounter/scripts/cookies.min.js'; ?>"></script>
-<script type="text/javascript" src="<?php echo WP_CONTENT_URL . '/themes/opencounter/scripts/magic-arrows.js'; ?>"></script>
+<script type="text/javascript" src="<?php echo WP_CONTENT_URL . '/themes/OpenCounterWP/scripts/clock3.js'; ?>"></script>
+<script type="text/javascript" src="<?php echo WP_CONTENT_URL . '/themes/OpenCounterWP/scripts/json3.min.js'; ?>"></script>
+<script type="text/javascript" src="<?php echo WP_CONTENT_URL . '/themes/OpenCounterWP/scripts/cookies.min.js'; ?>"></script>
+<script type="text/javascript" src="<?php echo WP_CONTENT_URL . '/themes/OpenCounterWP/scripts/magic-arrows.js'; ?>"></script>
 
 <script type="text/javascript">
 
