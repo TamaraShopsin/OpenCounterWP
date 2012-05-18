@@ -20,12 +20,12 @@ function get_my_city(){
 // idea 3
 // write [linklabel label="special label"] and then somewhere else [accordion label="special label"] hidden content [ /accordion ]
 function accordion_helper( $atts, $content = null ){
-        extract( shortcode_atts( array( 'name' => 'label' ), $atts ) );
-	return "<div id='" . esc_attr($name) . "' class='aj-hidden'><p class='closebtn'><a class='aj-collapse' rel='" . esc_attr($name) . "'>x</a></p>" . $content . "</div>";
+        extract( shortcode_atts( array( 'label' => 'label' ), $atts ) );
+	return "<div id='" . esc_attr($label) . "' class='aj-hidden'><p class='closebtn'><a class='aj-collapse' rel='" . esc_attr($label) . "'>x</a></p>" . $content . "</div>";
 }
 function linklabel_helper( $atts ){
-        extract( shortcode_atts( array( 'name' => 'label' ), $atts ) );
-	return "<a class='aj-collapse' rel='" . esc_attr($name) . "'>" . esc_attr($name) . "&nbsp;&#x21e3;</a>";
+        extract( shortcode_atts( array( 'label' => 'label' ), $atts ) );
+	return "<a class='aj-collapse' rel='" . esc_attr($label) . "'>" . esc_attr($label) . "&nbsp;&#x21e3;</a>";
 }
 add_shortcode( 'linklabel', 'linklabel_helper' );
 add_shortcode( 'accordion', 'accordion_helper' );
