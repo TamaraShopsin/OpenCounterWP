@@ -1130,6 +1130,12 @@ body #un-button {
 	-o-border-radius: 0;
 }
 
+/* styles for the collapse */
+
+.aj-collapse { cursor: pointer; }
+.aj-hidden { display: none; visibility: hidden; }
+.aj-visible { display: block; visibility: visible; }
+
 /*body #un-button:hover { background-position: 5px -26px;}
 background: url(http://opencounter.org/wp-content/themes/opencounter/images/icon-thumb2.png) no-repeat  5px 1px #404040;*/
 
