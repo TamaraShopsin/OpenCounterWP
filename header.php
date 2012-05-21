@@ -13,6 +13,7 @@
 <title><?php wp_title('&laquo;', true, 'right'); ?> <?php bloginfo('name'); ?></title>
 
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
+<link rel="stylesheet" href="<?php echo WP_CONTENT_URL . '/themes/OpenCounterWP/mycustomstyles.css'; ?>" type="text/css" media="screen" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
 

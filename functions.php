@@ -21,11 +21,11 @@ function get_my_city(){
 // write [linklabel label="special label"] and then somewhere else [accordion label="special label"] hidden content [ /accordion ]
 function accordion_helper( $atts, $content = null ){
         extract( shortcode_atts( array( 'label' => 'label' ), $atts ) );
-	return "<div id='" . esc_attr($label) . "' class='aj-hidden'><p class='closebtn'><a class='aj-collapse' rel='" . esc_attr($label) . "'>x</a></p>" . $content . "</div>";
+	return "<div id='" . str_replace( " ", "", esc_attr($label) )  . "' class='aj-hidden'><p class='closebtn'><a class='aj-collapse' rel='" . str_replace( " ", "", esc_attr($label) ) . "'>x</a></p>" . $content . "</div>";
 }
 function linklabel_helper( $atts ){
         extract( shortcode_atts( array( 'label' => 'label' ), $atts ) );
-	return "<a class='aj-collapse' rel='" . esc_attr($label) . "'>" . esc_attr($label) . "&nbsp;&#x21e3;</a>";
+	return "<a class='aj-collapse' rel='" . str_replace( " ", "", esc_attr($label) ) . "'>" . esc_attr($label) . "&nbsp;&#x21e3;</a>";
 }
 add_shortcode( 'linklabel', 'linklabel_helper' );
 add_shortcode( 'accordion', 'accordion_helper' );
@@ -475,4 +475,28 @@ function kubrick_theme_page() {
 		</div>
 	</div>
 </div>
-<?php } ?>
+<?php } 
+
+/* Custom CSS styles on WYSIWYG Editor - Start
+======================================= */
+if ( ! function_exists( 'myCustomTinyMCE') ) :
+function myCustomTinyMCE($init) {
+$init['theme_advanced_disable'] = 'outdent, indent, justifyleft, justifycenter, justifyright, justifyfull, bullist, numlist, outdent, indent, fontselect, fontsizeselect, forecolor, backcolor, forecolorpicker, backcolorpicker, formatselect'; // Removes the undesired buttons
+$init['theme_advanced_buttons2_add_before'] = 'styleselect'; // Adds the buttons at the begining. (theme_advanced_buttons2_add adds them at the end)
+$init['theme_advanced_styles'] = 'small=small,medium=medium, large=large';
+$init['content_css'] = get_template_directory_uri().'/mycustomstyles.css';
+return $init;
+}
+endif;
+add_filter('tiny_mce_before_init', 'myCustomTinyMCE' );
+add_filter( 'mce_css', 'tdav_css' );
+add_editor_style('mycustomstyles.css');
+// including the Custom CSS on our theme.
+function mycustomStyles(){
+wp_enqueue_style( 'myCustomStyles', get_bloginfo('stylesheet_directory').'/mycustomstyles.css', '','','all' ); /*adjust this path if you place "mycustomstyles.css" in a different folder than the theme's root.*/
+}
+add_action('init', 'mycustomStyles');
+/* Custom CSS styles on WYSIWYG Editor - End
+======================================= */
+
+?>

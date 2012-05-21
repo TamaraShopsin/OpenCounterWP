@@ -243,7 +243,21 @@ jQuery(document).ready(function(){
 		/*	here we loop through and hide any element
 			which has the classname .aj_hidden
 		*/
-		jQuery(".aj-hidden").hide();
+               
+               /* if it is > 500px in height when displayed, add a closing button at the bottom */
+               
+                jQuery(".aj-hidden").each(function(){
+                    this.style.display = "block";
+                    if(this.offsetHeight > 500){
+                      jQuery(this).append( "<p class='closebtn2'><a class='aj-collapse' rel='" + this.id + "'>x</a></p>" );
+                    }
+                    this.style.display = "none";
+                    jQuery(this).hide();
+                });
+               
+		//jQuery(".aj-hidden").hide();
+                
+                
 		/*	now that the element is hidden, we add a
 			class which tells it to set its visibility 
 			to visible.

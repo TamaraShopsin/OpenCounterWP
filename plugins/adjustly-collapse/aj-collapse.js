@@ -79,6 +79,16 @@ jQuery(document).ready(function(){
 		/*	here we loop through and hide any element
 			which has the classname .aj_hidden
 		*/
+               
+                /*jQuery(".aj-hidden").each(function(){
+                    console.log(this.offsetHeight);
+                  if(this.offsetHeight > 500){
+                      jQuery(this).append( "<p class='closebtn2'><a class='aj-collapse' rel='" + this.id + "'>x</a></p>" );
+                  }
+                });
+                console.log(jQuery(".aj-hidden"));*/
+               
+               
 		jQuery(".aj-hidden").hide();
 		/*	now that the element is hidden, we add a
 			class which tells it to set its visibility 
