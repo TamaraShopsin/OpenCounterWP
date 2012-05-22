@@ -21,7 +21,7 @@ function get_my_city(){
 // write [linklabel label="special label"] and then somewhere else [accordion label="special label"] hidden content [ /accordion ]
 function accordion_helper( $atts, $content = null ){
         extract( shortcode_atts( array( 'label' => 'label' ), $atts ) );
-	return "<div id='" . str_replace( " ", "", esc_attr($label) )  . "' class='aj-hidden'><p class='closebtn'><a class='aj-collapse' rel='" . str_replace( " ", "", esc_attr($label) ) . "'>x</a></p>" . $content . "</div>";
+	return "<div id='" . str_replace( " ", "", esc_attr($label) )  . "' class='aj-hidden'><p class='closebtn'><a class='aj-collapse' rel='" . str_replace( " ", "", esc_attr($label) ) . "'>x</a></p>" . do_shortcode( $content ) . "</div>";
 }
 function linklabel_helper( $atts ){
         extract( shortcode_atts( array( 'label' => 'label' ), $atts ) );
@@ -483,7 +483,7 @@ if ( ! function_exists( 'myCustomTinyMCE') ) :
 function myCustomTinyMCE($init) {
 $init['theme_advanced_disable'] = 'outdent, indent, justifyleft, justifycenter, justifyright, justifyfull, bullist, numlist, outdent, indent, fontselect, fontsizeselect, forecolor, backcolor, forecolorpicker, backcolorpicker, formatselect'; // Removes the undesired buttons
 $init['theme_advanced_buttons2_add_before'] = 'styleselect'; // Adds the buttons at the begining. (theme_advanced_buttons2_add adds them at the end)
-$init['theme_advanced_styles'] = 'small=small,medium=medium, large=large';
+$init['theme_advanced_styles'] = 'Big=b, Small=s, Mini=mini';
 $init['content_css'] = get_template_directory_uri().'/mycustomstyles.css';
 return $init;
 }

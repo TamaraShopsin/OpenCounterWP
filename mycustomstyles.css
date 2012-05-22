@@ -18,12 +18,12 @@ mycustomstyles
   font-style: normal;
 }
 
-.large {
+.b {
   font-family: 'FuturaTEST', Verdana, Arial, Sans-Serif;
   font-size: 2em;
   line-height: 1.25;
 }
-.medium {
+.s {
   font-family: 'FuturaTEST', Verdana, Arial, Sans-Serif;
   font-size: 1.3em;
   letter-spacing: 1px;
@@ -31,14 +31,14 @@ mycustomstyles
   ;
 }
 
-.small {
+.mini {
   font-family: 'FuturaTEST', Verdana, Arial, Sans-Serif;
   font-size: 1em;
   letter-spacing: 1px;
   
   
 }
-.tiny {
+.micro {
   font-family: 'FuturaTEST', Verdana, Arial, Sans-Serif;
   font-size: .9em;
 }

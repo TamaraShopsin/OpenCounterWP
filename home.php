@@ -40,7 +40,9 @@ jQuery(document).ready(function(){
 <div class="navigation">
 
 
-<div class="alignright"><a href="<?php echo get_option('siteurl') . '/welcome/'; ?>">start</a></div>
+<div class="alignright">
+        <?php next_post('%', '', 'yes'); ?>
+    </div>
 
 
 

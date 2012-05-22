@@ -26,11 +26,12 @@ get_header(); ?>
 				<?php wp_link_pages(array('before' => '<p><strong>' . __('Pages:', 'kubrick') . '</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
 <div class="navigation">
 
-  <div class="alignleft">
+    <div class="alignleft">
         <?php previous_post('%', '', 'yes'); ?>
     </div>
-                   	         
-		</div>
+   
+
+            </div>
 		<?php endwhile; endif; ?>
 	<?php edit_post_link(__('Edit this entry.', 'kubrick'), '<p>', '</p>'); ?>
 	

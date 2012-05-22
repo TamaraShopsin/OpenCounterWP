@@ -1,4 +1,4 @@
-<?php /* Template Name: guidepage
+<?php /* Template Name: onlybackarrow
 */ ?>
 <?php
 /**
@@ -26,25 +26,18 @@ get_header(); ?>
 				<?php wp_link_pages(array('before' => '<p><strong>' . __('Pages:', 'kubrick') . '</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
 <div class="navigation">
 
-    <div class="alignleft">
-        <?php previous_link(); ?>
-    </div>
-    <div class="alignright">
-        <?php next_link(); ?>
-    </div>
-
-            </div>
+    <div class="alignleft"><?php
+             $url = htmlspecialchars($_SERVER['HTTP_REFERER']);
+              echo "<a href='$url'>back</a>";
+            ?>
                    	         
 		</div>
+</div>
 		<?php endwhile; endif; ?>
 	<?php edit_post_link(__('Edit this entry.', 'kubrick'), '<p>', '</p>'); ?>
 	
 	</div>
 
 
-            <div class="progbar">
-            <?php echo  get_post_meta($post->ID, 'percent', 1); ?> 
-
-            </div>
-            <?php get_sidebar(); ?>
+           <?php get_sidebar(); ?>
 <?php get_footer(); ?>
