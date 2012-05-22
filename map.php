@@ -139,10 +139,14 @@ function checkForEnter(e){
 				<?php wp_link_pages(array('before' => '<p><strong>' . __('Pages:', 'kubrick') . '</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
 <div class="navigation">
 
-    <?php previous_link(); ?>
-<?php next_link(); ?>
+    <div class="alignleft">
+        <?php previous_post('%', '', 'yes'); ?>
+    </div>
+    <div class="alignright">
+        <?php next_post('%', '', 'yes'); ?>
+    </div>
 
-</div>
+            </div>
                    	         
 		</div>
 		<?php endwhile; endif; ?>

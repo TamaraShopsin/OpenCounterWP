@@ -26,8 +26,12 @@ get_header(); ?>
 				<?php wp_link_pages(array('before' => '<p><strong>' . __('Pages:', 'kubrick') . '</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
 <div class="navigation">
 
-<div class="alignleft"><a href="http://opencounter.org/home-occupant/">back</a></div>
-</div>
+<div class="alignleft">         
+           <?php
+             $url = htmlspecialchars($_SERVER['HTTP_REFERER']);
+              echo "<a href='$url'>back</a>";
+            ?>
+    </div>
                    	         
 		</div>
 		<?php endwhile; endif; ?>

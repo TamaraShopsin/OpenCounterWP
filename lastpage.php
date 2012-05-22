@@ -26,8 +26,9 @@ get_header(); ?>
 				<?php wp_link_pages(array('before' => '<p><strong>' . __('Pages:', 'kubrick') . '</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
 <div class="navigation">
 
-<div class="alignleft"><a href="http://opencounter.org/13-2/">back</a></div>
-</div>
+  <div class="alignleft">
+        <?php previous_post('%', '', 'yes'); ?>
+    </div>
                    	         
 		</div>
 		<?php endwhile; endif; ?>

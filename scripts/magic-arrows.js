@@ -1,7 +1,5 @@
 jQuery.fn.extend({    
 
-
-
     magic_arrows: function(options) {
 
         that = this;
@@ -131,6 +129,19 @@ return;
 
 
 jQuery(document).ready(function(){
+    
+    
+    
+    /* typing left and right arrow keys jumps to previous and next pages */
+  jQuery(document.body).bind("keyup", function(event){
+    console.log(event);
+    if(event.which == 37){   // Left arrow key
+        window.location = jQuery( ".alignleft" ).children()[0].href;
+    }
+    else if(event.which == 39){   // Right arrow key
+        window.location = jQuery( ".alignright" ).children()[0].href;
+    }
+});  
     
     //jQuery('.alignright, .alignleft').magic_arrows({selector: '#content'});
 

@@ -34,9 +34,16 @@ get_header(); ?>
 
             <div class="navigation">
 
-    <?php previous_link(); ?>
-<?php next_link(); ?>
-</div>   
+    <div class="alignleft">
+        <?php previous_post('%', '', 'yes'); ?>
+    </div>
+    <div class="alignright">
+        <?php next_post('%', '', 'yes'); ?>
+    </div>
+
+            </div>
+            
+            
 </div>
             
             
