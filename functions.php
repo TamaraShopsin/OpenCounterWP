@@ -489,7 +489,7 @@ return $init;
 }
 endif;
 add_filter('tiny_mce_before_init', 'myCustomTinyMCE' );
-add_filter( 'mce_css', 'tdav_css' );
+//add_filter( 'mce_css', 'tdav_css' );
 add_editor_style('mycustomstyles.css');
 // including the Custom CSS on our theme.
 function mycustomStyles(){

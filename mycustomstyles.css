@@ -43,29 +43,9 @@ mycustomstyles
   font-size: .9em;
 }
 
-/*
-body {
-	font-size: 100%; /* Resets 1em to 10px */
-	font-family: 'FuturaTEST', Verdana, Arial, Sans-Serif;
-	background: #FFF;
-	color: #000;
-	text-align: left;
-	}
-        
-        @font-face {
-  font-family: 'FuturaTEST';
-  src: url('fonts/futura/futurastd-medium-webfont.eot');
-  src: url('fonts/futura/futurastd-medium-webfont.eot?#iefix') format('embedded-opentype'),
-       url('fonts/futura/futurastd-medium-webfont.woff') format('woff'),
-       url('fonts/futura/futurastd-medium-webfont.ttf') format('truetype'),
-       url('fonts/futura/futurastd-medium-webfont.svg#FuturaStdMedium') format('svg');
-  font-weight: normal;
-  font-style: normal;
+
+body .mceMenuItemSelected {
+   text-decoration: line-through;
 }
 
-a { color: rgb(0,124,196); text-decoration:none; }
-a:visited { color: rgb(0,124,196); }
-a:hover { color: #66b0dc; }
-a:focus { outline: thin dotted; }
 
-*/
