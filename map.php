@@ -17,11 +17,10 @@ get_header(); ?>
 </div>
 
 <script>
-dojo.require("esri.tasks.query");
-var queryTask = new esri.tasks.QueryTask("http://gis.cityofsantacruz.com/ArcGIS/rest/services/AddressSeach/MapServer/0");
-var query = new esri.tasks.Query();
-query.returnGeometry = true;
-query.outFields = ["*"];
+//var queryTask = new esri.tasks.QueryTask("http://gis.cityofsantacruz.com/ArcGIS/rest/services/AddressSeach/MapServer/0");
+//var query = new esri.tasks.Query();
+//query.returnGeometry = true;
+//query.outFields = ["*"];
 
 function executeQuery(address){
 	var result;
@@ -67,36 +66,43 @@ function executeQuery(address){
 	}
  	address = address.replace(/^\s+|\s+$/g,"");
 
-	query.where = "ADD_ LIKE upper ('%" + address + "%')";
-	queryTask.execute(query, function(results){
+	//query.where = "ADD_ LIKE upper ('%" + address + "%')";
+	//queryTask.execute(query, mapAddress);
+	
+	var s = document.createElement("script");
+	s.type = "text/javascript";
+	s.src = "http://gis.cityofsantacruz.com/ArcGIS/rest/services/AddressSeach/MapServer/0/query?f=json&where=ADD_%20LIKE%20upper%20('%25" + escape(address) + "%25')&returnGeometry=true&spatialRel=esriSpatialRelIntersects&outFields=*&callback=mapAddress";
+	document.body.appendChild(s);
+}
+
+function mapAddress(results){
         if(results.features.length == 0){
         	// if address lookup fails, turn text box red
-			document.getElementById("address").style.backgroundColor = "#f44";
-		}
-		else{
-			document.getElementById("address").style.backgroundColor = "#fff";
-			var zone = results.features[0].attributes['Zoning1'];
-			var street = results.features[0].attributes['ADD_'];
-			var usecode = results.features[0].attributes['USECDDESC'];
+		document.getElementById("address").style.backgroundColor = "#f44";
+	}
+	else{
+		document.getElementById("address").style.backgroundColor = "#fff";
+		var zone = results.features[0].attributes['Zoning1'];
+		var street = results.features[0].attributes['ADD_'];
+		var usecode = results.features[0].attributes['USECDDESC'];
 
-			var latlng = new L.LatLng(results.features[0].geometry.y, results.features[0].geometry.x);
-			//console.log(latlng);
+		var latlng = new L.LatLng(results.features[0].geometry.y, results.features[0].geometry.x);
+		//console.log(latlng);
 			
-			var marker = new L.Marker(latlng);
-			map.addLayer(marker);
-			marker.bindPopup(street + "<br/>Zone: " + zone + "<br/>Current Use (Prior Use): " + usecode).openPopup();
+		var marker = new L.Marker(latlng);
+		map.addLayer(marker);
+		marker.bindPopup(street + "<br/>Zone: " + zone + "<br/>Current Use (Prior Use): " + usecode).openPopup();
 			
-			// test: store zone and use code as a cookie
-			//setCookie("zone_and_use", zone + "|" + usecode, 21);
-			Cookies.defaults = {
-				path: '/',
-				expires: 60 * 60 * 24 * 21,
-				secure: false
-			}
-			Cookies.set('address', document.getElementById("address").value );
-			Cookies.set('zone_and_use', zone + "|" + usecode);
+		// test: store zone and use code as a cookie
+		//setCookie("zone_and_use", zone + "|" + usecode, 21);
+		Cookies.defaults = {
+			path: '/',
+			expires: 60 * 60 * 24 * 21,
+			secure: false
 		}
-	});
+		Cookies.set('address', document.getElementById("address").value );
+		Cookies.set('zone_and_use', zone + "|" + usecode);
+	}
 }
 
 var map;
