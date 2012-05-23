@@ -116,6 +116,7 @@ border: none;
 	border: none;
 	}
 
+        
 small {
 	font-family: Arial, Helvetica, Sans-Serif;
 	font-size: 0.9em;
@@ -763,7 +764,7 @@ margin-left: 0;}
     height: 51px;
     text-indent: -999em;
     position: absolute;
-    left: 30px;
+    left: 27px;
 }
 
 .navigation .alignleft a:hover {

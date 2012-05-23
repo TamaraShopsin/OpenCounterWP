@@ -256,11 +256,15 @@ jQuery(document).ready(function(){
 		*/
                
                /* if it is > 500px in height when displayed, add a closing button at the bottom */
-               
+                /* if it is < 150px in height, move the closing button up */
+              
                 jQuery(".aj-hidden").each(function(){
                     this.style.display = "block";
                     if(this.offsetHeight > 500){
                       jQuery(this).append( "<p class='closebtn2'><a class='aj-collapse' rel='" + this.id + "'>x</a></p>" );
+                    }
+                    else if(this.offsetHeight < 150){
+                      this.firstChild.style.marginTop = "-10px";
                     }
                     this.style.display = "none";
                     jQuery(this).hide();
