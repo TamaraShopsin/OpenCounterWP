@@ -41,7 +41,7 @@ jQuery(document).ready(function(){
 
 
 <div class="alignright">
-        <?php next_post('%', '', 'yes'); ?>
+        <?php next_link(); ?>
     </div>
 
 

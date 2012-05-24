@@ -13,15 +13,15 @@
 <title><?php wp_title('&laquo;', true, 'right'); ?> <?php bloginfo('name'); ?></title>
 
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
-<link rel="stylesheet" href="<?php echo WP_CONTENT_URL . '/themes/OpenCounterWP/mycustomstyles.css'; ?>" type="text/css" media="screen" />
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/mycustomstyles.css'; ?>" type="text/css" media="screen" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
 
 <?php wp_head(); ?>
-<script type="text/javascript" src="<?php echo WP_CONTENT_URL . '/themes/OpenCounterWP/scripts/clock3.js'; ?>"></script>
-<script type="text/javascript" src="<?php echo WP_CONTENT_URL . '/themes/OpenCounterWP/scripts/json3.min.js'; ?>"></script>
-<script type="text/javascript" src="<?php echo WP_CONTENT_URL . '/themes/OpenCounterWP/scripts/cookies.min.js'; ?>"></script>
-<script type="text/javascript" src="<?php echo WP_CONTENT_URL . '/themes/OpenCounterWP/scripts/magic-arrows.js'; ?>"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri() . '/scripts/clock3.js'; ?>"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri() . '/scripts/json3.min.js'; ?>"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri() . '/scripts/cookies.min.js'; ?>"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri() . '/scripts/magic-arrows.js'; ?>"></script>
 
 <script type="text/javascript">
 
