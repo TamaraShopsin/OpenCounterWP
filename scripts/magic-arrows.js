@@ -254,21 +254,39 @@ jQuery(document).ready(function(){
 		/*	here we loop through and hide any element
 			which has the classname .aj_hidden
 		*/
-               
-               /* if it is > 500px in height when displayed, add a closing button at the bottom */
-                /* if it is < 150px in height, move the closing button up */
-              
-                jQuery(".aj-hidden").each(function(){
-                    this.style.display = "block";
-                    if(this.offsetHeight > 500){
-                      jQuery(this).append( "<p class='closebtn2'><a class='aj-collapse' rel='" + this.id + "'>x</a></p>" );
-                    }
-                    else if(this.offsetHeight < 150){
-                      this.firstChild.style.marginTop = "-10px";
-                    }
-                    this.style.display = "none";
-                    jQuery(this).hide();
-                });
+
+
+(function ($) {
+	// configure these
+	var bufferTop = 0;
+	var bufferBottom = 80;
+	
+	// cache list of AJs and then hide them
+	ajs = $(".aj-hidden");
+	ajs.css({position: "relative"}).hide();
+	
+	// look for visible AJs and scroll their close buttons appropriately
+	$(window).on("scroll", function(event) {
+		var scrollTop = document.body.scrollTop;
+		ajs.filter(":visible").each(function(index, panel) {
+			var $panel = $(panel);
+			var panelTop = $panel.offset().top;
+			var panelHeight = panel.offsetHeight;
+			var upperBound = panelTop + bufferTop;
+			var lowerBound = panelTop + panelHeight - bufferBottom;
+			
+			if (upperBound < scrollTop && lowerBound > scrollTop) {
+				$panel.find(".closebtn").css({top: (scrollTop - upperBound) + "px"});
+			}
+			else if (lowerBound <= scrollTop) {
+				$panel.find(".closebtn").css({top: panelHeight - bufferBottom + "px"});
+			}
+			else {
+				$panel.find(".closebtn").css({top: bufferTop + "px"});
+			}
+		});
+	});
+})(jQuery);
                
 		//jQuery(".aj-hidden").hide();
                 
