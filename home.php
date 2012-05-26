@@ -41,7 +41,11 @@ jQuery(document).ready(function(){
 
 
 <div class="alignright">
+<<<<<<< HEAD
         <?php next_link(); ?>
+=======
+         <?php next_link(); ?>
+>>>>>>> fixed link
     </div>
 
 
