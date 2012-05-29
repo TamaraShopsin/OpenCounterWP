@@ -40,13 +40,7 @@ jQuery(document).ready(function(){
 <div class="navigation">
 
 
-<div class="alignright">
-
         <?php next_link(); ?>
-         <?php next_link(); ?>
-    </div>
-
-
 
 </div>
 

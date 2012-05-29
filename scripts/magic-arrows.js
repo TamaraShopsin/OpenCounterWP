@@ -136,10 +136,14 @@ jQuery(document).ready(function(){
   jQuery(document.body).bind("keyup", function(event){
     console.log(event);
     if(event.which == 37){   // Left arrow key
-        window.location = jQuery( ".alignleft" ).children()[0].href;
+        if(jQuery( ".alignleft" ).children()[0].href){
+            window.location = jQuery( ".alignleft" ).children()[0].href;
+        }
     }
     else if(event.which == 39){   // Right arrow key
-        window.location = jQuery( ".alignright" ).children()[0].href;
+        if(jQuery( ".alignright" ).children()[0].href){
+            window.location = jQuery( ".alignright" ).children()[0].href;
+        }
     }
 });  
     

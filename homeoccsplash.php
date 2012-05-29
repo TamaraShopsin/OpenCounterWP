@@ -8,7 +8,7 @@
 
 get_header(); ?>
 <div id="header3">
-    <a href="http://opencounter.org">
+    <a href="<?php echo get_settings('home'); ?>">
     <canvas id="clockcanvas" width="50" height="50"></canvas>
 </a>
     

@@ -34,12 +34,11 @@ get_header(); ?>
 
             <div class="navigation">
 
-    <div class="alignleft">
+
         <?php previous_link(); ?>
-    </div>
-    <div class="alignright">
+  
         <?php next_link(); ?>
-    </div>
+
 
             </div>
                    	         

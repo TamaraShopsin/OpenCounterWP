@@ -481,7 +481,7 @@ function kubrick_theme_page() {
 if ( ! function_exists( 'myCustomTinyMCE') ) :
 function myCustomTinyMCE($init) {
 $init['theme_advanced_disable'] = 'outdent, indent, justifyleft, justifycenter, justifyright, justifyfull, bullist, numlist, outdent, indent, fontselect, fontsizeselect, forecolor, backcolor, forecolorpicker, backcolorpicker, formatselect'; // Removes the undesired buttons
-$init['theme_advanced_buttons2_add_before'] = 'styleselect'; // Adds the buttons at the begining. (theme_advanced_buttons2_add adds them at the end)
+$init['theme_advanced_buttons1_add_before'] = 'styleselect'; // Adds the buttons at the begining. (theme_advanced_buttons2_add adds them at the end)
 $init['theme_advanced_styles'] = 'Big=b, Small=s, Mini=mini';
 $init['content_css'] = get_template_directory_uri().'/mycustomstyles.css';
 return $init;

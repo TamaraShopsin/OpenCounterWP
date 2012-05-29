@@ -26,12 +26,10 @@ get_header(); ?>
 				<?php wp_link_pages(array('before' => '<p><strong>' . __('Pages:', 'kubrick') . '</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
 <div class="navigation">
 
-    <div class="alignleft">
         <?php previous_link(); ?>
-    </div>
-    <div class="alignright">
+
         <?php next_link(); ?>
-    </div>
+
 
             </div>
                    	         
